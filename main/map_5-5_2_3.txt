@@ -1,0 +1,31 @@
+BveTs Map 2.02
+
+$basedist + 26;
+	Track['H5-ud'].Position(0, 0, 546.3);
+	Track['H5-du'].Position(4, 0, -546.3);
+	Repeater['BallastH5-ud_2'].Begin('H5-ud', 0, 0, 0, 0, 0, 0, 3, 5, 5, 'Ballast0');
+	Repeater['RailLH5-ud_2'].Begin('H5-ud', -0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailL0', 'RailL1', 'RailL2', 'RailL3', 'RailL4');
+	Repeater['RailRH5-ud_2'].Begin('H5-ud', 0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailR0', 'RailR1', 'RailR2', 'RailR3', 'RailR4');
+	Repeater['BallastH5-ud_3'].Begin('H5-du', 0, 0, 0, 0, 0, 0, 3, 5, 5, 'Ballast0');
+	Repeater['RailLH5-ud_3'].Begin('H5-du', -0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailL0', 'RailL1', 'RailL2', 'RailL3', 'RailL4');
+	Repeater['RailRH5-ud_3'].Begin('H5-du', 0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailR0', 'RailR1', 'RailR2', 'RailR3', 'RailR4');
+
+$basedist + 60.11;
+	Track['H5-ud'].Position(1.067, 0);
+	Track['H5-du'].Position(2.933, 0);
+
+$basedist + 89.84;
+	Track['H5-ud'].Position(2.933, 0, -546.3);
+	Track['H5-du'].Position(1.067, 0, 546.3);
+
+$basedist + 123.95;
+	Track['H5-ud'].Position(4, 0, -546.3);
+	Track['H5-du'].Position(0, 0, 546.3);
+	Repeater['BallastH5-ud_2'].End();
+	Repeater['RailLH5-ud_2'].End();
+	Repeater['RailRH5-ud_2'].End();
+	Repeater['BallastH5-ud_3'].End();
+	Repeater['RailLH5-ud_3'].End();
+	Repeater['RailRH5-ud_3'].End();
+
+$basedist = distance;

@@ -1,0 +1,29 @@
+BveTs Map 2.02
+
+$basedist;
+	$SignalPos = distance - 600;
+	include 'map_beacon_abs.txt';
+	Section.Begin(0,1,3,5);
+	Signal['fourY'].Put(0, 'j4', -2.3, 4.5, 0, 0, 0, 0, 0, 0);
+
+$basedist + 27;
+	Track['H7-ud1'].Position(0,0,307.3); # 12番 45km/h
+	Repeater['BallastH7-ud_1'].Begin('H7-ud1', 0, 0, 0, 0, 0, 0, 3, 5, 5, 'Ballast0');
+	Repeater['RailLH7-ud_1'].Begin('H7-ud1', -0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailL0', 'RailL1', 'RailL2', 'RailL3', 'RailL4');
+	Repeater['RailRH7-ud_1'].Begin('H7-ud1', 0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailR0', 'RailR1', 'RailR2', 'RailR3', 'RailR4');
+
+$basedist + 52.59;
+	Track['H7-ud1'].Position(1.067, 0);
+
+$basedist + 74.92;
+	Track['H7-ud1'].Position(2.933, 0, -307.3);
+
+$basedist + 100.51;
+	Track['H7-ud1'].Position(4, 0);
+	Repeater['BallastH7-ud_1'].End();
+	Repeater['RailLH7-ud_1'].End();
+	Repeater['RailRH7-ud_1'].End();
+
+$basedist + 123.51;
+
+$basedist = distance;

@@ -1,0 +1,5 @@
+BveTs Map 2.02
+# ちなみにSPはStation.Putの略
+
+$higashimizunodai_SP;
+	Station['H16'].Put(-1,-1,1);

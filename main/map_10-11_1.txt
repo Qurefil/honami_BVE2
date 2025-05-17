@@ -1,0 +1,102 @@
+BveTs Map 2.02
+
+$basedist + 0;
+	$SignalPos = distance - 600;
+	include 'map_beacon_block_3.txt';
+	Section.Begin(0,3,5);
+	Signal['three'].Put(0, 'j4', -2.3, 4.5, 0, 0, 0, 0, 0, 0);
+
+$basedist + 420;
+	Gradient.BeginTransition();
+
+$basedist + 422.1;
+	Gradient.Begin(-0.7);
+
+$basedist + 729;
+	Curve.BeginTransition();
+
+$basedist + 820.35;
+	Curve.Begin(-1800, 0.02);
+	$SignalPos = distance - 600;
+	include 'map_beacon_block_3.txt';
+	Section.Begin(0,3,5);
+	Signal['three'].Put(0, 'j4', -2.3, 4.5, 0, 0, 0, 0, 0, 0);
+
+$basedist + 914.35;
+	Curve.BeginTransition();
+
+$basedist + 1005.7;
+	Curve.End();
+
+$basedist + 1062.86;
+	Gradient.BeginTransition();
+
+$basedist + 1064.96;
+	Gradient.End();
+
+$basedist + 1161.1;
+	Gradient.BeginTransition();
+
+$basedist + 1174.5;
+	Gradient.Begin(-4.5);
+
+$basedist + 1536.4;
+	Curve.BeginTransition();
+	$SignalPos = distance - 600;
+	include 'map_beacon_block_3.txt';
+	Section.Begin(0,3,5);
+	Signal['three'].Put(0, 'j4', -2.3, 4.5, 0, 0, 0, 0, 0, 0);
+
+$basedist + 1627.75;
+	Curve.Begin(1800, 0.02);
+
+$basedist + 1721.75;
+	Curve.BeginTransition();
+
+$basedist + 1813.1;
+	Curve.End();
+
+$basedist + 1827.67;
+	Gradient.BeginTransition();
+
+$basedist + 1834.17;
+	Gradient.Begin(2);
+
+$basedist + 2583.9;
+	Gradient.BeginTransition();
+	Track['mat'].Position(0, -0.5, 0, -4000);
+
+$basedist + 2663.9;
+	Gradient.Begin(22);
+	Track['mat'].Position(0, -0.5-0.8);
+
+$basedist + 2864;
+	Gradient.BeginTransition();
+	Track['mat'].Position(0, -0.5-0.8-4.4, 4000);
+
+$basedist + 2964;
+	Gradient.Begin(-3);
+	Track['mat'].Position(0, -0.5-0.8-4.4-1.24);
+
+$basedist + 3000; # くらい
+	# 川
+
+$basedist + 3300;
+	Gradient.BeginTransition();
+	Track['mat'].Position(0, -0.5-0.8-3.4-1.24, 0, 4000);
+
+$basedist + 3368;
+	Gradient.Begin(-20);
+	Track['mat'].Position(0, -0.5-0.8-3.4-1.24+0.578);
+
+$basedist + 3565.2;
+	Gradient.BeginTransition();
+	Track['mat'].Position(0, -0.5-0.8-3.4-1.24+0.578+3.944, 0, -4000);
+
+$basedist + 3645.2;
+	Gradient.End();
+	Track['mat'].Position(0, -0.5);
+
+$basedist + 3920;
+
+$basedist = distance;

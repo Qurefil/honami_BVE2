@@ -1,0 +1,63 @@
+BveTs Map 2.02:utf-8
+
+# Track['H5_1'].X
+$basedist + 10.000;
+	Track['H5_1'].X.Interpolate(0.000,218.508);
+	Repeater['BallastH5_1'].Begin('H5_1', 0, 0, 0, 0, 0, 0, 3, 5, 5, 'Ballast0');
+	Repeater['RailLH5_1'].Begin('H5_1', -0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailL0', 'RailL1', 'RailL2', 'RailL3', 'RailL4');
+	Repeater['RailRH5_1'].Begin('H5_1', 0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailR0', 'RailR1', 'RailR2', 'RailR3', 'RailR4');
+$basedist + 31.285;
+	Track['H5_1'].X.Interpolate(1.064,-9964.000);
+$basedist + 59.933;
+	Track['H5_1'].X.Interpolate(3.936,-219.761);
+$basedist + 81.218;
+	Track['H5_1'].X.Interpolate(5.000,0.000);
+	Repeater['BallastH5_1'].End();
+	Repeater['RailLH5_1'].End();
+	Repeater['RailRH5_1'].End();
+
+# Track['j10'].X
+$basedist + 81.218;
+	Track['j10'].X.Interpolate(5.000,0.000);
+	Track['j10w'].X.Interpolate(5.000,0.000);
+$basedist + 121.218;
+	Track['j10'].X.Interpolate(5.000,1768.603);
+	Track['j10w'].X.Interpolate(5.000,1768.603);
+$basedist + 161.216;
+	Track['j10'].X.Interpolate(5.284,942.483);
+	Track['j10w'].X.Interpolate(5.284,942.483);
+$basedist + 169.214;
+	Track['j10'].X.Interpolate(5.488,2006.472);
+	Track['j10w'].X.Interpolate(5.488,2006.472);
+$basedist + 209.174;
+	Track['j10'].X.Interpolate(7.246,0.000);
+	Track['j10w'].X.Interpolate(7.246,0.000);
+$basedist + 219.107;
+	Track['j10'].X.Interpolate(7.754,-1756.280);
+	Track['j10w'].X.Interpolate(7.754,-1756.280);
+$basedist + 259.067;
+	Track['j10'].X.Interpolate(9.512,-943.183);
+	Track['j10w'].X.Interpolate(9.512,-943.183);
+$basedist + 267.065;
+	Track['j10'].X.Interpolate(9.716,-2022.207);
+	Track['j10w'].X.Interpolate(9.716,-2022.207);
+$basedist + 307.063;
+	Track['j10'].X.Interpolate(10.000,0.000);
+	Track['j10w'].X.Interpolate(10.000,0.000);
+
+$basedist + 121.218;
+Track['j10'].Cant.Interpolate(0.000);
+$basedist + 161.216;
+Track['j10'].Cant.Interpolate(0.040);
+$basedist + 169.214;
+Track['j10'].Cant.Interpolate(0.040);
+$basedist + 209.174;
+Track['j10'].Cant.Interpolate(0.000);
+$basedist + 219.107;
+Track['j10'].Cant.Interpolate(0.000);
+$basedist + 259.067;
+Track['j10'].Cant.Interpolate(0.040);
+$basedist + 267.065;
+Track['j10'].Cant.Interpolate(0.040);
+$basedist + 307.063;
+Track['j10'].Cant.Interpolate(0.000);

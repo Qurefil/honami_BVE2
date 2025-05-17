@@ -1,0 +1,999 @@
+BveTs Instrument Panel 2.00
+
+[This]
+Resolution = 1600
+Left = 15
+Top = -400
+Right = 2030
+Bottom = 1010
+DaytimeImage = panel.png
+NighttimeImage = panel_n.png
+Center = 500, 576
+Origin = 800, 300
+
+[PilotLamp]
+Subject = door
+Location = 343,623
+DaytimeImage = door3.png
+NighttimeImage = door3.png
+Layer = 3
+
+[PilotLamp]
+Subject = door
+Location = 494,654
+DaytimeImage = door_F.png
+NighttimeImage = door_F.png
+Layer = 5
+
+[Pilotlamp]
+Subject = true
+Location = 688, 761 ;685,770
+DaytimeImage = kmph2.png
+NighttimeImage = kmph2_n.png
+Layer = 4
+
+[Needle]
+Subject = kmph
+Location = 717, 788 ;714,803
+DaytimeImage = SpdNdl.png
+NighttimeImage = SpdNdl.png
+Origin = 8, 220
+Layer = 2
+Radius = 70
+InitialAngle = -120
+LastAngle = 120
+Minimum = 0
+Maximum = 120
+NaturalFreq = 5
+DampingRatio = 0.8
+
+[Pilotlamp]
+Subject = true
+Location = 921, 783
+DaytimeImage = pressure2.png
+NighttimeImage = pressure2_n.png
+Layer = 4
+
+[Needle]
+Subject = bc
+Location = 938, 788
+DaytimeImage = BC.png
+NighttimeImage = BC.png
+Origin = 174, 32
+Color = 222222
+Layer = 3
+Radius = 13
+InitialAngle = -45
+LastAngle = 225
+Minimum = 0
+Maximum = 1500
+NaturalFreq = 40
+DampingRatio = 0.6
+
+[Needle]
+Subject = mr
+Location = 938, 788
+DaytimeImage = MR.png
+NighttimeImage = MR.png
+Origin = 174, 32
+Color = FF3333
+Layer = 2
+Radius = 13
+InitialAngle = -45
+LastAngle = 225
+Minimum = 0
+Maximum = 1500
+NaturalFreq = 40
+DampingRatio = 0.6
+
+[PilotLamp]
+Subject = doorr0
+Location = 269,625 ;266,642
+DaytimeImage = Car_door.png
+NighttimeImage = Car_door.png
+Layer = 2
+[PilotLamp]
+Subject = doorl0
+Location = 269,625
+DaytimeImage = Car_door.png
+NighttimeImage = Car_door.png
+Layer = 3
+
+[PilotLamp]
+Subject = doorr1
+Location = 269,646
+DaytimeImage = Car_door.png
+NighttimeImage = Car_door.png
+Layer = 2
+[PilotLamp]
+Subject = doorl1
+Location = 269,646
+DaytimeImage = Car_door.png
+NighttimeImage = Car_door.png
+Layer = 3
+
+[PilotLamp]
+Subject = doorr2
+Location = 269,667
+DaytimeImage = Car_door.png
+NighttimeImage = Car_door.png
+Layer = 2
+[PilotLamp]
+Subject = doorl2
+Location = 269,667
+DaytimeImage = Car_door.png
+NighttimeImage = Car_door.png
+Layer = 3
+
+[PilotLamp]
+Subject = doorr3
+Location = 269,688
+DaytimeImage = Car_door.png
+NighttimeImage = Car_door.png
+Layer = 2
+[PilotLamp]
+Subject = doorl3
+Location = 269,688
+DaytimeImage = Car_door.png
+NighttimeImage = Car_door.png
+Layer = 3
+
+[PilotLamp] ;常用
+Subject = ats9
+Location = 258, 485
+DaytimeImage = normalbrake.png
+NighttimeImage = normalbrake.png
+Layer = 3;
+
+[PilotLamp] ;非常
+Subject = ats8
+Location = 309, 485
+DaytimeImage = emgbrake.png
+NighttimeImage = emgbrake.png
+Layer = 3;
+
+[PilotLamp] ;ATS電源
+Subject = ats0
+Location = 408, 485
+DaytimeImage = atspower.png
+NighttimeImage = atspower.png
+Layer = 3;
+
+[PilotLamp] ;ユニット表示灯1
+Subject = ats10
+Location = 509, 485
+DaytimeImage = unit_1.png
+NighttimeImage = unit_1.png
+Layer = 3;
+
+[PilotLamp] ;P電源
+Subject = ats2
+Location = 792, 485
+DaytimeImage = Ppower.png
+NighttimeImage = Ppower.png
+Layer = 3;
+
+[PilotLamp] ;パターン接近
+Subject = ats3
+Location = 844, 485
+DaytimeImage = pattern.png
+NighttimeImage = pattern.png
+Layer = 3;
+
+[PilotLamp] ;ブレーキ動作
+Subject = ats5
+Location = 893, 485
+DaytimeImage = work_brake.png
+NighttimeImage = work_brake.png
+Layer = 3;
+
+[PilotLamp] ;ブレーキ解放
+Subject = ats4
+Location = 945, 485
+DaytimeImage = offbrake.png
+NighttimeImage = offbrake.png
+Layer = 3;
+
+[PilotLamp] ;ATS-P
+Subject = ats6
+Location = 998, 485
+DaytimeImage = atsp.png
+NighttimeImage = atsp.png
+Layer = 3;
+
+[PilotLamp] ;故障
+Subject = ats7
+Location = 1049, 485
+DaytimeImage = accident.png
+NighttimeImage = accident.png
+Layer = 3;
+
+[PilotLamp] ;Hibeeeeeeeeeeeeeeeem
+Subject = ats112
+Location = 0, 0
+DaytimeImage = lob_kai.png
+NighttimeImage = lob_kai.png
+Layer = 1;
+
+[PilotLamp] ;lobeeeeeeeeeeeeeeeem
+Subject = ats113
+Location = 0, 0
+DaytimeImage = hib_kai.png
+NighttimeImage = hib_kai.png
+Layer = 1;
+
+;[PilotLamp] ;Hibeeeeeeeeeeeeeeeem(電球色)
+;Subject = ats112
+;Location = 0, 0
+;DaytimeImage = lob_incandescent.png
+;NighttimeImage = hib_incandescent.png
+;Layer = 1;
+
+;[PilotLamp] ;lobeeeeeeeeeeeeeeeem(電球色)
+;Subject = ats113
+;Location = 0, 0
+;DaytimeImage = null.png
+;NighttimeImage = lob_incandescent.png
+;Layer = 1;
+
+;以下MON
+;MON画面の右上座標は1654,561
+;_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+
+
+[PilotLamp] ;ドアランプ(ATSPI側での制御方法分からん)↓
+Subject = doorr0
+Location = 1772,819 ;118,258
+DaytimeImage = MON\door.png
+NighttimeImage = MON\door.png
+Layer = 3
+[PilotLamp]
+Subject = doorl0
+Location = 1772,819
+DaytimeImage = MON\door.png
+NighttimeImage = MON\door.png
+Layer = 4
+
+[PilotLamp]
+Subject = doorr1
+Location = 1840,832 ;186,271
+DaytimeImage = MON\door.png
+NighttimeImage = MON\door.png
+Layer = 3
+[PilotLamp]
+Subject = doorl1
+Location = 1840,832
+DaytimeImage = MON\door.png
+NighttimeImage = MON\door.png
+Layer = 4
+
+[PilotLamp]
+Subject = doorr2
+Location = 1910,845 ;256,284
+DaytimeImage = MON\door.png
+NighttimeImage = MON\door.png
+Layer = 3
+[PilotLamp]
+Subject = doorl2
+Location = 1910,845
+DaytimeImage = MON\door.png
+NighttimeImage = MON\door.png
+Layer = 4
+
+[PilotLamp]
+Subject = doorr3
+Location = 1973,857 ;319,296
+DaytimeImage = MON\door.png
+NighttimeImage = MON\door.png
+Layer = 3
+[PilotLamp]
+Subject = doorl3
+Location = 1973,857
+DaytimeImage = MON\door.png
+NighttimeImage = MON\door.png
+Layer = 4 ;ドアランプ(ATSPI側での制御方法分からん)↑
+
+
+[DigitalNumber] ;時間↓
+Subject = ats11
+Location = 1802, 594
+DaytimeImage = MON\number_15.png
+NighttimeImage = MON\number_15.png
+Layer = 3
+Interval = 15
+[DigitalNumber]
+Subject = ats12
+Location = 1808, 595
+DaytimeImage = MON\number_15.png
+NighttimeImage = MON\number_15.png
+Layer = 3
+Interval = 15
+
+[DigitalNumber]
+Subject = ats13
+Location = 1820, 597
+DaytimeImage = MON\number_15.png
+NighttimeImage = MON\number_15.png
+Layer = 3
+Interval = 15
+[DigitalNumber]
+Subject = ats14
+Location = 1826, 598
+DaytimeImage = MON\number_15.png
+NighttimeImage = MON\number_15.png
+Layer = 3
+Interval = 15
+
+[DigitalNumber]
+Subject = ats15
+Location = 1838, 600
+DaytimeImage = MON\number_15.png
+NighttimeImage = MON\number_15.png
+Layer = 3
+Interval = 15
+[DigitalNumber]
+Subject = ats16
+Location = 1844, 601
+DaytimeImage = MON\number_15.png
+NighttimeImage = MON\number_15.png
+Layer = 3
+Interval = 15 ;時間↑
+
+
+[DigitalNumber] ;速度↓
+Subject = ats17
+Location = 1808, 606
+DaytimeImage = MON\number_15.png
+NighttimeImage = MON\number_15.png
+Layer = 3
+Interval = 15
+[DigitalNumber]
+Subject = ats18
+Location = 1814, 607
+DaytimeImage = MON\number_15.png
+NighttimeImage = MON\number_15.png
+Layer = 3
+Interval = 15
+[DigitalNumber]
+Subject = ats19
+Location = 1820, 608
+DaytimeImage = MON\number_15.png
+NighttimeImage = MON\number_15.png
+Layer = 3
+Interval = 15 ;速度↑
+
+
+[DigitalNumber] ;距離↓
+Subject = ats20
+Location = 1817, 619
+DaytimeImage = MON\number_15.png
+NighttimeImage = MON\number_15.png
+Layer = 3
+Interval = 15
+[DigitalNumber]
+Subject = ats21
+Location = 1823, 620
+DaytimeImage = MON\number_15.png
+NighttimeImage = MON\number_15.png
+Layer = 3
+Interval = 15
+[DigitalNumber]
+Subject = ats22
+Location = 1832, 621
+DaytimeImage = MON\number_15.png
+NighttimeImage = MON\number_15.png
+Layer = 3
+Interval = 15 ;距離↑
+
+
+[DigitalNumber] ;列車番号
+Subject = ats67
+Location = 1704, 625
+DaytimeImage = MON\time.png
+NighttimeImage = MON\time.png
+Layer = 3
+Interval = 15
+[DigitalNumber]
+Subject = ats68
+Location = 1704,626
+DaytimeImage = MON\number.png
+NighttimeImage = MON\number.png
+Layer = 3
+Interval = 15
+[DigitalNumber]
+Subject = ats69
+Location = 1721, 628 ;257,128
+DaytimeImage = MON\time.png
+NighttimeImage = MON\time.png
+Layer = 3
+Interval = 15
+[DigitalNumber]
+Subject = ats70
+Location = 1721, 629 ;301,136
+DaytimeImage = MON\number.png
+NighttimeImage = MON\number.png
+Layer = 3
+Interval = 15
+[DigitalNumber]
+Subject = ats71
+Location = 1738, 631 ;346,145
+DaytimeImage = MON\alphabet.png
+NighttimeImage = MON\alphabet.png
+Layer = 3
+Interval = 13 ;↑列車番号
+
+
+[DigitalNumber] ;P列番青
+Subject = ats110
+Location = 1820,646
+DaytimeImage = MON\number_blue.png
+NighttimeImage = MON\number_blue.png
+Layer = 3
+Interval = 15
+[DigitalNumber]
+Subject = ats111
+Location = 1842,650
+DaytimeImage = MON\number_blue.png
+NighttimeImage = MON\number_blue.png
+Layer = 3
+Interval = 15
+[DigitalNumber]
+Subject = ats71
+Location = 1864,655
+DaytimeImage = MON\alphabet_blue.png
+NighttimeImage = MON\alphabet_blue.png
+Layer = 3
+Interval = 15
+
+[Pilotlamp] ;P列番:設定完了(iniファイル読み込み)
+Subject = ats66
+Location = 1929,668 ;275,109
+DaytimeImage = MON\setfinish.png
+NighttimeImage = MON\setfinish.png
+Layer = 3
+
+
+
+[DigitalNumber] ;駅↓ PI作成でミスったので順番が逆…() Pt:1654,561
+Subject = ats29
+Location = 1740, 659 ;85,92
+DaytimeImage = MON\stations_white.png
+NighttimeImage = MON\stations_white.png
+Layer = 3
+Interval = 40
+[DigitalNumber]
+Subject = ats28
+Location = 1783, 667 ;125,103
+DaytimeImage = MON\stations_white.png
+NighttimeImage = MON\stations_white.png
+Layer = 3
+Interval = 40
+[DigitalNumber]
+Subject = ats27
+Location = 1826, 675 ;172,112
+DaytimeImage = MON\stations_white.png
+NighttimeImage = MON\stations_white.png
+Layer = 3
+Interval = 40
+[DigitalNumber]
+Subject = ats26
+Location = 1869, 683 ;215,120
+DaytimeImage = MON\stations_white.png
+NighttimeImage = MON\stations_white.png
+Layer = 3
+Interval = 40
+[DigitalNumber]
+Subject = ats25
+Location = 1912, 691 ;257,128
+DaytimeImage = MON\stations_white.png
+NighttimeImage = MON\stations_white.png
+Layer = 3
+Interval = 40
+[DigitalNumber]
+Subject = ats24
+Location = 1955, 699 ;301,136
+DaytimeImage = MON\stations_white.png
+NighttimeImage = MON\stations_white.png
+Layer = 3
+Interval = 40
+[DigitalNumber]
+Subject = ats23
+Location = 1998, 707 ;346,145
+DaytimeImage = MON\stations_white.png
+NighttimeImage = MON\stations_white.png
+Layer = 3
+Interval = 40 ;駅↑
+
+
+[DigitalNumber] ;到着時刻分↓ PI作成でミスったので順番が逆…() Pt:1654,561
+Subject = ats30
+Location = 1990, 755 ;341,191
+DaytimeImage = MON\time.png
+NighttimeImage = MON\time.png
+Layer = 3
+Interval = 15
+[DigitalNumber]
+Subject = ats31
+Location = 1948, 747 ;292,181
+DaytimeImage = MON\time.png
+NighttimeImage = MON\time.png
+Layer = 3
+Interval = 15
+[DigitalNumber]
+Subject = ats32
+Location = 1904, 738
+DaytimeImage = MON\time.png
+NighttimeImage = MON\time.png
+Layer = 3
+Interval = 15
+[DigitalNumber]
+Subject = ats33
+Location = 1860, 730
+DaytimeImage = MON\time.png
+NighttimeImage = MON\time.png
+Layer = 3
+Interval = 15
+[DigitalNumber]
+Subject = ats34
+Location = 1819, 722
+DaytimeImage = MON\time.png
+NighttimeImage = MON\time.png
+Layer = 3
+Interval = 15
+[DigitalNumber]
+Subject = ats35
+Location = 1775, 714
+DaytimeImage = MON\time.png
+NighttimeImage = MON\time.png
+Layer = 3
+Interval = 15
+[DigitalNumber]
+Subject = ats36
+Location = 1731, 705
+DaytimeImage = MON\time.png
+NighttimeImage = MON\time.png
+Layer = 3
+Interval = 15 ;到着時刻分↑
+
+[DigitalNumber] ;到着時刻秒↓ PI作成でミスったので順番が逆…() Pt:1654,561
+Subject = ats37
+Location = 2009, 758 ;1990,755
+DaytimeImage = MON\second.png
+NighttimeImage = MON\second.png
+Layer = 3
+Interval = 9
+[DigitalNumber]
+Subject = ats38
+Location = 1967, 750 ;292,181
+DaytimeImage = MON\second.png
+NighttimeImage = MON\second.png
+Layer = 3
+Interval = 9
+[DigitalNumber]
+Subject = ats39
+Location = 1923, 741
+DaytimeImage = MON\second.png
+NighttimeImage = MON\second.png
+Layer = 3
+Interval = 9
+[DigitalNumber]
+Subject = ats40
+Location = 1879, 733
+DaytimeImage = MON\second.png
+NighttimeImage = MON\second.png
+Layer = 3
+Interval = 9
+[DigitalNumber]
+Subject = ats41
+Location = 1838, 725 ;1819,722
+DaytimeImage = MON\second.png
+NighttimeImage = MON\second.png
+Layer = 3
+Interval = 9
+[DigitalNumber]
+Subject = ats42
+Location = 1794, 717
+DaytimeImage = MON\second.png
+NighttimeImage = MON\second.png
+Layer = 3
+Interval = 9
+[DigitalNumber]
+Subject = ats43
+Location = 1750, 708
+DaytimeImage = MON\second.png
+NighttimeImage = MON\second.png
+Layer = 3
+Interval = 9 ;到着時刻秒↑
+
+
+[DigitalNumber] ;発車時刻分↓ PI作成でミスったので順番が逆…() Pt:1654,561
+Subject = ats44
+Location = 1990, 785 ;341,191
+DaytimeImage = MON\time.png
+NighttimeImage = MON\time.png
+Layer = 3
+Interval = 15
+[DigitalNumber]
+Subject = ats45
+Location = 1948, 777 ;292,181
+DaytimeImage = MON\time.png
+NighttimeImage = MON\time.png
+Layer = 3
+Interval = 15
+[DigitalNumber]
+Subject = ats46
+Location = 1904, 768
+DaytimeImage = MON\time.png
+NighttimeImage = MON\time.png
+Layer = 3
+Interval = 15
+[DigitalNumber]
+Subject = ats47
+Location = 1860, 760
+DaytimeImage = MON\time.png
+NighttimeImage = MON\time.png
+Layer = 3
+Interval = 15
+[DigitalNumber]
+Subject = ats48
+Location = 1819, 752
+DaytimeImage = MON\time.png
+NighttimeImage = MON\time.png
+Layer = 3
+Interval = 15
+[DigitalNumber]
+Subject = ats49
+Location = 1775, 744
+DaytimeImage = MON\time.png
+NighttimeImage = MON\time.png
+Layer = 3
+Interval = 15
+[DigitalNumber]
+Subject = ats50
+Location = 1731, 735
+DaytimeImage = MON\time.png
+NighttimeImage = MON\time.png
+Layer = 3
+Interval = 15 ;発車時刻分↑
+
+[DigitalNumber] ;発車時刻秒↓ PI作成でミスったので順番が逆…() Pt:1654,561
+Subject = ats51
+Location = 2009, 788 ;1990,755
+DaytimeImage = MON\second.png
+NighttimeImage = MON\second.png
+Layer = 3
+Interval = 9
+[DigitalNumber]
+Subject = ats52
+Location = 1967, 780 ;292,181
+DaytimeImage = MON\second.png
+NighttimeImage = MON\second.png
+Layer = 3
+Interval = 9
+[DigitalNumber]
+Subject = ats53
+Location = 1923, 771
+DaytimeImage = MON\second.png
+NighttimeImage = MON\second.png
+Layer = 3
+Interval = 9
+[DigitalNumber]
+Subject = ats54
+Location = 1879, 763
+DaytimeImage = MON\second.png
+NighttimeImage = MON\second.png
+Layer = 3
+Interval = 9
+[DigitalNumber]
+Subject = ats55
+Location = 1838, 755 ;1819,722
+DaytimeImage = MON\second.png
+NighttimeImage = MON\second.png
+Layer = 3
+Interval = 9
+[DigitalNumber]
+Subject = ats56
+Location = 1794, 747
+DaytimeImage = MON\second.png
+NighttimeImage = MON\second.png
+Layer = 3
+Interval = 9
+[DigitalNumber]
+Subject = ats57
+Location = 1750, 738
+DaytimeImage = MON\second.png
+NighttimeImage = MON\second.png
+Layer = 3
+Interval = 9 ;発車時刻秒↑
+
+
+[DigitalNumber] ;現在位置↓ PI作成でミスったので順番が逆…() Pt:1654,561
+Subject = ats58
+Location = 1708, 722
+DaytimeImage = MON\nowlocate_R.png
+NighttimeImage = MON\nowlocate_R.png
+Layer = 4
+Interval = 42
+[DigitalNumber]
+Subject = ats59
+Location = 1794, 739
+DaytimeImage = MON\nowlocate_L.png
+NighttimeImage = MON\nowlocate_L.png
+Layer = 4
+Interval = 42 ;現在位置↑
+
+
+[PilotLamp] ;次行路
+Subject = ats62
+Location = 1958,794 ;304,223
+DaytimeImage = MON\next_kouro.png
+NighttimeImage = MON\next_kouro.png
+Layer = 3
+[PilotLamp]
+Subject = ats63
+Location = 1657,737
+DaytimeImage = MON\next_kouro.png
+NighttimeImage = MON\next_kouro.png
+Layer = 3
+
+
+[PilotLamp] ;現在位置の白線
+Subject = ats62
+Location = 1708,718 ;90,158
+DaytimeImage = MON\whiteline.png
+NighttimeImage = MON\whiteline.png
+Layer = 3
+[PilotLamp]
+Subject = ats63
+Location = 1794,735 ;137,167
+DaytimeImage = MON\whiteline.png
+NighttimeImage = MON\whiteline.png
+Layer = 3
+
+
+[DigitalNumber] ;自列車終着着時刻L
+Subject = ats72
+Location = 1655, 692
+DaytimeImage = MON\time.png
+NighttimeImage = MON\time.png
+Layer = 3
+Interval = 15
+[DigitalNumber]
+Subject = ats108
+Location = 1655, 693
+DaytimeImage = MON\number.png
+NighttimeImage = MON\number.png
+Layer = 3
+Interval = 15
+[DigitalNumber]
+Subject = ats73
+Location = 1676, 696
+DaytimeImage = MON\time.png
+NighttimeImage = MON\time.png
+Layer = 3
+Interval = 15
+[DigitalNumber]
+Subject = ats74
+Location = 1695, 701
+DaytimeImage = MON\second.png
+NighttimeImage = MON\second.png
+Layer = 3
+Interval = 9
+[PilotLamp]
+Subject = ats74
+Location = 1674, 705;
+DaytimeImage = MON\dot_w.png
+NighttimeImage = MON\dot_w.png
+Layer = 3 ;↑自列車終着着時刻L
+
+[DigitalNumber] ;自列車終着発時刻L
+Subject = ats75
+Location = 1655, 721
+DaytimeImage = MON\time.png
+NighttimeImage = MON\time.png
+Layer = 3
+Interval = 15
+[DigitalNumber]
+Subject = ats109
+Location = 1655, 722
+DaytimeImage = MON\number.png
+NighttimeImage = MON\number.png
+Layer = 3
+Interval = 15
+[DigitalNumber]
+Subject = ats76
+Location = 1676, 724
+DaytimeImage = MON\time.png
+NighttimeImage = MON\time.png
+Layer = 3
+Interval = 15
+[DigitalNumber]
+Subject = ats77
+Location = 1695, 729
+DaytimeImage = MON\second.png
+NighttimeImage = MON\second.png
+Layer = 3
+Interval = 9
+[PilotLamp]
+Subject = ats77
+Location = 1674, 734;
+DaytimeImage = MON\dot_w.png
+NighttimeImage = MON\dot_w.png
+Layer = 3 ;↑自列車終着発時刻L
+
+
+[DigitalNumber] ;次行路到着時刻L
+Subject = ats79
+Location = 1710, 748
+DaytimeImage = MON\time.png
+NighttimeImage = MON\time.png
+Layer = 3
+Interval = 15
+[DigitalNumber]
+Subject = ats80
+Location = 1730, 751
+DaytimeImage = MON\time.png
+NighttimeImage = MON\time.png
+Layer = 3
+Interval = 15
+[DigitalNumber]
+Subject = ats81
+Location = 1749, 757
+DaytimeImage = MON\second.png
+NighttimeImage = MON\second.png
+Layer = 3
+Interval = 9 ;↑次行路到着時刻L
+
+;[DigitalNumber] ;次行路到着時刻R
+;Subject = ats97
+;Location = 1775, 744
+;DaytimeImage = MON\time.png
+;NighttimeImage = MON\time.png
+;Layer = 3
+;Interval = 15
+;[DigitalNumber]
+;Subject = ats98
+;Location = 1775, 744
+;DaytimeImage = MON\time.png
+;NighttimeImage = MON\time.png
+;Layer = 3
+;Interval = 15
+;[DigitalNumber]
+;Subject = ats99
+;Location = 1775, 744
+;DaytimeImage = MON\second.png
+;NighttimeImage = MON\second.png
+;Layer = 3
+;Interval = 15 ;↑次行路到着時刻R
+
+
+[DigitalNumber] ;次行路列車番号L
+Subject = ats85
+Location = 1697,756 ;1704, 625
+DaytimeImage = MON\time.png
+NighttimeImage = MON\time.png
+Layer = 3
+Interval = 15
+[DigitalNumber]
+Subject = ats86
+Location = 1697,757
+DaytimeImage = MON\number.png
+NighttimeImage = MON\number.png
+Layer = 3
+Interval = 15
+[DigitalNumber]
+Subject = ats87
+Location = 1715, 760
+DaytimeImage = MON\time.png
+NighttimeImage = MON\time.png
+Layer = 3
+Interval = 15
+[DigitalNumber]
+Subject = ats88
+Location = 1715, 761
+DaytimeImage = MON\number.png
+NighttimeImage = MON\number.png
+Layer = 3
+Interval = 15
+[DigitalNumber]
+Subject = ats89
+Location = 1731, 763 ;346,145
+DaytimeImage = MON\alphabet.png
+NighttimeImage = MON\alphabet.png
+Layer = 3
+Interval = 13 ;↑次行路列車番号L
+
+[DigitalNumber] ;次行路列車番号R
+Subject = ats103
+Location = 2005, 814
+DaytimeImage = MON\time.png
+NighttimeImage = MON\time.png
+Layer = 3
+Interval = 15
+[DigitalNumber]
+Subject = ats104
+Location = 2005,814
+DaytimeImage = MON\number.png
+NighttimeImage = MON\number.png
+Layer = 3
+Interval = 15
+[DigitalNumber]
+Subject = ats105
+Location = 2023, 818 ;257,128
+DaytimeImage = MON\time.png
+NighttimeImage = MON\time.png
+Layer = 3
+Interval = 15
+[DigitalNumber]
+Subject = ats106
+Location = 2023, 819 ;301,136
+DaytimeImage = MON\number.png
+NighttimeImage = MON\number.png
+Layer = 3
+Interval = 15
+;[DigitalNumber]
+;Subject = ats107
+;Location = 1738, 631 ;346,145
+;DaytimeImage = MON\alphabet.png
+;NighttimeImage = MON\alphabet.png
+;Layer = 3
+;Interval = 13 ;↑次行路列車番号R
+
+
+[DigitalNumber] ;次行路到着時刻L
+Subject = ats82
+Location = 1710, 770 ;748
+DaytimeImage = MON\time.png
+NighttimeImage = MON\time.png
+Layer = 3
+Interval = 15
+[DigitalNumber]
+Subject = ats83
+Location = 1730, 773
+DaytimeImage = MON\time.png
+NighttimeImage = MON\time.png
+Layer = 3
+Interval = 15
+[DigitalNumber]
+Subject = ats84
+Location = 1749, 779
+DaytimeImage = MON\second.png
+NighttimeImage = MON\second.png
+Layer = 3
+Interval = 9 ;↑次行路到着時刻L
+
+
+[PilotLamp] ;進行方向矢印
+Subject = ats62
+Location = 2009,859 ;355,298
+DaytimeImage = MON\forH.png
+NighttimeImage = MON\forH.png
+Layer = 3
+[PilotLamp]
+Subject = ats63
+Location = 1706,801 ;52,240
+DaytimeImage = MON\forC.png
+NighttimeImage = MON\forC.png
+Layer = 3
+
+
+[Pilotlamp] ;モーターユニットの状態
+Subject = ats64
+Location = 1802,819 ;149,258
+DaytimeImage = MON\unit.png
+NighttimeImage = MON\unit.png
+Layer = 2
+
+
+[DigitalNumber] ;次停車駅
+Subject = ats65
+Location = 1710, 784 ;56,224
+DaytimeImage = MON\stations_yellow.png
+NighttimeImage = MON\stations_yellow.png
+Layer = 3
+Interval = 25
+
+
+;_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+;MONここまで
+;MON画面の右上座標は1654,561

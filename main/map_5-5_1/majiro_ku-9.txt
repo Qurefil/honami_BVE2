@@ -1,0 +1,34 @@
+BveTs Map 2.02:utf-8
+
+# Track['majiro_ku-9'].X
+$basedist + 0.000;
+Track['majiro_ku-9'].X.Interpolate(40.000,0.000);
+Track['majiro_ku-9w'].X.Interpolate(40.000,0.000);
+
+$basedist + 37.860;
+Track['majiro_ku-9'].X.Interpolate(40.000,221.608);
+Track['majiro_ku-9w'].X.Interpolate(40.000,221.608);
+
+$basedist + 59.182;
+Track['majiro_ku-9'].X.Interpolate(41.270,0.000);
+Track['majiro_ku-9w'].X.Interpolate(41.270,0.000);
+
+$basedist + 102.761;
+Track['majiro_ku-9'].X.Interpolate(45.639,-971.831);
+Track['majiro_ku-9w'].X.Interpolate(45.639,-971.831);
+
+$basedist + 132.761;
+Track['majiro_ku-9'].X.Interpolate(48.301,-672.039);
+Track['majiro_ku-9w'].X.Interpolate(48.301,-672.039);
+
+$basedist + 164.709;
+Track['majiro_ku-9'].X.Interpolate(49.773,-1405.418);
+Track['majiro_ku-9w'].X.Interpolate(49.773,-1405.418);
+
+$basedist + 194.422;
+Track['majiro_ku-9'].X.Interpolate(50.000,0.000);
+Track['majiro_ku-9w'].X.Interpolate(50.000,0.000);
+
+	Repeater['Ballast_majiro_ku-9'].End();
+	Repeater['RailL_majiro_ku-9'].End();
+	Repeater['RailR_majiro_ku-9'].End();

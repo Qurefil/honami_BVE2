@@ -1,0 +1,29 @@
+BveTs Map 2.02:utf-8
+
+# offset
+$basedist = 0.000000;
+
+# Track['majiro_ku-9'].X
+$basedist + 267.888;
+Track['majiro_ku-9'].X.Interpolate(76.673,109.054);
+$basedist + 347.597;
+Track['majiro_ku-9'].X.Interpolate(40.001,0.000);
+
+# Track['majiro_ku-9'].Y
+$basedist + 267.888;
+Track['majiro_ku-9'].Y.Interpolate(0.000,0.000);
+$basedist + 347.597;
+Track['majiro_ku-9'].Y.Interpolate(0.000,0.000);
+
+# Track['majiro_ku-9'].Cant.Interpolate
+$basedist + 347.597;
+Track['majiro_ku-9'].Cant.Interpolate(0.000);
+$basedist + 267.888;
+Track['majiro_ku-9'].Cant.Interpolate(0.000);
+
+# Track['majiro_ku-9'].Cant.SetFunction
+
+# Track['majiro_ku-9'].Cant.SetCenter
+
+# Track['majiro_ku-9'].Cant.SetGauge
+

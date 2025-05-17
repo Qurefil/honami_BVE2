@@ -1,0 +1,157 @@
+BveTs Map 2.02:utf-8
+
+# offset
+$basedist = 0.000000;
+
+# Track['T3'].X
+$basedist + 10.000;
+Track['T3'].X.Interpolate(4.000,0.000);
+$basedist + 35.000;
+Track['T3'].X.Interpolate(4.000,1668.975);
+$basedist + 60.000;
+Track['T3'].X.Interpolate(4.187,1668.214);
+$basedist + 85.000;
+Track['T3'].X.Interpolate(4.749,1792.331);
+$basedist + 94.750;
+Track['T3'].X.Interpolate(5.070,0.000);
+$basedist + 159.790;
+Track['T3'].X.Interpolate(7.394,552.017);
+$basedist + 180.000;
+Track['T3'].X.Interpolate(8.491,655.041);
+$basedist + 193.862;
+Track['T3'].X.Interpolate(9.668,-1127.943);
+$basedist + 209.000;
+Track['T3'].X.Interpolate(11.023,-958.423);
+$basedist + 214.000;
+Track['T3'].X.Interpolate(11.421,-2104.858);
+$basedist + 243.000;
+Track['T3'].X.Interpolate(13.352,0.000);
+$basedist + 269.914;
+Track['T3'].X.Interpolate(15.034,-1079.167);
+$basedist + 299.870;
+Track['T3'].X.Interpolate(16.637,-558.638);
+$basedist + 304.868;
+Track['T3'].X.Interpolate(16.792,-1165.158);
+$basedist + 334.865;
+Track['T3'].X.Interpolate(17.057,0.000);
+$basedist + 442.265;
+Track['T3'].X.Interpolate(17.046,-1036.430);
+$basedist + 472.263;
+Track['T3'].X.Interpolate(16.775,-562.750);
+$basedist + 477.261;
+Track['T3'].X.Interpolate(16.619,-1218.287);
+$basedist + 507.217;
+Track['T3'].X.Interpolate(15.009,0.000);
+$basedist + 530.250;
+Track['T3'].X.Interpolate(13.565,-1860.738);
+$basedist + 559.250;
+Track['T3'].X.Interpolate(11.628,-957.595);
+$basedist + 564.250;
+Track['T3'].X.Interpolate(11.230,-1615.867);
+$basedist + 583.279;
+Track['T3'].X.Interpolate(9.495,571.981);
+$basedist + 593.250;
+Track['T3'].X.Interpolate(8.607,576.236);
+$basedist + 617.335;
+Track['T3'].X.Interpolate(7.208,0.000);
+$basedist + 678.500;
+Track['T3'].X.Interpolate(5.010,1696.875);
+$basedist + 738.250;
+Track['T3'].X.Interpolate(3.928,0.000);
+$basedist + 799.729;
+Track['T3'].X.Interpolate(3.915,0.000);
+
+# Track['T3'].Y
+$basedist + 10.000;
+Track['T3'].Y.Interpolate(0.000,0.000);
+$basedist + 35.000;
+Track['T3'].Y.Interpolate(0.000,0.000);
+$basedist + 60.000;
+Track['T3'].Y.Interpolate(0.000,0.000);
+$basedist + 85.000;
+Track['T3'].Y.Interpolate(0.000,0.000);
+$basedist + 94.750;
+Track['T3'].Y.Interpolate(0.000,0.000);
+$basedist + 159.790;
+Track['T3'].Y.Interpolate(0.000,0.000);
+$basedist + 180.000;
+Track['T3'].Y.Interpolate(0.000,0.000);
+$basedist + 193.862;
+Track['T3'].Y.Interpolate(0.000,0.000);
+$basedist + 209.000;
+Track['T3'].Y.Interpolate(0.000,0.000);
+$basedist + 214.000;
+Track['T3'].Y.Interpolate(0.000,0.000);
+$basedist + 243.000;
+Track['T3'].Y.Interpolate(0.000,0.000);
+$basedist + 269.914;
+Track['T3'].Y.Interpolate(0.000,0.000);
+$basedist + 299.870;
+Track['T3'].Y.Interpolate(0.000,0.000);
+$basedist + 304.868;
+Track['T3'].Y.Interpolate(0.000,0.000);
+$basedist + 334.865;
+Track['T3'].Y.Interpolate(0.000,0.000);
+$basedist + 442.265;
+Track['T3'].Y.Interpolate(0.000,0.000);
+$basedist + 472.263;
+Track['T3'].Y.Interpolate(0.000,0.000);
+$basedist + 477.261;
+Track['T3'].Y.Interpolate(0.000,0.000);
+$basedist + 507.217;
+Track['T3'].Y.Interpolate(0.000,0.000);
+$basedist + 530.250;
+Track['T3'].Y.Interpolate(0.000,0.000);
+$basedist + 559.250;
+Track['T3'].Y.Interpolate(0.000,0.000);
+$basedist + 564.250;
+Track['T3'].Y.Interpolate(0.000,0.000);
+$basedist + 583.279;
+Track['T3'].Y.Interpolate(0.000,0.000);
+$basedist + 593.250;
+Track['T3'].Y.Interpolate(0.000,0.000);
+$basedist + 617.335;
+Track['T3'].Y.Interpolate(0.000,0.000);
+$basedist + 678.500;
+Track['T3'].Y.Interpolate(0.000,0.000);
+$basedist + 738.250;
+Track['T3'].Y.Interpolate(0.000,0.000);
+$basedist + 799.729;
+Track['T3'].Y.Interpolate(0.000,0.000);
+
+# Track['T3'].Cant.Interpolate
+$basedist + 10.000;
+Track['T3'].Cant.Interpolate(0.000);
+$basedist + 159.790;
+Track['T3'].Cant.Interpolate(0.000);
+$basedist + 193.862;
+Track['T3'].Cant.Interpolate(0.000);
+$basedist + 269.914;
+Track['T3'].Cant.Interpolate(0.000);
+$basedist + 299.870;
+Track['T3'].Cant.Interpolate(0.000);
+$basedist + 304.868;
+Track['T3'].Cant.Interpolate(0.000);
+$basedist + 334.865;
+Track['T3'].Cant.Interpolate(0.000);
+$basedist + 442.265;
+Track['T3'].Cant.Interpolate(0.000);
+$basedist + 472.263;
+Track['T3'].Cant.Interpolate(0.000);
+$basedist + 477.261;
+Track['T3'].Cant.Interpolate(0.000);
+$basedist + 507.217;
+Track['T3'].Cant.Interpolate(0.000);
+$basedist + 583.279;
+Track['T3'].Cant.Interpolate(0.000);
+$basedist + 617.335;
+Track['T3'].Cant.Interpolate(0.000);
+$basedist + 799.729;
+Track['T3'].Cant.Interpolate(0.000);
+
+# Track['T3'].Cant.SetFunction
+
+# Track['T3'].Cant.SetCenter
+
+# Track['T3'].Cant.SetGauge
+

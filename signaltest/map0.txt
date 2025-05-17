@@ -1,0 +1,12 @@
+BveTs Map 2.02
+Structure.Load('..\Structures\List.txt');
+Signal.Load('..\Structures\Signals\signal.csv');
+Station.Load('station_1326H.txt');
+
+Section.SetSpeedLimit(0,25,45,55,85,,,,,,,,,,,,,,,,,,,,,,,);
+
+0;
+	$basedist = 500; # 線路終端=基準+500m 変えないこと
+	Background.Change('Bg');
+	Track['mat'].position(0, -0.4);
+	include 'map_0-1_4.txt';

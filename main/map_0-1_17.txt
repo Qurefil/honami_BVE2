@@ -1,0 +1,55 @@
+BveTs Map 2.02
+
+# basedist = 現在 - 1674.24
+
+($basedist + 25.14) - ($basedist + 25.14) % 50;
+	Track['M1-3w'].position(-7, 0.15);
+	Track['M1-4w'].position(11, 0.15);
+	Repeater['wireM1-3'].Begin('M1-3w', 0, 0, 0, 0, 0, 0, 1, 50, 50, 'wire');
+	Repeater['wireM1-4'].Begin('M1-4w', 0, 0, 0, 0, 0, 0, 1, 50, 50, 'wire');
+
+$basedist + 25.14;
+	Track['M1-3'].position(0, 0, 307.3);
+	Track['M1-4'].position(4, 0, -307.3);
+	Track['M1-3w'].position(0, 0.05);
+	Track['M1-4w'].position(4, 0.05);
+	Repeater['BallastM1-3'].Begin('M1-3', 0, 0, 0, 0, 0, 0, 3, 5, 5, 'Ballast0');
+	Repeater['RailLM1-3'].Begin('M1-3', -0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailL0', 'RailL1', 'RailL2', 'RailL3', 'RailL4');
+	Repeater['RailRM1-3'].Begin('M1-3', 0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailR0', 'RailR1', 'RailR2', 'RailR3', 'RailR4');
+	Repeater['BallastM1-4'].Begin('M1-4', 0, 0, 0, 0, 0, 0, 3, 5, 5, 'Ballast0');
+	Repeater['RailLM1-4'].Begin('M1-4', -0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailL0', 'RailL1', 'RailL2', 'RailL3', 'RailL4');
+	Repeater['RailRM1-4'].Begin('M1-4', 0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailR0', 'RailR1', 'RailR2', 'RailR3', 'RailR4');
+
+$basedist + 50.7;
+	Track['M1-3'].position(1.067, 0);
+	Track['M1-4'].position(2.933, 0);
+	Track['M1-3w'].position(1.067, 0.05);
+	Track['M1-4w'].position(2.933, 0.05);
+
+$basedist + 73.13;
+	Track['M1-3'].position(2.933, 0, -307.3);
+	Track['M1-4'].position(1.067, 0, 307.3);
+	Track['M1-3w'].position(2.933, 0.05);
+	Track['M1-4w'].position(1.067, 0.05);
+
+($basedist + 98.69) - ($basedist + 98.69) % 50;
+	Track['M1-3w'].position(4.3, 0.05);
+	Track['M1-4w'].position(-0.3, 0.05);
+
+($basedist + 98.69) - ($basedist + 98.69) % 50 + 50;
+	Track['M1-3w'].position(11, 0.05);
+	Track['M1-4w'].position(-7, 0.05);
+	Repeater['wireM1-3'].End();
+	Repeater['wireM1-4'].End();
+
+$basedist + 98.69;
+	Track['M1-3'].position(4, 0);
+	Track['M1-4'].position(0, 0);;
+	Repeater['BallastM1-3'].End();
+	Repeater['RailLM1-3'].End();
+	Repeater['RailRM1-3'].End();
+	Repeater['BallastM1-4'].End();
+	Repeater['RailLM1-4'].End();
+	Repeater['RailRM1-4'].End();
+
+$basedist = distance;

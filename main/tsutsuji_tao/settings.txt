@@ -1,0 +1,49 @@
+[@TSUTSUJI_GENERAL]
+owntrack = curve
+unit_length = 0.1
+offset_variable = basedist
+origin_distance = 0
+output_path = ./curve
+
+[straight]
+file = straight.txt
+absolute_coordinate = True
+x = 0
+y = 0
+z = 0
+angle = 0
+color = orange
+
+[curve]
+file = curve.txt
+absolute_coordinate = False
+parent_track = straight
+origin_kilopost = 0
+supplemental_cp = 60,85
+x = 4
+y = 0
+z = 0
+angle = 0
+color = red
+
+[line]
+file = line.txt
+absolute_coordinate = False
+parent_track = straight
+origin_kilopost = 0
+x = 8.12
+y = 0
+z = 0
+angle = 0
+color = gray
+
+[22point]
+file = line.txt
+absolute_coordinate = False
+parent_track = straight
+origin_kilopost = 0
+x = 0
+y = 0
+z = 0
+angle = 2.6039
+color = gray

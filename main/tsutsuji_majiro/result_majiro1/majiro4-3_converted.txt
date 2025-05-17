@@ -1,0 +1,57 @@
+BveTs Map 2.02:utf-8
+
+# offset
+$basedist = 0.000000;
+
+# Track['majiro4-3'].X
+$basedist + 0.000;
+Track['majiro4-3'].X.Interpolate(10.000,-219.648);
+$basedist + 21.287;
+Track['majiro4-3'].X.Interpolate(8.935,5819.046);
+$basedist + 33.366;
+Track['majiro4-3'].X.Interpolate(7.725,606.169);
+$basedist + 37.860;
+Track['majiro4-3'].X.Interpolate(7.293,150.982);
+$basedist + 59.182;
+Track['majiro4-3'].X.Interpolate(6.818,573.287);
+$basedist + 87.147;
+Track['majiro4-3'].X.Interpolate(8.898,0.000);
+
+# Track['majiro4-3'].Y
+$basedist + 0.000;
+Track['majiro4-3'].Y.Interpolate(0.000,0.000);
+$basedist + 21.287;
+Track['majiro4-3'].Y.Interpolate(0.000,0.000);
+$basedist + 33.366;
+Track['majiro4-3'].Y.Interpolate(0.000,0.000);
+$basedist + 37.860;
+Track['majiro4-3'].Y.Interpolate(0.000,0.000);
+$basedist + 59.182;
+Track['majiro4-3'].Y.Interpolate(0.000,0.000);
+$basedist + 87.147;
+Track['majiro4-3'].Y.Interpolate(0.000,0.000);
+
+# Track['majiro4-3'].Cant.Interpolate
+$basedist + 0.000;
+Track['majiro4-3'].Cant.Interpolate(0.000);
+$basedist + 0.000;
+Track['majiro4-3'].Cant.Interpolate(0.000);
+$basedist + 21.287;
+Track['majiro4-3'].Cant.Interpolate(0.000);
+$basedist + 33.366;
+Track['majiro4-3'].Cant.Interpolate(0.000);
+$basedist + 87.147;
+Track['majiro4-3'].Cant.Interpolate(0.000);
+
+# Track['majiro4-3'].Cant.SetFunction
+$basedist + 0.000;
+Track['majiro4-3'].Cant.SetFunction(1);
+
+# Track['majiro4-3'].Cant.SetCenter
+$basedist + 0.000;
+Track['majiro4-3'].Cant.SetCenter(0.000);
+
+# Track['majiro4-3'].Cant.SetGauge
+$basedist + 0.000;
+Track['majiro4-3'].Cant.SetGauge(0.000);
+

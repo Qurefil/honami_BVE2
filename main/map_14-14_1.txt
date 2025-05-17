@@ -1,0 +1,90 @@
+BveTs Map 2.02
+
+$basedist + 10;
+	$SignalPos = distance - 600;
+	include 'map_beacon_abs.txt';
+	Section.Begin(0,1,5);
+	Signal['fourY'].Put(0, 'j4', -2.3, 4.5, 0, 0, 0, 0, 0, 0);
+
+$basedist + 13;
+	#ほーむかいし
+	Repeater['H14-2form'].Begin('j10', 0,0,0, 0,180,0, 0,0,2.1, 'form1');
+	Repeater['H14-1form'].Begin(0, 0,0,0, 0,0,0, 0,0,2.1, 'form1');
+
+$basedist + 60.5;
+	Structure['Stop_p'].Put(0,2.25,1,0,0,0,0,0,0);
+	Structure['Stop2'].Put(0,2.25,2.15,0,0,0,0,0,0);
+	$inaage2 = distance;
+
+$basedist + 81;
+	Structure['Stop_p'].Put(0,2.25,1,0,0,0,0,0,0);
+	Structure['Stop3'].Put(0,2.25,2.15,0,0,0,0,0,0);
+	$inaage3 = distance;
+
+$basedist + 101.5;
+	Structure['Stop_p'].Put(0,2.25,1,0,0,0,0,0,0);
+	Structure['Stop4'].Put(0,2.25,2.15,0,0,0,0,0,0);
+	$inaage4 = distance;
+
+$basedist + 122;
+	Structure['Stop_p'].Put(0,2.25,1,0,0,0,0,0,0);
+	Structure['Stop5'].Put(0,2.25,2.15,0,0,0,0,0,0);
+	$inaage5 = distance;
+
+$basedist + 142.5;
+	Structure['Stop_p'].Put(0,2.25,1,0,0,0,0,0,0);
+	Structure['Stop6'].Put(0,2.25,2.15,0,0,0,0,0,0);
+	$inaage6 = distance;
+
+$basedist + 163;
+	Structure['Stop_p'].Put(0,2.25,1,0,0,0,0,0,0);
+	Structure['Stop7'].Put(0,2.25,2.15,0,0,0,0,0,0);
+	$inaage7 = distance;
+
+$basedist + 183.5;
+	Structure['Stop_p'].Put(0,2.25,1,0,0,0,0,0,0);
+	Structure['Stop8'].Put(0,2.25,2.15,0,0,0,0,0,0);
+	$inaage8 = distance;
+
+$basedist + 204;
+	Structure['Stop_p'].Put(0,2.25,1,0,0,0,0,0,0);
+	Structure['Stop9'].Put(0,2.25,2.15,0,0,0,0,0,0);
+	$inaage9 = distance;
+
+$basedist + 224.5;
+	Structure['Stop_p'].Put(0,2.25,1,0,0,0,0,0,0);
+	Structure['Stop10'].Put(0,2.25,2.15,0,0,0,0,0,0);
+	$inaage10 = distance;
+
+$basedist + 245;
+	Structure['Stop_p'].Put(0,2.25,1,0,0,0,0,0,0);
+	Structure['Stop11'].Put(0,2.25,2.15,0,0,0,0,0,0);
+	$inaage11 = distance;
+
+$basedist + 265.5;
+	Structure['Stop_p'].Put(0,2.25,1,0,0,0,0,0,0);
+	Structure['Stop12'].Put(0,2.25,2.15,0,0,0,0,0,0);
+	$inaage12 = distance;
+
+$basedist + 286;
+	Structure['Stop_p'].Put(0,2.25,1,0,0,0,0,0,0);
+	Structure['Stop13'].Put(0,2.25,2.15,0,0,0,0,0,0);
+	$inaage13 = distance;
+
+$basedist + 306.5;
+	Structure['Stop_p'].Put(0,2.25,1,0,0,0,0,0,0);
+	Structure['Stop14'].Put(0,2.25,2.15,0,0,0,0,0,0);
+	$inaage14 = distance;
+
+$basedist + 313;
+	#ほーむおわり 300m, 猶予+6.5m
+	Repeater['H14-2form'].End();
+	Repeater['H14-1form'].End();
+
+$basedist + 588.9;
+	$SignalPos = distance - 600;
+	include 'map_beacon_abs_dep.txt';
+	Section.Begin(0,3,4,5);
+	Signal['fourG'].Put(0, 'j4', -2.3, 4.5, 0, 0, 0, 0, 0, 0);
+
+$basedist = distance;

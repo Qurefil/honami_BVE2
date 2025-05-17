@@ -1,0 +1,54 @@
+BveTs Map 2.02
+
+$basedist + 0;
+	#ホーム始端
+	Repeater['H4-1form'].Begin(0, 0,0,0, 0,0,0, 0,0,2.1, 'form1');
+	Repeater['H4-2form'].Begin('j10', 0,0,0, 0,180,0, 0,0,2.1, 'form1');
+$basedist + 300;
+	#ホーム終端
+	Repeater['H4-1form'].End();
+	Repeater['H4-2form'].End();
+
+$basedist + 210;
+	#2-4
+	Structure['Stop_p'].Put(0,2.25,1,0,0,0,0,0,0);
+	Structure['Stop4'].Put(0,2.25,2.15,0,0,0,0,0,0);
+	Structure['Stop3'].Put(0,2.25,1.8,0,0,0,0,0,0);
+	Structure['Stop2'].Put(0,2.25,1.45,0,0,0,0,0,0);
+	$tomidachi2 = distance;
+	$tomidachi3 = distance;
+	$tomidachi4 = distance;
+$basedist + 251;
+	#5-8
+	Structure['Stop_p'].Put(0,2.25,1,0,0,0,0,0,0);
+	Structure['Stop8'].Put(0,2.25,2.15,0,0,0,0,0,0);
+	Structure['Stop7'].Put(0,2.25,1.73,0,0,0,0,0,0);
+	Structure['Stop6'].Put(0,2.25,1.38,0,0,0,0,0,0);
+	Structure['Stop5'].Put(0,2.25,1.03,0,0,0,0,0,0);
+	$tomidachi5 = distance;
+	$tomidachi6 = distance;
+	$tomidachi7 = distance;
+	$tomidachi8 = distance;
+$basedist + 292;
+	#9-14
+	Structure['Stop_p'].Put(0,2.25,1,0,0,0,0,0,0);
+	Structure['Stop14'].Put(0,2.25,2.15,0,0,0,0,0,0);
+	Structure['Stop13'].Put(0,2.25,1.73,0,0,0,0,0,0);
+	Structure['Stop12'].Put(0,2.25,1.31,0,0,0,0,0,0);
+	Structure['Stop11'].Put(0,2.25,0.89,0,0,0,0,0,0);
+	Structure['Stop10'].Put(0,2.25,0.47,0,0,0,0,0,0);
+	Structure['Stop9'].Put(0,2.25,0.05,0,0,0,0,0,0);
+	$tomidachi9 = distance;
+	$tomidachi10 = distance;
+	$tomidachi11 = distance;
+	$tomidachi12 = distance;
+	$tomidachi13 = distance;
+	$tomidachi14 = distance;
+
+$basedist + 335;
+	$SignalPos = distance - 600;
+	include 'map_beacon_abs_dep.txt';
+	Section.Begin(0,3,4,5);
+	Signal['fourG'].Put(0, 'j4', 7.6, 4.5, 0, 0, 0, 0, 0, 0);
+
+$basedist = distance;

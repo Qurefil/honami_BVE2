@@ -1,0 +1,49 @@
+BveTs Map 2.02
+Structure.Load('..\Structures\List.txt');
+Signal.Load('..\Structures\Signals\signal.csv');
+Station.Load('station_1092K.txt');
+
+Section.SetSpeedLimit(0,25,45,55,85,,,,,,,,,,,,,,,,,,,,,,,);
+
+0;
+	Repeater['Ballastj4'].Begin('j4', 0, 0, 0, 0, 0, 0, 3, 5, 5, 'Ballast0');
+	Repeater['RailLj4'].Begin('j4', -0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailL0', 'RailL1', 'RailL2', 'RailL3', 'RailL4');
+	Repeater['RailRj4'].Begin('j4', 0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailR0', 'RailR1', 'RailR2', 'RailR3', 'RailR4');
+	Repeater['wirej4'].Begin('j4w', 0, 0, 0, 0, 0, 0, 1, 50, 50, 'wire');
+	Repeater['Ballastj10'].Begin('j10', 0, 0, 0, 0, 0, 0, 3, 5, 5, 'Ballast0');
+	Repeater['RailLj10'].Begin('j10', -0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailL0', 'RailL1', 'RailL2', 'RailL3', 'RailL4');
+	Repeater['RailRj10'].Begin('j10', 0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailR0', 'RailR1', 'RailR2', 'RailR3', 'RailR4');
+	Repeater['wirej10'].Begin('j10w', 0, 0, 0, 0, 0, 0, 1, 50, 50, 'wire');
+	Repeater['BallastM-m2'].Begin('M-m', 0, 0, 0, 0, 0, 0, 3, 5, 5, 'Ballast0');
+	Repeater['RailLM-m2'].Begin('M-m', -0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailL0', 'RailL1', 'RailL2', 'RailL3', 'RailL4');
+	Repeater['RailRM-m2'].Begin('M-m', 0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailR0', 'RailR1', 'RailR2', 'RailR3', 'RailR4');
+	Repeater['BallastM-k2'].Begin('M-k', 0, 0, 0, 0, 0, 0, 3, 5, 5, 'Ballast0');
+	Repeater['RailLM-k2'].Begin('M-k', -0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailL0', 'RailL1', 'RailL2', 'RailL3', 'RailL4');
+	Repeater['RailRM-k2'].Begin('M-k', 0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailR0', 'RailR1', 'RailR2', 'RailR3', 'RailR4');
+	$basedist = 1000;
+	Background.Change('Bg');
+	Track['mat'].position(0, -0.4);
+	Repeater['grass'].Begin('mat', 0, 0, 0, 0, 0, 0, 3, 25, 25, 'grass');
+	include 'map_1-1_4.txt';
+	include 'map_1-2_1.txt';
+	include 'map_1-2_5.txt';
+	include 'map_2-2_1.txt';
+	include 'map_2-3_1.txt';
+	include 'map_3-3_1.txt';
+	include 'map_3-4_1.txt';
+	include 'map_4-4_1.txt';
+	include 'map_4-5_1.txt';
+	include 'map_5-5_ud_1.txt';
+	include 'map_5-5_9_2.txt';
+	include 'map_5-5_ud_3.txt';
+	include 'map_5-6_1.txt';
+
+
+9999997;
+	Section.Begin(0,1,2);
+9999998;
+	Section.Begin(0,1);
+9999999;
+	Section.Begin(0);
+
+

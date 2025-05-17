@@ -1,0 +1,53 @@
+BveTs Train 1.01:utf-8
+
+[Structure]
+Key = 2650-1001h
+distance = 17
+Span = 14
+Z = 7
+[Structure]
+Key = 2600-501n
+distance = 37.5
+Span = 14
+Z = 7
+[Structure]
+Key = 2650-1003n
+distance = 58
+Span = 14
+Z = 7
+[Structure]
+Key = 2100-3
+distance = 78.5
+Span = 14
+Z = 7
+[Structure]
+Key = 2600-503b
+distance = 99
+Span = 14
+Z = 7
+
+[Structure]
+Key = 2650-1000a
+distance = 17
+Span = 14
+Z = 7
+[Structure]
+Key = 2600-500a
+distance = 37.5
+Span = 14
+Z = 7
+[Structure]
+Key = 2650-1000a
+distance = 58
+Span = 14
+Z = 7
+[Structure] ;4両
+Key = 2100-0a
+distance = 78.5
+Span = 14
+Z = 7
+[Structure] ;5両
+Key = 2600-500a
+distance = 99
+Span = 14
+Z = 7

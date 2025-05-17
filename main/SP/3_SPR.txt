@@ -1,0 +1,5 @@
+BveTs Map 2.02
+# ちなみにSPはStation.Putの略
+
+$shigeha_SP;
+	Station['H3'].Put(1,-1,1);

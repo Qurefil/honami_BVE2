@@ -1,0 +1,101 @@
+BveTs Map 2.02
+
+# basedist = 現在 - 1760.62
+
+$basedist + 26.9;
+	#2場設置
+	Section.Begin(0,2);
+	Signal['shunt'].Put(0, 'j4', -2, 0, 0, 0, 0, 0, 0, 0);
+	Signal['shuntR'].Put(0, 'j10', 2, 0, 0, 0, 0, 0, 0, 0);
+	Signal['fourR'].Put(0, 'M1-1', 2.3, 4.5, 0, 0, 0, 0, 0, 0);
+	Signal['fourR'].Put(0, 'M1-2', -2.3, 4.5, 0, 0, 0, 0, 0, 0);
+	Signal['fourR'].Put(0, 'j4', -2.3, 4.5, 0, 0, 0, 0, 0, 0);
+	Signal['fourR'].Put(0, 'j10', 2.3, 4.5, 0, 0, 0, 0, 0, 0);
+	#全番4灯YY
+
+($basedist + 38.14) - (($basedist + 38.14) % 50);
+	Track['M1-5w'].position(-7, 0.15); // j4(自Track)と同座標
+	Track['M1-6w'].position(11, 0.15); // M1-1(2→1の亘り)と同座標
+	Repeater['wireM1-5'].Begin('M1-5w', 0, 0, 0, 0, 0, 0, 1, 50, 50, 'wire'); // j4(自Track)と同座標
+	Repeater['wireM1-6'].Begin('M1-6w', 0, 0, 0, 0, 0, 0, 1, 50, 50, 'wire'); // M1-1(2→1の亘り)と同座標
+
+$basedist + 38.14;
+	Curve.Begin(-307.3);
+	SpeedLimit.Begin(45);
+	Track['M-m'].position(4, 0, 307.3);
+	Track['M-k'].position(0, 0, 307.3);
+	Track['M-mw'].position(8, 0, 307.3);
+	Track['M-kw'].position(-4, 0, 307.3);
+	Track['M1-5w'].position(0.5, 0.05); // j4(自Track)と同座標
+	Track['M1-6w'].position(3.2, 0.05); // M1-1(2→1の亘り)と同座標
+	Track['j10'].position(4, 0, 153.65);
+	Track['M1-1'].position(8, 0, 307.3);
+	Track['M1-2'].position(-4, 0, 307.3);
+	Track['j4w'].position(0, 0, 307.3);
+	Track['j10w'].position(4, 0, 307.3);
+	Repeater['BallastM-m2'].Begin('M-m', 0, 0, 0, 0, 0, 0, 3, 5, 5, 'Ballast0');
+	Repeater['RailLM-m2'].Begin('M-m', -0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailL0', 'RailL1', 'RailL2', 'RailL3', 'RailL4');
+	Repeater['RailRM-m2'].Begin('M-m', 0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailR0', 'RailR1', 'RailR2', 'RailR3', 'RailR4');
+	Repeater['BallastM-k2'].Begin('M-k', 0, 0, 0, 0, 0, 0, 3, 5, 5, 'Ballast0');
+	Repeater['RailLM-k2'].Begin('M-k', -0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailL0', 'RailL1', 'RailL2', 'RailL3', 'RailL4');
+	Repeater['RailRM-k2'].Begin('M-k', 0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailR0', 'RailR1', 'RailR2', 'RailR3', 'RailR4');
+
+$basedist + 63.73;
+	Curve.End();
+	Track['M-m'].position(5.067, 0);
+	Track['M-k'].position(1.067, 0);
+	Track['M-mw'].position(9.067, 0);
+	Track['M-kw'].position(-2.933, 0);
+	Track['j10'].position(6.134, 0);
+	Track['M1-1'].position(9.067, 0);
+	Track['M1-2'].position(-2.933, 0);
+	Track['j4w'].position(1.067, 0);
+	Track['j10w'].position(5.067, 0);
+	Track['M1-5w'].position(0, 0.05); // j4(自Track)と同座標
+	Track['M1-6w'].position(6.134, 0.05); // M1-1(2→1の亘り)と同座標
+
+$basedist + 86.16;
+	Curve.Begin(307.3);
+	Track['M-m'].position(6.933, 0, -307.3);
+	Track['M-k'].position(2.933, 0, -307.3);
+	Track['M-mw'].position(10.933, 0);
+	Track['M-kw'].position(-1.067, 0);
+	Track['j10'].position(9.866, 0, -153.65);
+	Track['M1-1'].position(10.933, 0, -307.3);
+	Track['M1-2'].position(-1.067, 0, -307.3);
+	Track['j4w'].position(2.933, 0, -307.3);
+	Track['j10w'].position(6.933, 0, -307.3);
+	Track['M1-5w'].position(0, 0.05); // j4(自Track)と同座標
+	Track['M1-6w'].position(10.933, 0.05); // M1-1(2→1の亘り)と同座標
+
+($basedist + 111.75) - (($basedist + 111.75) % 50) + 50;
+	Track['M1-5w'].position(-3, 0.15); // j4(自Track)と同座標
+	Track['M1-6w'].position(14, 0.15); // M1-1(2→1の亘り)と同座標
+	Repeater['wireM1-5'].End();
+
+($basedist + 111.75) - (($basedist + 111.75) % 50) + 100;
+	Track['M1-6w'].position(28, 0.15); // M1-1(2→1の亘り)と同座標
+	Repeater['wireM1-6'].End();
+
+$basedist + 111.75;
+	Curve.End();
+	SpeedLimit.End();
+	Track['M-m'].position(8, 0);
+	Track['M-k'].position(4, 0);
+	Track['M-mw'].position(12, 0);
+	Track['M-kw'].position(0, 0);
+	Track['j10'].position(12, 0);
+	Track['M1-1'].position(12, 0);
+	Track['M1-2'].position(0, 0);
+	Track['j4w'].position(4, 0);
+	Track['j10w'].position(8, 0);
+	Track['M1-5w'].position(0, 0.05); // j4(自Track)と同座標
+	Track['M1-6w'].position(11, 0.05); // M1-1(2→1の亘り)と同座標
+	Repeater['BallastM1-1'].End();
+	Repeater['RailLM1-1'].End();
+	Repeater['RailRM1-1'].End();
+	Repeater['BallastM1-2'].End();
+	Repeater['RailLM1-2'].End();
+	Repeater['RailRM1-2'].End();
+
+$basedist = distance;

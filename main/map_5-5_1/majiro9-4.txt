@@ -1,0 +1,19 @@
+BveTs Map 2.02:utf-8
+
+# Track['majiro4-9'].X
+$basedist + 358.423;
+Track['majiro4-9'].X.Interpolate(50.000,-209.826);
+$basedist + 388.136;
+Track['majiro4-9'].X.Interpolate(47.853,-172.131);
+$basedist + 391.025;
+Track['majiro4-9'].X.Interpolate(47.403,-620.916);
+$basedist + 420.084;
+Track['majiro4-9'].X.Interpolate(41.963,-776.979);
+$basedist + 450.084;
+Track['majiro4-9'].X.Interpolate(34.894,0.000);
+$basedist + 493.663;
+Track['majiro4-9'].X.Interpolate(23.921,260.327);
+$basedist + 514.985;
+Track['majiro4-9'].X.Interpolate(19.237,2342.177);
+$basedist + 552.845;
+Track['majiro4-9'].X.Interpolate(13.641,0);

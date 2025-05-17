@@ -1,0 +1,22 @@
+BveTs Map 2.02:utf-8
+
+# Track['majiro4-5'].X
+$basedist + 0.000;
+	Track['majiro4-5'].X.Interpolate(13.641,-5728.981);
+	Track['majiro4-5w'].X.Interpolate(15.141,-5728.981);
+$basedist + 27.499;
+	Track['majiro4-5'].X.Interpolate(17.705,-293.749);
+	Track['majiro4-5w'].X.Interpolate(17.705,-293.749);
+$basedist + 37.860;
+	Track['majiro4-5'].X.Interpolate(18.979,-3596.000);
+	Track['majiro4-5w'].X.Interpolate(18.979,-3596.000);
+$basedist + 56.906;
+	Track['majiro4-5'].X.Interpolate(20.933,0.000);
+	Track['majiro4-5w'].X.Interpolate(20.933,0.000);
+
+$basedist + 27.499;
+	Repeater['Ballast_majiro4-5'].Begin('majiro4-5', 0, 0, 0, 0, 0, 0, 3, 5, 5, 'Ballast0');
+	Repeater['RailL_majiro4-5'].Begin('majiro4-5', -0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailL0', 'RailL1', 'RailL2', 'RailL3', 'RailL4');
+	Repeater['RailR_majiro4-5'].Begin('majiro4-5', 0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailR0', 'RailR1', 'RailR2', 'RailR3', 'RailR4');
+$basedist + 0.000;
+	Repeater['wire_majiro4-5'].Begin('majiro4-5w', 0, 0, 0, 0, 0, 0, 1, 50, 50, 'wire');

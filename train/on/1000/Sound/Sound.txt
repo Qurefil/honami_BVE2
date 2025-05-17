@@ -1,0 +1,75 @@
+BveTs Vehicle Sound 3.01
+
+[Rolling]
+0 = Run0.wav
+
+[Flange]
+;1 = Flange.wav
+
+[Motor]
+0 = motor_g.wav
+1 = motor_A.wav
+2 = motor_A.wav
+3 = motor_LS01.wav
+4 = motor_LS02.wav
+5 = motor_9A.wav
+6 = motor_9B.wav
+7 = motor_LS03.wav
+8 = motor_LS04.wav
+9 = motor_LS05.wav
+10 = motor_W3.wav
+11 = motor_1A.wav
+12 = motor_1B.wav
+
+[Joint]
+;0 = Point.wav
+
+[Brake]
+BcReleaseHigh = BRrel.wav
+BcRelease = BRrel.wav
+BcReleaseFull = BRrel.wav
+;Emergency = .wav
+
+[Compressor]
+Release = compfin.wav
+Loop = comploop.wav
+Attack = compstart.wav
+
+[AirSpring]
+;LeftRelease = SpringL.wav
+;RightRelease = SpringR.wav
+
+[Horn]
+Primary = typhone.wav
+PrimaryRelease = typhonerelease.wav
+
+[Door]
+OpenLeft = dooroL.wav
+OpenRight = dooroH.wav
+CloseLeft = dc.wav
+CloseRight = doorc.wav
+
+[Ats]
+0 = ats-s.wav
+1 = gong.wav
+2 = Halt.wav
+51 = ebbz.wav
+
+[PilotLamp]
+;On = Leave.wav
+
+[MasterController]
+Max = McMax.wav
+;Min = McDown.wav
+Up =  Mc.wav
+Down = Mc.wav
+
+[BrakeHandle]
+Apply = BcHandle.wav
+Release = BcHandle.wav
+Min = BcHandle.wav
+Max = EBrel.wav
+
+[Others]
+Noise = Loop.wav
+Shoe = shoe.wav

@@ -1,0 +1,72 @@
+# Blender 3.5.1 MTL File: 'ys2203.blend'
+# www.blender.org
+
+newmtl 2201tex
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 2
+map_Kd Series2200-1tex.png
+map_d Series2200-1tex.png
+
+newmtl 2201tex-light
+Ns 26.968279
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 2
+map_Kd Series2200-1tex.png
+map_d Series2200-1tex.png
+
+newmtl houkou
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd YS2200_rollsign2.png
+
+newmtl number
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 2
+map_Kd Series2200-numbertex.png
+map_d Series2200-numbertex.png
+
+newmtl number.001
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 2
+map_Kd Series2200-numbertex.png
+map_d Series2200-numbertex.png
+
+newmtl numbers
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 2
+map_Kd Series2200-numbertex.png
+map_d Series2200-numbertex.png
+
+newmtl wheel
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.078368 0.078368 0.078368
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2

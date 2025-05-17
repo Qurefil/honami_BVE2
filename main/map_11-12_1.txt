@@ -1,0 +1,57 @@
+BveTs Map 2.02
+
+$basedist + 320;
+	Gradient.BeginTransition();
+
+$basedist + 324.8;
+	Gradient.Begin(1.2);
+
+$basedist + 366.1;
+	Curve.BeginTransition();
+
+$basedist + 454.3;
+	Curve.Begin(-1210, 0.05);
+
+$basedist + 549.7;
+	Curve.BeginTransition();
+
+$basedist + 637.9;
+	Curve.End();
+
+$basedist + 694.15;
+	$SignalPos = distance - 600;
+	include 'map_beacon_block.txt';
+	Section.Begin(0,3,5);
+	Signal['three'].Put(0, 'j4', -2.3, 4.5, 0, 0, 0, 0, 0, 0);
+
+$basedist + 1440.5;
+	$SignalPos = distance - 600;
+	include 'map_beacon_block.txt';
+	Section.Begin(0,3,5);
+	Signal['three'].Put(0, 'j4', -2.3, 4.5, 0, 0, 0, 0, 0, 0);
+
+$basedist + 1877;
+	$SignalPos = distance - 600;
+	include 'map_beacon_block_3.txt';
+	Section.Begin(0,3,5);
+	Signal['three'].Put(0, 'j4', -2.3, 4.5, 0, 0, 0, 0, 0, 0);
+
+$basedist + 1888.8;
+	Curve.BeginTransition();
+
+$basedist + 1965.8;
+	Curve.Begin(-700);
+
+$basedist + 2189.1;
+	Curve.BeginTransition();
+
+$basedist + 2266.1;
+	Curve.End();
+
+$basedist + 2320;
+	Gradient.BeginTransition();
+
+$basedist + 2324.8;
+	Gradient.End();
+
+$basedist = distance;

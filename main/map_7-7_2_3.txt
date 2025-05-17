@@ -1,0 +1,35 @@
+BveTs Map 2.02
+
+$basedist + 0;
+	Gradient.BeginTransition();
+	Track['H7-ud2'].Position(0,0,307.3);
+	Track['H7-ud3'].Position(4,0,-307.3);
+	Repeater['BallastH7-ud_2'].Begin('H7-ud2', 0, 0, 0, 0, 0, 0, 3, 5, 5, 'Ballast0');
+	Repeater['RailLH7-ud_2'].Begin('H7-ud2', -0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailL0', 'RailL1', 'RailL2', 'RailL3', 'RailL4');
+	Repeater['RailRH7-ud_2'].Begin('H7-ud2', 0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailR0', 'RailR1', 'RailR2', 'RailR3', 'RailR4');
+	Repeater['BallastH7-ud_3'].Begin('H7-ud3', 0, 0, 0, 0, 0, 0, 3, 5, 5, 'Ballast0');
+	Repeater['RailLH7-ud_3'].Begin('H7-ud3', -0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailL0', 'RailL1', 'RailL2', 'RailL3', 'RailL4');
+	Repeater['RailRH7-ud_3'].Begin('H7-ud3', 0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailR0', 'RailR1', 'RailR2', 'RailR3', 'RailR4');
+
+$basedist + 1.5;
+	Gradient.Begin(-0.5);
+
+$basedist + 25.59;
+	Track['H7-ud2'].Position(1.067, 0);
+	Track['H7-ud3'].Position(2.933, 0);
+
+$basedist + 47.92;
+	Track['H7-ud2'].Position(2.933, 0, -307.3);
+	Track['H7-ud3'].Position(1.067, 0, 307.3);
+
+$basedist + 73.51;
+	Track['H7-ud2'].Position(4, 0);
+	Track['H7-ud3'].Position(0, 0);
+	Repeater['BallastH7-ud_2'].End();
+	Repeater['RailLH7-ud_2'].End();
+	Repeater['RailRH7-ud_2'].End();
+	Repeater['BallastH7-ud_3'].End();
+	Repeater['RailLH7-ud_3'].End();
+	Repeater['RailRH7-ud_3'].End();
+
+$basedist = distance;

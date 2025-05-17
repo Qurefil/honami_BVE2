@@ -1,0 +1,144 @@
+BveTs Train 1.01:utf-8
+
+[Structure]
+Key = 2650-1001b
+distance = 17
+Span = 14
+Z = 7
+[Structure]
+Key = 2600-501n
+distance = 37.5
+Span = 14
+Z = 7
+[Structure]
+Key = 2650-1008n
+distance = 58
+Span = 14
+Z = 7
+[Structure]
+Key = 2600-508h
+distance = 78.5
+Span = 14
+Z = 7
+[Structure]
+Key = 2650-1001b
+distance = 99
+Span = 14
+Z = 7
+[Structure]
+Key = 2100-1
+distance = 119.5
+Span = 14
+Z = 7
+[Structure]
+Key = 2650-1008n
+distance = 140
+Span = 14
+Z = 7
+[Structure] ;8両
+Key = 2600-508h
+distance = 160.5
+Span = 14
+Z = 7
+[Structure]
+Key = 2650-1001b
+distance = 181
+Span = 14
+Z = 7
+[Structure]
+Key = 2600-501n
+distance = 201.5
+Span = 14
+Z = 7
+[Structure]
+Key = 2650-1008n
+distance = 222
+Span = 14
+Z = 7
+[Structure] ;12両
+Key = 2600-508h
+distance = 242.5
+Span = 14
+Z = 7
+[Structure]
+Key = 2650-1001b
+distance = 263
+Span = 14
+Z = 7
+[Structure] ;14両
+Key = 2600-508h
+distance = 283.5
+Span = 14
+Z = 7
+
+
+[Structure]
+Key = 2650-1000a
+distance = 17
+Span = 14
+Z = 7
+[Structure]
+Key = 2600-500a
+distance = 37.5
+Span = 14
+Z = 7
+[Structure]
+Key = 2650-1000a
+distance = 58
+Span = 14
+Z = 7
+[Structure] ;4両
+Key = 2600-500a
+distance = 78.5
+Span = 14
+Z = 7
+[Structure]
+Key = 2650-1000a
+distance = 99
+Span = 14
+Z = 7
+[Structure]
+Key = 2100-0a
+distance = 119.5
+Span = 14
+Z = 7
+[Structure]
+Key = 2650-1000a
+distance = 140
+Span = 14
+Z = 7
+[Structure] ;8両
+Key = 2600-500a
+distance = 160.5
+Span = 14
+Z = 7
+[Structure]
+Key = 2650-1000a
+distance = 181
+Span = 14
+Z = 7
+[Structure] ;10両
+Key = 2600-500a
+distance = 201.5
+Span = 14
+Z = 7
+[Structure]
+Key = 2650-1000a
+distance = 222
+Span = 14
+Z = 7
+[Structure]
+Key = 2600-500a
+distance = 242.5
+Span = 14
+Z = 7
+[Structure]
+Key = 2650-1000a
+distance = 263
+Span = 14
+Z = 7
+[Structure] ;14両
+Key = 2600-500a
+distance = 283.5
+Span = 14
+Z = 7

@@ -1,0 +1,5 @@
+BveTs Map 2.02
+# ちなみにSPはStation.Putの略
+
+$wakoRY_SP; # 若生車両区
+	Station['wako'].Put(0,-1,1);

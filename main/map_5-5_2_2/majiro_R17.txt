@@ -1,0 +1,73 @@
+BveTs Map 2.02:utf-8
+
+# offset
+$basedist = 0.000000;
+
+# Track['majiro_R17'].X
+$basedist + 278.497;
+Track['majiro_R17'].X.Interpolate(nan,615.147);
+$basedist + 279.562;
+Track['majiro_R17'].X.Interpolate(464.353,0.000);
+$basedist + 281.143;
+Track['majiro_R17'].X.Interpolate(448.119,0.000);
+$basedist + 282.239;
+Track['majiro_R17'].X.Interpolate(437.191,0.000);
+$basedist + 283.301;
+Track['majiro_R17'].X.Interpolate(426.591,-452.501);
+$basedist + 287.433;
+Track['majiro_R17'].X.Interpolate(384.931,0.000);
+$basedist + 288.497;
+Track['majiro_R17'].X.Interpolate(-inf,0.000);
+
+# Track['majiro_R17'].Y
+$basedist + 278.497;
+Track['majiro_R17'].Y.Interpolate(0.000,0.000);
+$basedist + 279.562;
+Track['majiro_R17'].Y.Interpolate(0.000,0.000);
+$basedist + 281.143;
+Track['majiro_R17'].Y.Interpolate(0.000,0.000);
+$basedist + 282.239;
+Track['majiro_R17'].Y.Interpolate(0.000,0.000);
+$basedist + 283.301;
+Track['majiro_R17'].Y.Interpolate(0.000,0.000);
+$basedist + 287.433;
+Track['majiro_R17'].Y.Interpolate(0.000,0.000);
+$basedist + 288.497;
+Track['majiro_R17'].Y.Interpolate(nan,0.000);
+
+# Track['majiro_R17'].Cant.Interpolate
+$basedist + 283.301;
+Track['majiro_R17'].Cant.Interpolate(0.000);
+$basedist + 282.239;
+Track['majiro_R17'].Cant.Interpolate(0.000);
+$basedist + 281.143;
+Track['majiro_R17'].Cant.Interpolate(0.000);
+$basedist + 279.021;
+Track['majiro_R17'].Cant.Interpolate(0.000);
+$basedist + 278.867;
+Track['majiro_R17'].Cant.Interpolate(0.000);
+$basedist + 278.497;
+Track['majiro_R17'].Cant.Interpolate(0.000);
+$basedist + 278.497;
+Track['majiro_R17'].Cant.Interpolate(0.000);
+$basedist + 279.562;
+Track['majiro_R17'].Cant.Interpolate(0.000);
+$basedist + 287.433;
+Track['majiro_R17'].Cant.Interpolate(0.000);
+$basedist + 288.497;
+Track['majiro_R17'].Cant.Interpolate(nan);
+$basedist + 288.497;
+Track['majiro_R17'].Cant.Interpolate(nan);
+
+# Track['majiro_R17'].Cant.SetFunction
+$basedist + 283.301;
+Track['majiro_R17'].Cant.SetFunction(1);
+
+# Track['majiro_R17'].Cant.SetCenter
+$basedist + 283.301;
+Track['majiro_R17'].Cant.SetCenter(0.000);
+
+# Track['majiro_R17'].Cant.SetGauge
+$basedist + 283.301;
+Track['majiro_R17'].Cant.SetGauge(0.000);
+

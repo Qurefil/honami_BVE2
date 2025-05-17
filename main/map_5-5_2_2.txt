@@ -1,0 +1,369 @@
+BveTs Map 2.02
+
+$basedist + 409.50;
+	Repeater['H5-2form'].Begin(0, 0,0,0, 0,0,0, 0,0,2.1, 'form1');
+	Repeater['H5-1form'].Begin('H5-1', 0,0,0, 0,0,0, 0,0,2.1, 'form1');
+
+$basedist + 450.50;
+	Repeater['H5-5form'].Begin('H5-5', 0,0,0, 0,0,0, 0,0,2.1, 'form1');
+	Repeater['H5-4form'].Begin('j10', 0,0,0, 0,180,0, 0,0,2.1, 'form1');
+
+$basedist + 559.73;
+	Structure['Stop_p'].Put('H5-1',2.25,1,0,0,0,0,0,0);
+	Structure['Stop4'].Put('H5-1',2.25,2.15,0,0,0,0,0,0);
+
+$basedist + 580.23;
+	Structure['Stop_p'].Put(0,2.25,1,0,0,0,0,0,0);
+	Structure['Stop5'].Put(0,2.25,2.15,0,0,0,0,0,0);
+	$majiro2 = distance;
+	$majiro3 = distance;
+	$majiro4 = distance;
+	$majiro5 = distance;
+
+$basedist + 600.73;
+	Structure['Stop_p'].Put('H5-1',2.25,1,0,0,0,0,0,0);
+	Structure['Stop7'].Put('H5-1',2.25,2.15,0,0,0,0,0,0);
+
+$basedist + 621.23;
+	Structure['Stop_p'].Put(0,2.25,1,0,0,0,0,0,0);
+	Structure['Stop8'].Put(0,2.25,2.15,0,0,0,0,0,0);
+	$majiro6 = distance;
+	$majiro7 = distance;
+	$majiro8 = distance;
+
+$basedist + 641.73;
+	Structure['Stop_p'].Put('H5-1',2.25,1,0,0,0,0,0,0);
+	Structure['Stop10'].Put('H5-1',2.25,2.15,0,0,0,0,0,0);
+
+$basedist + 682.73;
+	Structure['Stop_p'].Put(0,2.25,1,0,0,0,0,0,0);
+	Structure['Stop12'].Put(0,2.25,2.15,0,0,0,0,0,0);
+	$majiro9 = distance;
+	$majiro10 = distance;
+	$majiro11 = distance;
+	$majiro12 = distance;
+
+$basedist + 703.23;
+	Structure['Stop_p'].Put(0,2.25,1,0,0,0,0,0,0);
+	Structure['Stop14'].Put(0,2.25,2.15,0,0,0,0,0,0);
+	Structure['Stop_p'].Put('H5-1',2.25,1,0,0,0,0,0,0);
+	Structure['Stop14'].Put('H5-1',2.25,2.15,0,0,0,0,0,0);
+	$majiro13 = distance;
+	$majiro14 = distance;
+
+$basedist + 709.23;
+	Repeater['H5-2form'].End();
+	Repeater['H5-1form'].End();
+
+$basedist + 750.23;
+	Repeater['H5-5form'].End();
+	Repeater['H5-4form'].End();
+
+$basedist + 0;
+	Track['H5-4-9'].Position(8, 0, 546.3);
+	Repeater['BallastH5-4-9_1'].Begin('H5-4-9', 0, 0, 0, 0, 0, 0, 3, 5, 5, 'Ballast0');
+	Repeater['RailLH5-4-9_1'].Begin('H5-4-9', -0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailL0', 'RailL1', 'RailL2', 'RailL3', 'RailL4');
+	Repeater['RailRH5-4-9_1'].Begin('H5-4-9', 0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailR0', 'RailR1', 'RailR2', 'RailR3', 'RailR4');
+
+$basedist + 34.11;
+	Track['H5-4-9'].Position(9.067, 0);
+
+$basedist + 48;
+	$SignalPos = distance - 600;
+	include 'map_beacon_abs_5.txt';
+	Section.Begin(0,1,3,4,5);
+	Signal['five'].Put(0, 'j4', -2.3, 4.5, 0, 0, 0, 0, 0, 0);
+
+$basedist + 62;
+	Track['H5-3A'].Position(0, 0, 213.4); # 中線35km/h
+	Track['H5-3B'].Position(8, 0, -213.4);
+	Repeater['BallastH5-3A_1'].Begin('H5-3A', 0, 0, 0, 0, 0, 0, 3, 5, 5, 'Ballast0');
+	Repeater['RailLH5-3A_1'].Begin('H5-3A', -0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailL0', 'RailL1', 'RailL2', 'RailL3', 'RailL4');
+	Repeater['RailRH5-3A_1'].Begin('H5-3A', 0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailR0', 'RailR1', 'RailR2', 'RailR3', 'RailR4');
+	Repeater['BallastH5-3B_1'].Begin('H5-3B', 0, 0, 0, 0, 0, 0, 3, 5, 5, 'Ballast0');
+	Repeater['RailLH5-3B_1'].Begin('H5-3B', -0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailL0', 'RailL1', 'RailL2', 'RailL3', 'RailL4');
+	Repeater['RailRH5-3B_1'].Begin('H5-3B', 0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailR0', 'RailR1', 'RailR2', 'RailR3', 'RailR4');
+
+$basedist + 83.29;
+	Track['H5-3A'].Position(1.067, 0);
+	Track['H5-3B'].Position(6.933, 0);
+
+$basedist + 101.88;
+	Track['H5-3A'].Position(2.933, 0, -213.4);
+	Track['H5-3B'].Position(5.067, 0, 213.4);
+
+$basedist + 123.17;
+	Track['H5-3A'].Position(4, 0);
+	Track['H5-3B'].Position(4, 0);
+	Repeater['BallastH5-3B_1'].End();
+	Repeater['RailLH5-3B_1'].End();
+	Repeater['RailRH5-3B_1'].End();
+
+$basedist + 140;
+	Track['H5-1'].Position(0, 0, -546.3);
+	Repeater['BallastH5-1_1'].Begin('H5-1', 0, 0, 0, 0, 0, 0, 3, 5, 5, 'Ballast0');
+	Repeater['RailLH5-1_1'].Begin('H5-1', -0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailL0', 'RailL1', 'RailL2', 'RailL3', 'RailL4');
+	Repeater['RailRH5-1_1'].Begin('H5-1', 0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailR0', 'RailR1', 'RailR2', 'RailR3', 'RailR4');
+
+$basedist + 147;
+	Structure['3B'].Put('H5-3A',-2.5,4.5,0,0,0,0,0,0);
+
+$basedist + 159.84;
+	Track['H5-5'].Position(16.933, 0, -546.3);
+	Repeater['BallastH5-5_1'].Begin('H5-5', 0, 0, 0, 0, 0, 0, 3, 5, 5, 'Ballast0');
+	Repeater['RailLH5-5_1'].Begin('H5-5', -0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailL0', 'RailL1', 'RailL2', 'RailL3', 'RailL4');
+	Repeater['RailRH5-5_1'].Begin('H5-5', 0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailR0', 'RailR1', 'RailR2', 'RailR3', 'RailR4');
+
+$basedist + 174.11;
+	Track['H5-1'].Position(-1.067, 0);
+
+$basedist + 193.95;
+	Track['H5-5'].Position(18, 0);
+
+$basedist + 293.16;
+	Track['H5-1'].Position(-8.5, 0, 768.0);
+
+$basedist + 319.69;
+	Track['H5-7'].Position(26.933, 0, -546.3);
+	Repeater['BallastH5-7_1'].Begin('H5-7', 0, 0, 0, 0, 0, 0, 3, 5, 5, 'Ballast0');
+	Repeater['RailLH5-7_1'].Begin('H5-7', -0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailL0', 'RailL1', 'RailL2', 'RailL3', 'RailL4');
+	Repeater['RailRH5-7_1'].Begin('H5-7', 0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailR0', 'RailR1', 'RailR2', 'RailR3', 'RailR4');
+
+$basedist + 341.14;
+	Track['H5-1'].Position(-10, 0);
+
+$basedist + 353.80;
+	Track['H5-7'].Position(28, 0);
+
+$basedist + 400;
+	$SignalPos = distance - 600;
+	include 'map_beacon_abs_5.txt';
+	Section.Begin(0,1,3,4,5);
+	Signal['five'].Put(0, 'j4', -2.3, 4.5, 0, 0, 0, 0, 0, 0);
+	Signal['fiveR'].Put(0, 'H5-1', -2.3, 4.5, 0, 0, 0, 0, 0, 0);
+	Signal['fourR'].Put(0, 'j10', 2.3, 4.5, 0, 0, 0, 0, 0, 0);
+	Signal['fourR'].Put(0, 'H5-5', 2.3, 4.5, 0, 0, 0, 0, 0, 0);
+
+$basedist + 478.64;
+	Track['H5-4-9'].Position(36.933, 0, -546.3);
+
+$basedist + 485;
+	Signal['fourR'].Put(0, 'H5-7', 2.3, 4.5, 0, 0, 0, 0, 0, 0);
+
+$basedist + 510;
+	Signal['fourR'].Put(0, 'H5-4-9', 4, 4.5, 0, 0, 0, 0, 0, 0);
+
+$basedist + 512.73;
+	Track['H5-4-9'].Position(38, 0); #9番線開始
+	Repeater['H5-9form'].Begin('H5-4-9', 0,0,0, 0,0,0, 0,0,2.1, 'form1');
+	Repeater['H5-8form'].Begin('H5-7', 0,0,0, 0,180,0, 0,0,2.1, 'form1');
+	Repeater['H5-7form'].Begin('H5-7', 0,0,0, 0,0,0, 0,0,2.1, 'form1');
+	Repeater['H5-6form'].Begin('H5-5', 0,0,0, 0,180,0, 0,0,2.1, 'form1');
+
+$basedist + 615.60;
+	Track['H5-4-9'].Position(38, 0, -1075.2);
+
+$basedist + 667.14;
+	Track['H5-1'].Position(-10, 0, 768.0);
+
+$basedist + 682.73;
+	Track['H5-4-9'].Position(35.9, 0); #9番線終了　170mぴったり　曲線誤差無視します
+	Repeater['H5-9form'].End();
+	Repeater['H5-8form'].End();
+	Repeater['H5-7form'].End();
+	Repeater['H5-6form'].End();
+
+$basedist + 690;
+	Signal['fourR'].Put(0, 'H5-4-9', -2.3, 4.5, 0, 0, 0, 0, 0, 0);
+
+$basedist + 700;
+	Signal['fourR'].Put(0, 'H5-7', 2.3, 4.5, 0, 0, 0, 0, 0, 0);
+
+$basedist + 715.12;
+	Track['H5-1'].Position(-8.5, 0);
+
+$basedist + 730;
+	$SignalPos = distance - 600;
+	include 'map_beacon_abs_dep.txt';
+	Section.Begin(0,3,4,5);
+	Signal['fourG'].Put(0, 'j4', -2.3, 4.5, 0, 0, 0, 0, 0, 0);
+	Signal['fourR'].Put(0, 'H5-1', -2.3, 4.5, 0, 0, 0, 0, 0, 0);
+
+$basedist + 780;
+	Signal['fourR'].Put(0, 'H5-5', 2.3, 4.5, 0, 0, 0, 0, 0, 0);
+	Signal['fourR'].Put(0, 'j10', 2.3, 4.5, 0, 0, 0, 0, 0, 0);
+	Signal['threeR'].Put(0, 'H5-3A', 2.5, 4.5, 0, 0, 0, 0, 0, 0);
+
+$basedist + 791.95;
+	Track['H5-7'].Position(28, 0, -546.3);
+
+$basedist + 826.06;
+	Track['H5-7'].Position(26.933, 0);
+	Track['H5-4-9'].Position(26.933, 0);
+	Repeater['BallastH5-7_1'].End();
+	Repeater['RailLH5-7_1'].End();
+	Repeater['RailRH5-7_1'].End();
+
+$basedist + 834.19;
+	Track['H5-1'].Position(-1.067, 0, -546.3);
+
+$basedist + 868.3;
+	Track['H5-1'].Position(0, 0);
+	Repeater['BallastH5-1_1'].End();
+	Repeater['RailLH5-1_1'].End();
+	Repeater['RailRH5-1_1'].End();
+
+$basedist + 869.98;
+	Track['H5-3A'].Position(4, 0, -213.4);
+	Track['H5-3B'].Position(4, 0, 213.4);
+	Repeater['BallastH5-3B_2'].Begin('H5-3B', 0, 0, 0, 0, 0, 0, 3, 5, 5, 'Ballast0');
+	Repeater['RailLH5-3B_2'].Begin('H5-3B', -0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailL0', 'RailL1', 'RailL2', 'RailL3', 'RailL4');
+	Repeater['RailRH5-3B_2'].Begin('H5-3B', 0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailR0', 'RailR1', 'RailR2', 'RailR3', 'RailR4');
+
+$basedist + 891.27;
+	Track['H5-3A'].Position(2.933, 0);
+	Track['H5-3B'].Position(5.067, 0);
+
+$basedist + 909.86;
+	Track['H5-3A'].Position(1.067, 0, 213.4);
+	Track['H5-3B'].Position(6.933, 0, -213.4);
+
+$basedist + 931.15;
+	Track['H5-3A'].Position(0, 0);
+	Track['H5-3B'].Position(8, 0);
+	Repeater['BallastH5-3A_1'].End();
+	Repeater['RailLH5-3A_1'].End();
+	Repeater['RailRH5-3A_1'].End();
+	Repeater['BallastH5-3B_2'].End();
+	Repeater['RailLH5-3B_2'].End();
+	Repeater['RailRH5-3B_2'].End();
+
+$basedist + 951.15;
+	Curve.BeginTransition();
+	Track['j10'].Position(8,0, -5454.544);
+	Track['j10w'].Position(8,0, -5454.544);
+	Track['H5-4-9'].Position(5.067+4+10.03, 0, -5454.544);
+
+$basedist + 961.222;
+	Track['j10'].Position(7.994, 0, -1742.416);
+	Track['j10w'].Position(7.994, 0, -1742.416);
+	Track['H5-4-9'].Position(5.067+3.944+9.451, 0, -1742.416);
+
+$basedist + 971.722;
+	Track['j10'].Position(7.945, 0, -1461.58);
+	Track['j10w'].Position(7.945, 0, -1461.58);
+	Track['H5-4-9'].Position(5.067+3.945+8.745, 0, -1461.58);
+
+$basedist + 976.15; # 951.15+25;
+	Curve.Begin(1200);
+
+$basedist + 975.222;
+	Track['j10'].Position(7.913, 0, -1177.779);
+	Track['j10w'].Position(7.913, 0, -1177.779);
+	Track['H5-4-9'].Position(5.067+3.913+8.526, 0, -1177.779);
+
+$basedist + 1002.722;
+	Track['j10'].Position(7.344, 0, -1279.758);
+	Track['j10w'].Position(7.344, 0, -1279.758);
+	Track['H5-4-9'].Position(5.067+3.344+6.807, 0, -1279.758);
+	Track['H5-5'].Position(5.067+3.344+6.807, 0);
+
+$basedist + 1009.05; # 951.15+25+32.9;
+	Curve.BeginTransition();
+
+$basedist + 1009.111;
+	Track['j10'].Position(7.12, 0, -1377.183);
+	Track['j10w'].Position(7.12, 0, -1377.183);
+	Track['H5-4-9'].Position(5.067+3.12+6.401, 0, -1377.183);
+
+$basedist + 1013.222;
+	Track['j10'].Position(6.957, 0, -2016.076);
+	Track['j10w'].Position(6.957, 0, -2016.076);
+	Track['H5-4-9'].Position(5.067+2.957+6.151, 0, -2016.076);
+
+$basedist + 1024.222;
+	Track['j10'].Position(6.471, 0, -7755.198);
+	Track['j10w'].Position(6.471, 0, -7755.198);
+	Track['H5-4-9'].Position(5.067+2.471+5.463, 0, -7755.198);
+
+$basedist + 1035.222;
+	Track['j10'].Position(5.946, 0, 4199.229);
+	Track['j10w'].Position(5.946, 0, 4199.229);
+	Track['H5-4-9'].Position(5.067+1.946+4.776, 0, 4199.229);
+
+$basedist + 1046.222;
+	Track['j10'].Position(5.424, 0, 1548.287);
+	Track['j10w'].Position(5.424, 0, 1548.287);
+	Track['H5-4-9'].Position(5.067+1.424+4.089, 0, 1548.287);
+
+$basedist + 1059.05; # 951.15+25+32.9+50;
+	Curve.Begin(-1200);
+
+$basedist + 1059.061;
+	Track['j10'].Position(4.881, 0, 1211.396);
+	Track['j10w'].Position(4.881, 0, 1211.396);
+	Track['H5-4-9'].Position(5.067+0.881+3.286, 0, 1211.396);
+
+$basedist + 1076.222;
+	Track['j10'].Position(4.335, 0, 1200.01);
+	Track['j10w'].Position(4.335, 0, 1200.01);
+	Track['H5-4-9'].Position(5.067+0.335+2.214, 0, 1200.01);
+
+$basedist + 1081.222;
+	Track['j10'].Position(4.248, 0, 1200.008);
+	Track['j10w'].Position(4.248, 0, 1200.008);
+	Track['H5-4-9'].Position(5.067+0.248+1.871, 0, 1200.008);
+
+$basedist + 1086.222;
+	Track['j10'].Position(4.161, 0, 1200.041);
+	Track['j10w'].Position(4.161, 0, 1200.041);
+	Track['H5-4-9'].Position(5.067+0.161+1.559, 0, 1100.041);
+
+$basedist + 1091.222;
+	Track['j10'].Position(4.096, 0, 885.736);
+	Track['j10w'].Position(4.096, 0, 885.736);
+	Track['H5-4-9'].Position(5.067+0.096+1.24, 0, 885.736);
+
+$basedist + 1091.95; # 951.15+25+32.9+50+32.9;
+	Curve.BeginTransition();
+	Track['j10'].Position(4.088, 0, 1455.774);
+	Track['j10w'].Position(4.088, 0, 1455.774);
+	Track['H5-4-9'].Position(5.067+0.088+1.2, 0, 1455.774);
+
+$basedist + 1097.222;
+	Track['j10'].Position(4.044, 0, 3200.871);
+	Track['j10w'].Position(4.044, 0, 3200.871);
+	Track['H5-4-9'].Position(5.067+0.044+0.86, 0, 3200.871);
+
+$basedist + 951.15+25+32.9+50+32.9+25; # 1116.95
+	Curve.End();
+	Track['j10'].Position(4,0);
+	Track['j10w'].Position(4,0);
+
+$basedist + 951.80;
+	Track['H5-5'].Position(18, 0, -546.3);
+	Track['H5-7'].Position(18, 0);
+
+$basedist + 985.91;
+	Track['H5-4-9'].Position(5.067+3.763+7.858, 0, -1177.779);
+	Track['H5-5'].Position(5.067+3.763+7.858, 0, -1177.779);
+	Repeater['BallastH5-5_1'].End();
+	Repeater['RailLH5-5_1'].End();
+	Repeater['RailRH5-5_1'].End();
+
+$basedist + 1111.64;
+	Track['H5-4-9'].Position(5.03, 0, 466.655);
+	Track['H5-5'].Position(5.03, 0);
+
+$basedist + 1116.95;
+	Track['H5-4-9'].Position(4.72, 0, 546.3);
+
+$basedist + 1145.75;
+	Track['H5-4-9'].Position(4, 0);
+	Repeater['BallastH5-4-9_1'].End();
+	Repeater['RailLH5-4-9_1'].End();
+	Repeater['RailRH5-4-9_1'].End();
+	Track['j10'].Position(4,0);
+	Track['j10w'].Position(4,0);
+
+$basedist = distance;

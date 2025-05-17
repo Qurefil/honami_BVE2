@@ -1,0 +1,89 @@
+BveTs Map 2.02
+
+$basedist + 48.4;
+	Curve.BeginTransition();
+
+$basedist + 156.4;
+	Curve.Begin(-1360, 0.07);
+
+$basedist + 184;
+	Gradient.BeginTransition();
+	Track['mat'].Position(0,-13.4);
+
+$basedist + 205;
+	Gradient.End();
+	Track['mat'].Position(0,-13.3);
+
+	$SignalPos = distance - 600;
+	include 'map_beacon_block_3.txt';
+	Section.Begin(0,3,5);
+	Signal['three'].Put(0, 'j4', -2.3, 4.5, 0, 0, 0, 0, 0, 0);
+
+$basedist + 290.1;
+	Curve.BeginTransition();
+
+$basedist + 398.1;
+	Curve.End();
+
+$basedist + 858.8;
+	$SignalPos = distance - 600;
+	include 'map_beacon_block.txt';
+	Section.Begin(0,3,5);
+	Signal['three'].Put(0, 'j4', -2.3, 4.5, 0, 0, 0, 0, 0, 0);
+
+$basedist + 1722.6;
+	$SignalPos = distance - 600;
+	include 'map_beacon_block.txt';
+	Section.Begin(0,3,5);
+	Signal['three'].Put(0, 'j4', -2.3, 4.5, 0, 0, 0, 0, 0, 0);
+
+$basedist + 1946.9;
+	$SignalPos = distance - 600;
+	Gradient.BeginTransition();
+	Track['mat'].Position(0,-13.3);
+
+$basedist + 1948.7;
+	Gradient.Begin(0.3);
+	Track['mat'].Position(0,-13.3);
+
+$basedist + 2471.3;
+	Curve.BeginTransition();
+	$SignalPos = distance - 600;
+	include 'map_beacon_block.txt';
+	Section.Begin(0,3,5);
+	Signal['three'].Put(0, 'j4', -2.3, 4.5, 0, 0, 0, 0, 0, 0);
+
+$basedist + 2559.5;
+	Curve.Begin(-1715, 0.035);
+
+$basedist + 3143.3;
+	Curve.BeginTransition();
+
+$basedist + 3230.5;
+	Curve.End();
+	$SignalPos = distance - 600;
+	include 'map_beacon_block.txt';
+	Section.Begin(0,3,3,4,5);
+	Signal['fourG'].Put(0, 'j4', -2.3, 4.5, 0, 0, 0, 0, 0, 0);
+
+$basedist + 3344.6;
+	Gradient.BeginTransition();
+	Track['mat'].Position(0,-13.7, 0, 3000);
+
+$basedist + 3428;
+	Gradient.Begin(-27.5);
+	Track['mat'].Position(0,-12.6);
+
+$basedist + 3803.8;
+	Gradient.BeginTransition();
+	Track['mat'].Position(0,-1.6, 0, -4000);
+
+$basedist + 3886.3;
+	Gradient.End();
+	Track['mat'].Position(0,-0.5);
+
+$basedist + 3940.7;
+
+
+
+$basedist = distance;

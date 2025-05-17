@@ -1,0 +1,26 @@
+BveTs Map 2.02
+
+$basedist = 600;
+
+$basedist;
+	Track[1].Position(4, 0);
+
+	Repeater['Ballast0'].Begin(0, 0, 0, 0, 0, 0, 0, 3, 5, 5, 'Ballast0');
+	Repeater['RailL0'].Begin(0, -0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailL0', 'RailL1', 'RailL2', 'RailL3', 'RailL4');
+	Repeater['RailR0'].Begin(0, 0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailR0', 'RailR1', 'RailR2', 'RailR3', 'RailR4');
+	Repeater['Ballast1'].Begin(1, 0, 0, 0, 0, 0, 0, 3, 5, 5, 'Ballast0');
+	Repeater['RailL1'].Begin(1, -0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailL0', 'RailL1', 'RailL2', 'RailL3', 'RailL4');
+	Repeater['RailR1'].Begin(1, 0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailR0', 'RailR1', 'RailR2', 'RailR3', 'RailR4');
+
+	Repeater['grass'].Begin('mat', 0, 0, 0, 0, 0, 0, 3, 25, 25, 'grass');
+	Beacon.Put(0, 1, 0);
+	Station[0].Put(0,-1,1);
+
+
+$basedist + 700;
+	Section.Begin(0,1,3,4,5);
+	Signal['five'].Put(0, 0, -2.3, 4.5, 0, 0, 0, 0, 0, 0);
+	$SignalPos = distance - 600;
+	include 'map_beacon_abs.txt';
+
+$basedist = distance + 615;

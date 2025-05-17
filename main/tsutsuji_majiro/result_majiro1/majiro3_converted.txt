@@ -1,0 +1,61 @@
+BveTs Map 2.02:utf-8
+
+# offset
+$basedist = 0.000000;
+
+# Track['majiro3'].X
+$basedist + 87.147;
+Track['majiro3'].X.Interpolate(8.898,0.000);
+$basedist + 102.761;
+Track['majiro3'].X.Interpolate(10.464,-1118.874);
+$basedist + 132.761;
+Track['majiro3'].X.Interpolate(13.201,-632.970);
+$basedist + 164.709;
+Track['majiro3'].X.Interpolate(14.763,-1339.132);
+$basedist + 194.709;
+Track['majiro3'].X.Interpolate(15.000,0.000);
+$basedist + 358.136;
+Track['majiro3'].X.Interpolate(15.000,-1166.784);
+$basedist + 388.136;
+Track['majiro3'].X.Interpolate(14.763,-631.993);
+$basedist + 420.085;
+Track['majiro3'].X.Interpolate(13.201,-1279.960);
+$basedist + 450.085;
+Track['majiro3'].X.Interpolate(10.464,0.000);
+$basedist + 465.698;
+Track['majiro3'].X.Interpolate(8.898,0.000);
+
+# Track['majiro3'].Y
+$basedist + 87.147;
+Track['majiro3'].Y.Interpolate(0.000,0.000);
+$basedist + 102.761;
+Track['majiro3'].Y.Interpolate(0.000,0.000);
+$basedist + 132.761;
+Track['majiro3'].Y.Interpolate(0.000,0.000);
+$basedist + 164.709;
+Track['majiro3'].Y.Interpolate(0.000,0.000);
+$basedist + 194.709;
+Track['majiro3'].Y.Interpolate(0.000,0.000);
+$basedist + 358.136;
+Track['majiro3'].Y.Interpolate(0.000,0.000);
+$basedist + 388.136;
+Track['majiro3'].Y.Interpolate(0.000,0.000);
+$basedist + 420.085;
+Track['majiro3'].Y.Interpolate(0.000,0.000);
+$basedist + 450.085;
+Track['majiro3'].Y.Interpolate(0.000,0.000);
+$basedist + 465.698;
+Track['majiro3'].Y.Interpolate(0.000,0.000);
+
+# Track['majiro3'].Cant.Interpolate
+$basedist + 87.147;
+Track['majiro3'].Cant.Interpolate(0.000);
+$basedist + 465.698;
+Track['majiro3'].Cant.Interpolate(0.000);
+
+# Track['majiro3'].Cant.SetFunction
+
+# Track['majiro3'].Cant.SetCenter
+
+# Track['majiro3'].Cant.SetGauge
+

@@ -1,0 +1,53 @@
+BveTs Map 2.02:utf-8
+
+# offset
+$basedist = 0.000000;
+
+# Track['majiro_R18'].X
+$basedist + 0.000;
+Track['majiro_R18'].X.Interpolate(inf,0.000);
+
+# Track['majiro_R18'].Y
+$basedist + 0.000;
+Track['majiro_R18'].Y.Interpolate(0.000,0.000);
+
+# Track['majiro_R18'].Cant.Interpolate
+$basedist + 0.000;
+Track['majiro_R18'].Cant.Interpolate(0.000);
+$basedist + 0.000;
+Track['majiro_R18'].Cant.Interpolate(0.000);
+$basedist + 0.000;
+Track['majiro_R18'].Cant.Interpolate(0.000);
+$basedist + 0.000;
+Track['majiro_R18'].Cant.Interpolate(0.000);
+$basedist + 0.000;
+Track['majiro_R18'].Cant.Interpolate(0.000);
+$basedist + 0.000;
+Track['majiro_R18'].Cant.Interpolate(0.000);
+$basedist + 0.000;
+Track['majiro_R18'].Cant.Interpolate(0.000);
+$basedist + 0.000;
+Track['majiro_R18'].Cant.Interpolate(0.000);
+$basedist + 0.000;
+Track['majiro_R18'].Cant.Interpolate(0.000);
+$basedist + 0.000;
+Track['majiro_R18'].Cant.Interpolate(0.000);
+$basedist + 0.000;
+Track['majiro_R18'].Cant.Interpolate(0.000);
+$basedist + 0.000;
+Track['majiro_R18'].Cant.Interpolate(0.000);
+$basedist + 0.000;
+Track['majiro_R18'].Cant.Interpolate(0.000);
+
+# Track['majiro_R18'].Cant.SetFunction
+$basedist + 0.000;
+Track['majiro_R18'].Cant.SetFunction(1);
+
+# Track['majiro_R18'].Cant.SetCenter
+$basedist + 0.000;
+Track['majiro_R18'].Cant.SetCenter(0.000);
+
+# Track['majiro_R18'].Cant.SetGauge
+$basedist + 0.000;
+Track['majiro_R18'].Cant.SetGauge(0.000);
+

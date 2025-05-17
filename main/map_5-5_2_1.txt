@@ -1,0 +1,95 @@
+BveTs Map 2.02
+
+$basedist + 130;
+	Track['H5-ud'].Position(0, 0, 546.3);
+	Repeater['BallastH5-ud_1'].Begin('H5-ud', 0, 0, 0, 0, 0, 0, 3, 5, 5, 'Ballast0');
+	Repeater['RailLH5-ud_1'].Begin('H5-ud', -0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailL0', 'RailL1', 'RailL2', 'RailL3', 'RailL4');
+	Repeater['RailRH5-ud_1'].Begin('H5-ud', 0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailR0', 'RailR1', 'RailR2', 'RailR3', 'RailR4');
+
+
+$basedist + 164.11;
+	Track['H5-ud'].Position(1.067, 0);
+
+$basedist + 258.089;
+	Track['H5-ud'].Position(8-1.067, 0, -546.3);
+
+$basedist + 292.199;
+	Track['H5-ud'].Position(8, 0);
+	Repeater['BallastH5-ud_1'].End();
+	Repeater['RailLH5-ud_1'].End();
+	Repeater['RailRH5-ud_1'].End();
+
+$basedist + 21.23;
+	Track['j10'].Position(4.000, 0, 5454.544);
+	Track['j10w'].Position(4.000, 0, 5454.544);
+
+$basedist + 31.23;
+	Track['j10'].Position(4.006, 0, 1742.416);
+	Track['j10w'].Position(4.006, 0, 1742.416);
+
+$basedist + 41.73;
+	Track['j10'].Position(4.055, 0, 1461.580);
+	Track['j10w'].Position(4.055, 0, 1461.580);
+
+$basedist + 45.23;
+	Track['j10'].Position(4.087, 0, 1177.779);
+	Track['j10w'].Position(4.087, 0, 1177.779);
+
+$basedist + 72.73;
+	Track['j10'].Position(4.656, 0, 1279.758);
+	Track['j10w'].Position(4.656, 0, 1279.758);
+
+$basedist + 79.119;
+	Track['j10'].Position(4.880, 0, 1377.183);
+	Track['j10w'].Position(4.880, 0, 1377.183);
+
+$basedist + 83.23;
+	Track['j10'].Position(5.043, 0, 2016.076);
+	Track['j10w'].Position(5.043, 0, 2016.076);
+
+$basedist + 94.23;
+	Track['j10'].Position(5.529, 0, 7755.198);
+	Track['j10w'].Position(5.529, 0, 7755.198);
+
+$basedist + 105.23;
+	Track['j10'].Position(6.054, 0, -4199.229);
+	Track['j10w'].Position(6.054, 0, -4199.229);
+
+$basedist + 116.23;
+	Track['j10'].Position(6.576, 0, -1548.287);
+	Track['j10w'].Position(6.576, 0, -1548.287);
+
+$basedist + 129.069;
+	Track['j10'].Position(7.119, 0, -1211.396);
+	Track['j10w'].Position(7.119, 0, -1211.396);
+
+$basedist + 146.23;
+	Track['j10'].Position(7.645, 0, -1200.010);
+	Track['j10w'].Position(7.645, 0, -1200.010);
+
+$basedist + 151.23;
+	Track['j10'].Position(7.752, 0, -1200.008);
+	Track['j10w'].Position(7.752, 0, -1200.008);
+
+$basedist + 156.23;
+	Track['j10'].Position(7.839, 0, -1200.041);
+	Track['j10w'].Position(7.839, 0, -1200.041);
+
+$basedist + 161.23;
+	Track['j10'].Position(7.904, 0, -885.736);
+	Track['j10w'].Position(7.904, 0, -885.736);
+
+$basedist + 161.958;
+	Track['j10'].Position(7.912, 0, -1455.774);
+	Track['j10w'].Position(7.912, 0, -1455.774);
+
+$basedist + 167.23;
+	Track['j10'].Position(7.956, 0, -3200.871);
+	Track['j10w'].Position(7.956, 0, -3200.871);
+
+$basedist + 186.958;
+	Track['j10'].Position(8, 0, 0);
+	Track['j10w'].Position(8, 0, 0);
+
+
+$basedist = $basedist + 340;

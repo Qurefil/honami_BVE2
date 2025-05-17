@@ -1,0 +1,61 @@
+BveTs Map 2.02:utf-8
+
+# offset
+$basedist = 0.000000;
+
+# Track['curve'].X
+$basedist + 10.000;
+Track['curve'].X.Interpolate(5.000,2197.163);
+$basedist + 31.500;
+Track['curve'].X.Interpolate(5.064,1221.196);
+$basedist + 59.993;
+Track['curve'].X.Interpolate(5.658,910.352);
+$basedist + 61.492;
+Track['curve'].X.Interpolate(5.708,2932.455);
+$basedist + 84.973;
+Track['curve'].X.Interpolate(6.652,-2009.864);
+$basedist + 104.458;
+Track['curve'].X.Interpolate(7.424,-1200.860);
+$basedist + 134.450;
+Track['curve'].X.Interpolate(8.068,-2651.971);
+$basedist + 155.950;
+Track['curve'].X.Interpolate(8.132,0.000);
+
+# Track['curve'].Y
+$basedist + 10.000;
+Track['curve'].Y.Interpolate(0.000,0.000);
+$basedist + 31.500;
+Track['curve'].Y.Interpolate(0.000,0.000);
+$basedist + 59.993;
+Track['curve'].Y.Interpolate(0.000,0.000);
+$basedist + 61.492;
+Track['curve'].Y.Interpolate(0.000,0.000);
+$basedist + 84.973;
+Track['curve'].Y.Interpolate(0.000,0.000);
+$basedist + 104.458;
+Track['curve'].Y.Interpolate(0.000,0.000);
+$basedist + 134.450;
+Track['curve'].Y.Interpolate(0.000,0.000);
+$basedist + 155.950;
+Track['curve'].Y.Interpolate(0.000,0.000);
+
+# Track['curve'].Cant.Interpolate
+$basedist + 10.000;
+Track['curve'].Cant.Interpolate(0.000);
+$basedist + 31.500;
+Track['curve'].Cant.Interpolate(0.000);
+$basedist + 61.492;
+Track['curve'].Cant.Interpolate(0.000);
+$basedist + 104.458;
+Track['curve'].Cant.Interpolate(0.000);
+$basedist + 134.450;
+Track['curve'].Cant.Interpolate(0.000);
+$basedist + 155.950;
+Track['curve'].Cant.Interpolate(0.000);
+
+# Track['curve'].Cant.SetFunction
+
+# Track['curve'].Cant.SetCenter
+
+# Track['curve'].Cant.SetGauge
+

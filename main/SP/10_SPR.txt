@@ -1,0 +1,5 @@
+BveTs Map 2.02
+# ちなみにSPはStation.Putの略
+
+$wako_SP;
+	Station['H10'].Put(1,-1,1);

@@ -1,0 +1,5 @@
+BveTs Map 2.02
+# ちなみにSPはStation.Putの略
+
+$koi_SP;
+	Station['H8'].Put(-1,-1,1);

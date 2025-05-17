@@ -1,0 +1,33 @@
+BveTs Map 2.02:utf-8
+
+# Track['majiro_km-9'].X
+$basedist + 358.423;
+	Track['majiro_km-9'].X.Interpolate(50.000,-1405.418);
+	Track['majiro_ku-9w'].X.Interpolate(50.000,-1405.418);
+	Repeater['Ballast_majiro_km-9'].Begin('majiro_km-9', 0, 0, 0, 0, 0, 0, 3, 5, 5, 'Ballast0');
+	Repeater['RailL_majiro_km-9'].Begin('majiro_km-9', -0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailL0', 'RailL1', 'RailL2', 'RailL3', 'RailL4');
+	Repeater['RailR_majiro_km-9'].Begin('majiro_km-9', 0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailR0', 'RailR1', 'RailR2', 'RailR3', 'RailR4');
+
+$basedist + 388.136;
+	Track['majiro_km-9'].X.Interpolate(49.773,-672.039);
+	Track['majiro_ku-9w'].X.Interpolate(49.773,-672.039);
+
+$basedist + 420.034;
+	Track['majiro_km-9'].X.Interpolate(48.301,-971.831);
+	Track['majiro_ku-9w'].X.Interpolate(48.301,-971.831);
+
+$basedist + 450.084;
+	Track['majiro_km-9'].X.Interpolate(45.639, 0);
+	Track['majiro_ku-9w'].X.Interpolate(45.639, 0);
+
+$basedist + 493.663;
+	Track['majiro_km-9'].X.Interpolate(41.270,221.608);
+	Track['majiro_ku-9w'].X.Interpolate(41.270,221.608);
+
+$basedist + 514.985;
+	Track['majiro_km-9'].X.Interpolate(40.000,0);
+	Track['majiro_ku-9w'].X.Interpolate(40.000,0);
+
+$basedist + 552.845;
+	Track['majiro_km-9'].X.Interpolate(40.000,0);
+	Track['majiro_ku-9w'].X.Interpolate(40.000,0);

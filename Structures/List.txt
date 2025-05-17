@@ -1,0 +1,201 @@
+BveTs Structure List 1.00
+RailL0, RailL0.x
+RailL1, RailL1.x
+RailL2, RailL2.x
+RailL3, RailL3.x
+RailL4, RailL4.x
+RailR0, RailR0.x
+RailR1, RailR1.x
+RailR2, RailR2.x
+RailR3, RailR3.x
+RailR4, RailR4.x
+Ballast0, Rail.x
+Ballast1, Rail_trolleyCheck.x
+Rail_1, Rail_1.x
+
+form1, platforms\platform1.x
+
+Ballast1, Ballast1.x
+Ballast2, Ballast2.x
+Ballast3, Ballast3.x
+Ballast4, Ballast4.x
+Grass, Grass.x
+Bg, sky.x
+
+wire, trolley.x
+wire40, trolley40.x
+
+Stop2, stoppingposition2.x
+Stop3, stoppingposition3.x
+Stop4, stoppingposition4.x
+Stop5, stoppingposition5.x
+Stop6, stoppingposition6.x
+Stop7, stoppingposition7.x
+Stop8, stoppingposition8.x
+Stop9, stoppingposition9.x
+Stop10, stoppingposition10.x
+Stop11, stoppingposition11.x
+Stop12, stoppingposition12.x
+Stop13, stoppingposition13.x
+Stop14, stoppingposition14.x
+Stop_a, stoppingposition_all.x
+Stop_p, stoppingposition_pole.x
+
+#signals
+#shunt
+shuntGR, Signals\shunt\shuntg_R.x
+shuntGY, Signals\shunt\shuntg_Y.x
+shuntR, Signals\shunt\shunt_R.x
+shuntY, Signals\shunt\shunt_Y.x
+#3lamp
+3GR, Signals\3\3g_R.x
+3GY, Signals\3\3g_Y.x
+3GG, Signals\3\3g_G.x
+3R, Signals\3\3_R.x
+3Y, Signals\3\3_Y.x
+3G, Signals\3\3_G.x
+3B, Signals\3\3_B.x
+#4lamp_YG
+4B, Signals\4\4_B.x
+4GR, Signals\4\4g_R.x
+4GY1, Signals\4\4g_Y1.x
+4GYG, Signals\4\4g_YG.x
+4GG1, Signals\4\4g_G1.x
+4R, Signals\4\4_R.x
+4Y1, Signals\4\4_Y1.x
+4YG, Signals\4\4_YG.x
+4G1, Signals\4\4_G1.x
+#4lamp_YY
+4GYY, Signals\4\4g_YY.x
+4GY2, Signals\4\4g_Y2.x
+4GG2, Signals\4\4g_G2.x
+4YY, Signals\4\4_YY.x
+4Y2, Signals\4\4_Y2.x
+4G2, Signals\4\4_G2.x
+#5lamp
+5GR, Signals\5\5g_R.x
+5GYY, Signals\5\5g_YY.x
+5GY, Signals\5\5g_Y.x
+5GYG, Signals\5\5g_YG.x
+5GG, Signals\5\5g_G.x
+5R, Signals\5\5_R.x
+5YY, Signals\5\5_YY.x
+5Y, Signals\5\5_Y.x
+5YG, Signals\5\5_YG.x
+5G, Signals\5\5_G.x
+
+
+#TRAIN(real)
+#2600-501h, ..\train\out\2000\2600-501_h.x
+#2600-501l, ..\train\out\2000\2600-501_l.x
+#2600-501b, ..\train\out\2000\2600-501_b.x
+2600-501n, ..\train\out\2000\2600-501_n.x
+
+#2600-502h, ..\train\out\2000\2600-502_h.x
+#2600-502l, ..\train\out\2000\2600-502_l.x
+#2600-502b, ..\train\out\2000\2600-502_b.x
+#2600-502n, ..\train\out\2000\2600-502_n.x
+
+#2600-503h, ..\train\out\2000\2600-503_h.x
+#2600-503l, ..\train\out\2000\2600-503_l.x
+2600-503b, ..\train\out\2000\2600-503_b.x
+#2600-503n, ..\train\out\2000\2600-503_n.x
+
+#2600-504h, ..\train\out\2000\2600-504_h.x
+#2600-504l, ..\train\out\2000\2600-504_l.x
+#2600-504b, ..\train\out\2000\2600-504_b.x
+#2600-504n, ..\train\out\2000\2600-504_n.x
+
+#2600-505h, ..\train\out\2000\2600-505_h.x
+#2600-505l, ..\train\out\2000\2600-505_l.x
+#2600-505b, ..\train\out\2000\2600-505_b.x
+#2600-505n, ..\train\out\2000\2600-505_n.x
+
+#2600-506h, ..\train\out\2000\2600-506_h.x
+#2600-506l, ..\train\out\2000\2600-506_l.x
+#2600-506b, ..\train\out\2000\2600-506_b.x
+#2600-506n, ..\train\out\2000\2600-506_n.x
+
+#2600-507h, ..\train\out\2000\2600-507_h.x
+#2600-507l, ..\train\out\2000\2600-507_l.x
+#2600-507b, ..\train\out\2000\2600-507_b.x
+#2600-507n, ..\train\out\2000\2600-507_n.x
+
+2600-508h, ..\train\out\2000\2600-508_h.x
+#2600-508l, ..\train\out\2000\2600-508_l.x
+#2600-508b, ..\train\out\2000\2600-508_b.x
+#2600-508n, ..\train\out\2000\2600-508_n.x
+
+#2600-509h, ..\train\out\2000\2600-509_h.x
+#2600-509l, ..\train\out\2000\2600-509_l.x
+#2600-509b, ..\train\out\2000\2600-509_b.x
+#2600-509n, ..\train\out\2000\2600-509_n.x
+
+#2600-510h, ..\train\out\2000\2600-510_h.x
+#2600-510l, ..\train\out\2000\2600-510_l.x
+#2600-510b, ..\train\out\2000\2600-510_b.x
+#2600-510n, ..\train\out\2000\2600-510_n.x
+
+
+2650-1001h, ..\train\out\2000\2650-1001_h.x
+#2650-1001l, ..\train\out\2000\2650-1001_l.x
+2650-1001b, ..\train\out\2000\2650-1001_b.x
+#2650-1001n, ..\train\out\2000\2650-1001_n.x
+
+#2650-1002h, ..\train\out\2000\2650-1002_h.x
+#2650-1002l, ..\train\out\2000\2650-1002_l.x
+#2650-1002b, ..\train\out\2000\2650-1002_b.x
+#2650-1002n, ..\train\out\2000\2650-1002_n.x
+
+#2650-1003h, ..\train\out\2000\2650-1003_h.x
+#2650-1003l, ..\train\out\2000\2650-1003_l.x
+#2650-1003b, ..\train\out\2000\2650-1003_b.x
+2650-1003n, ..\train\out\2000\2650-1003_n.x
+
+#2650-1004h, ..\train\out\2000\2650-1004_h.x
+#2650-1004l, ..\train\out\2000\2650-1004_l.x
+#2650-1004b, ..\train\out\2000\2650-1004_b.x
+#2650-1004n, ..\train\out\2000\2650-1004_n.x
+
+#2650-1005h, ..\train\out\2000\2650-1005_h.x
+#2650-1005l, ..\train\out\2000\2650-1005_l.x
+#2650-1005b, ..\train\out\2000\2650-1005_b.x
+#2650-1005n, ..\train\out\2000\2650-1005_n.x
+
+#2650-1006h, ..\train\out\2000\2650-1006_h.x
+#2650-1006l, ..\train\out\2000\2650-1006_l.x
+#2650-1006b, ..\train\out\2000\2650-1006_b.x
+#2650-1006n, ..\train\out\2000\2650-1006_n.x
+
+#2650-1007h, ..\train\out\2000\2650-1007_h.x
+#2650-1007l, ..\train\out\2000\2650-1007_l.x
+#2650-1007b, ..\train\out\2000\2650-1007_b.x
+#2650-1007n, ..\train\out\2000\2650-1007_n.x
+
+#2650-1008h, ..\train\out\2000\2650-1008_h.x
+#2650-1008l, ..\train\out\2000\2650-1008_l.x
+#2650-1008b, ..\train\out\2000\2650-1008_b.x
+2650-1008n, ..\train\out\2000\2650-1008_n.x
+
+#2650-1009h, ..\train\out\2000\2650-1009_h.x
+#2650-1009l, ..\train\out\2000\2650-1009_l.x
+#2650-1009b, ..\train\out\2000\2650-1009_b.x
+#2650-1009n, ..\train\out\2000\2650-1009_n.x
+
+#2650-1010h, ..\train\out\2000\2650-1010_h.x
+#2650-1010l, ..\train\out\2000\2650-1010_l.x
+#2650-1010b, ..\train\out\2000\2650-1010_b.x
+#2650-1010n, ..\train\out\2000\2650-1010_n.x
+
+
+2100-1, ..\train\out\2000\2100-1.x
+2100-2, ..\train\out\2000\2100-1.x
+2100-3, ..\train\out\2000\2100-1.x
+2100-4, ..\train\out\2000\2100-1.x
+2100-5, ..\train\out\2000\2100-1.x
+2100-6, ..\train\out\2000\2100-1.x
+
+#TRAIN(alpha)
+2100-0a, ..\train\out\2000\2100-0_a.x
+2650-1000a, ..\train\out\2000\2650-1000_a.x
+2600-500a, ..\train\out\2000\2600-500_a.x

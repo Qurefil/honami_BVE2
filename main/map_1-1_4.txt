@@ -1,0 +1,375 @@
+BveTs Map 2.02
+
+$basedist + 0;
+	Curve.BeginTransition();
+
+$basedist + 30;
+	Curve.Begin(-412.128, 0.05);
+	SpeedLimit.Begin(70);
+
+$basedist + 54.666;
+	Curve.BeginTransition();
+
+$basedist + 114.666;
+	Curve.Begin(400.2, 0.05);
+
+$basedist + 137.500;
+	Curve.BeginTransition();
+
+$basedist + 167.500;
+	Curve.End();
+
+$basedist + 250;
+	Curve.BeginTransition();
+
+$basedist + 280;
+	Curve.Begin(430);
+
+$basedist + 285.825;
+	Curve.BeginTransition();
+
+$basedist + 315.825;
+	Curve.End();
+	SpeedLimit.End();
+
+$basedist + 449.159;
+	Curve.Begin(-307.3);
+	SpeedLimit.Begin(45);
+
+$basedist + 474.903;
+	Curve.End();
+	SpeedLimit.End();
+
+
+$basedist + 0;
+	Track['M-m'].position(8, 0, 787.483);
+	Track['M-k'].position(4, 0, 787.483);
+	Track['j4w'].position(4, 0, 787.483);
+	Track['j10w'].position(8, 0, 787.483);
+
+$basedist + 30;
+	Track['M-m'].position(8.362, 0, 400.159);
+	Track['M-k'].position(4.362, 0, 400.159);
+	Track['j4w'].position(4.362, 0, 400.159);
+	Track['j10w'].position(8.362, 0, 400.159);
+
+$basedist + 53.642;
+	Track['M-m'].position(9.923, 0, 426.295);
+	Track['M-k'].position(5.923, 0, 426.295);
+	Track['j4w'].position(5.923, 0, 426.295);
+	Track['j10w'].position(9.923, 0, 426.295);
+
+$basedist + 54.666;
+	Track['M-m'].position(10.022, 0, 544.526);
+	Track['M-k'].position(6.022, 0, 544.526);
+	Track['j4w'].position(6.022, 0, 544.526);
+	Track['j10w'].position(10.022, 0, 544.526);
+	#ﾐｽ方出発　①のみ5灯、②～④4灯YY
+	#全番入替あり、付属信号機はなし
+
+$basedist + 67.38;
+	Track['M-m'].position(11.437, 0, 1927.637);
+	Track['M-k'].position(7.437, 0, 1927.637);
+	Track['j4w'].position(7.437, 0, 1927.637);
+	Track['j10w'].position(11.437, 0, 1927.637);
+	#ホーム開始
+	Repeater['H1-4form'].Begin(0, 0,0,0, 0,180,0, 0,0,2.1, 'form1');
+	Repeater['H1-3form'].Begin('M-k', 0,0,0, 0,0,0, 0,0,2.1, 'form1');
+	Repeater['H1-2form'].Begin('M-m', 0,0,0, 0,180,0, 0,0,2.1, 'form1');
+	Repeater['H1-1form'].Begin('j10', 0,0,0, 0,0,0, 0,0,2.1, 'form1');
+
+$basedist + 84.147;
+	Track['M-m'].position(13.610, 0, -1097.452);
+	Track['M-k'].position(9.61, 0, -1097.452);
+	Track['j4w'].position(9.61, 0, -1097.452);
+	Track['j10w'].position(13.610, 0, -1097.452);
+
+$basedist + 101.143;
+	Track['M-m'].position(15.785, 0, -486.737);
+	Track['M-k'].position(11.785, 0, -486.737);
+	Track['j4w'].position(11.785, 0, -486.737);
+	Track['j10w'].position(15.785, 0, -486.737);
+
+$basedist + 114.666;
+	Track['M-m'].position(17.222, 0, -403.255);
+	Track['M-k'].position(13.222, 0, -403.255);
+	Track['j4w'].position(13.222, 0, -403.255);
+	Track['j10w'].position(17.222, 0, -403.255);
+
+$basedist + 136.106;
+	Track['M-m'].position(18.617, 0, -598.177);
+	Track['M-k'].position(14.617, 0, -598.177);
+	Track['j4w'].position(14.617, 0, -598.177);
+	Track['j10w'].position(18.617, 0, -598.177);
+
+$basedist + 137.5;
+	Track['M-m'].position(18.669, 0, -887.732);
+	Track['M-k'].position(14.669, 0, -887.732);
+	Track['j4w'].position(14.669, 0, -887.732);
+	Track['j10w'].position(18.669, 0, -887.732);
+
+$basedist + 167.695;
+	Track['M-m'].position(19.02, 0);
+	Track['M-k'].position(15.02, 0);
+	Track['j4w'].position(15.02, 0);
+	Track['j10w'].position(19.02, 0);
+
+$basedist + 250;
+	Track['M-m'].position(19.02, 0, -9054.184);
+	Track['M-k'].position(15.02, 0, -9054.184);
+	Track['j4w'].position(15.02, 0, -9054.184);
+	Track['j10w'].position(19.02, 0, -9054.184);
+
+$basedist + 250.696;
+	Track['M-m'].position(19.02, 0, -844.290);
+	Track['M-k'].position(15.02, 0, -844.290);
+	Track['j4w'].position(15.02, 0, -844.290);
+	Track['j10w'].position(19.02, 0, -844.290);
+
+$basedist + 280;
+	Track['M-m'].position(18.651, 0, -280.208);
+	Track['M-k'].position(14.651, 0, -280.208);
+	Track['j4w'].position(14.651, 0, -280.208);
+	Track['j10w'].position(18.651, 0, -280.208);
+
+$basedist + 281.26;
+	Track['M-m'].position(18.606, 0, -506.134);
+	Track['M-k'].position(14.606, 0, -506.134);
+	Track['j4w'].position(14.606, 0, -506.134);
+	Track['j10w'].position(18.606, 0, -506.134);
+
+$basedist + 285.825;
+	Track['M-m'].position(18.414, 0, -372.239);
+	Track['M-k'].position(14.414, 0, -372.239);
+	Track['j4w'].position(14.414, 0, -372.239);
+	Track['j10w'].position(18.414, 0, -372.239);
+
+$basedist + 287.454;
+	Track['M-m'].position(18.334, 0, -929.364);
+	Track['M-k'].position(14.334, 0, -929.364);
+	Track['j4w'].position(14.334, 0, -929.364);
+	Track['j10w'].position(18.334, 0, -929.364);
+
+$basedist + 315.825;
+	Track['M-m'].position(16.278, 0);
+	Track['M-k'].position(12.278, 0);
+	Track['j4w'].position(12.278, 0);
+	Track['j10w'].position(16.278, 0);
+
+$basedist + 369.38;
+	#ホーム終了
+	Repeater['H1-4form'].End();
+$basedist + 369.38;
+	Repeater['H1-3form'].End();
+$basedist + 369.38;
+	Repeater['H1-2form'].End();
+$basedist + 369.38 + 2;
+	Repeater['H1-1form'].End();
+
+$basedist + 449.159;
+	Track['M-m'].position(5.067, 0, 307.3);
+	Track['M-k'].position(1.067, 0, 307.3);
+	Track['j4w'].position(1.067, 0, 307.3);
+	Track['j10w'].position(5.067, 0, 307.3);
+
+$basedist + 474.903;
+	Track['M-m'].position(4, 0);
+	Track['M-k'].position(0, 0);
+	Track['j4w'].position(0, 0);
+	Track['j10w'].position(4, 0);
+	Repeater['BallastM-m2'].End();
+	Repeater['RailLM-m2'].End();
+	Repeater['RailRM-m2'].End();
+	Repeater['BallastM-k2'].End();
+	Repeater['RailLM-k2'].End();
+	Repeater['RailRM-k2'].End();
+
+# Track['j10'].X
+$basedist + 0;
+	Track['j10'].X.Interpolate(11.991,375.764);
+	Track['M-mw'].position(12, 0);
+
+$basedist + 30;
+	Track['j10'].X.Interpolate(12.745,188.709);
+	Track['M-mw'].position(12.745, 0);
+
+$basedist + 53.175;
+	Track['j10'].X.Interpolate(15.914,313.366);
+	Track['M-mw'].position(15.914, 0);
+
+$basedist + 54.666;
+	Track['j10'].X.Interpolate(16.216,-1960.068);
+	Track['M-mw'].position(16.216, 0);
+
+$basedist + 111.591;
+	Track['j10'].X.Interpolate(30.180,-213.883);
+	Track['M-mw'].position(30.18, 0);
+
+$basedist + 114.666;
+	Track['j10'].X.Interpolate(30.724,-220.623);
+	Track['M-mw'].position(30.724, 0);
+
+$basedist + 136.184;
+	Track['j10'].X.Interpolate(33.295,-323.053);
+	Track['M-mw'].position(33.295, 0);
+
+$basedist + 137.5;
+	Track['j10'].X.Interpolate(33.384,-483.935);
+	Track['M-mw'].position(33.384, 0);
+
+$basedist + 167.516;
+	Track['j10'].X.Interpolate(34.040,0);
+	Track['M-mw'].position(33.9, 0);
+
+$basedist + 250;
+	Track['j10'].X.Interpolate(34.01,-106.779);
+	Track['M-mw'].position(34, 0);
+
+$basedist + 250.016;
+	Track['j10'].X.Interpolate(34.01,-470.703);
+	Track['M-mw'].position(34, 0);
+
+$basedist + 280.000;
+	Track['j10'].X.Interpolate(33.345,-157.153);
+	Track['M-mw'].position(33.345, 0);
+
+$basedist + 281.292;
+	Track['j10'].X.Interpolate(33.260,-272.750);
+	Track['M-mw'].position(33.26, 0);
+
+$basedist + 285.825;
+	Track['j10'].X.Interpolate(32.909,-199.825);
+	Track['M-mw'].position(32.91, 0);
+
+$basedist + 287.552;
+	Track['j10'].X.Interpolate(32.751,-413.263);
+	Track['M-mw'].position(32.751, 0);
+
+$basedist + 315.825;
+	Track['j10'].X.Interpolate(28.772,0.000);
+	Track['M-mw'].position(28.772, 0);
+
+$basedist + 318.207;
+	Track['j10'].X.Interpolate(28.369,0.000);
+	Track['M-mw'].position(28.369, 0);
+
+$basedist + 449.666;
+	Track['j10'].X.Interpolate(6.135,157.864);
+	Track['M-mw'].position(6.135, 0);
+	Track['M-kw'].position(0, 0);
+
+$basedist + 474.897;
+	Track['j10'].X.Interpolate(4.000,0.000);
+	Track['M-mw'].position(3, 0.05);
+	Track['M-kw'].position(1, 0.05);
+
+($basedist + 474.897) - (($basedist + 474.897) % 50) + 100;
+	Track['M-mw'].position(7, 0.1);
+	Track['M-kw'].position(-3, 0.1);
+	Repeater['wireM-m'].End();
+	Repeater['wireM-k'].End();
+
+# Track['j10'].Cant.Interpolate
+$basedist + 0.000;
+	Track['j10'].Cant.Interpolate(0.000);
+
+$basedist + 100.000;
+	Track['j10'].Cant.Interpolate(0.000);
+
+$basedist + 129.552;
+	Track['j10'].Cant.Interpolate(0.050);
+
+$basedist + 153.175;
+	Track['j10'].Cant.Interpolate(0.050);
+
+$basedist + 261.591;
+	Track['j10'].Cant.Interpolate(0.050);
+
+$basedist + 286.184;
+	Track['j10'].Cant.Interpolate(0.050);
+
+$basedist + 317.516;
+	Track['j10'].Cant.Interpolate(0.000);
+
+
+$basedist + 20;
+	Section.Begin(0,2);
+	Signal['shunt'].Put(0, 'j4', -2.3, 3.8, 0, 0, 0, 0, 0, 0);
+	Signal['shuntR'].Put(0, 'M-k', -2.3, 3.8, 0, 0, 0, 0, 0, 0);
+	Signal['shuntR'].Put(0, 'M-m', -2.3, 3.8, 0, 0, 0, 0, 0, 0);
+	Signal['shuntR'].Put(0, 'j10', 2.3, 3.8, 0, 0, 0, 0, 0, 0);
+	Signal['fourR'].Put(0, 'j4', -2.3, 4.7, 0, 0, 0, 0, 0, 0);
+	Signal['threeR'].Put(0, 'M-k', -2.3, 4.6, 0, 0, 0, 0, 0, 0);
+	Signal['threeR'].Put(0, 'M-m', -2.3, 4.6, 0, 0, 0, 0, 0, 0);
+	Signal['fourR'].Put(0, 'j10', 2.3, 4.7,0, 0, 0, 0, 0, 0);
+	#信号機設置 中2線は3灯式、端2線は4灯式YG
+
+$basedist + 254.94;
+	#3連停止位置(2連兼用)
+	Structure['Stop_p'].Put(0,-2.25,1,0,0,0,0,0,0);
+	Structure['Stop3'].Put(0,-2.25,2.15,0,0,0,0,0,0);
+	Structure['Stop2'].Put(0,-2.25,1.8,0,0,0,0,0,0);
+	$kamiya2 = distance;
+	$kamiya3 = distance;
+
+$basedist + 274.94;
+	#6連停止位置(4-5連兼用)
+	Structure['Stop_p'].Put(0,-2.25,1,0,0,0,0,0,0);
+	Structure['Stop6'].Put(0,-2.25,2.15,0,0,0,0,0,0);
+	Structure['Stop5'].Put(0,-2.25,1.8,0,0,0,0,0,0);
+	Structure['Stop4'].Put(0,-2.25,1.45,0,0,0,0,0,0);
+	$kamiya4 = distance;
+	$kamiya5 = distance;
+	$kamiya6 = distance;
+
+$basedist + 294.94;
+	#8連停止位置(7連兼用)
+	Structure['Stop_p'].Put(0,-2.25,1,0,0,0,0,0,0);
+	Structure['Stop8'].Put(0,-2.25,2.15,0,0,0,0,0,0);
+	Structure['Stop7'].Put(0,-2.25,1.73,0,0,0,0,0,0);
+	Beacon.Put(3, -1, 0);
+	$kamiya7 = distance;
+	$kamiya8 = distance;
+
+$basedist + 334.94;
+	#12連停止位置(9-11連兼用)
+	Structure['Stop_p'].Put(0,-2.25,1,0,0,0,0,0,0);
+	Structure['Stop12'].Put(0,-2.25,2.15,0,0,0,0,0,0);
+	Structure['Stop11'].Put(0,-2.25,1.73,0,0,0,0,0,0);
+	Structure['Stop10'].Put(0,-2.25,1.31,0,0,0,0,0,0);
+	Structure['Stop9'].Put(0,-2.25,0.89,0,0,0,0,0,0);
+	$kamiya9 = distance;
+	$kamiya10 = distance;
+	$kamiya11 = distance;
+	$kamiya12 = distance;
+
+$basedist + 354.94;
+	#14連停止位置(13連兼用)
+	Structure['Stop_p'].Put(0,-2.25,1,0,0,0,0,0,0);
+	Structure['Stop14'].Put(0,-2.25,2.15,0,0,0,0,0,0);
+	Structure['Stop13'].Put(0,-2.25,1.73,0,0,0,0,0,0);
+	Beacon.Put(3, -1, 0);
+	$kamiya13 = distance;
+	$kamiya14 = distance;
+
+$basedist + 367;
+	Structure['Stop_p'].Put(0,-2.25,1,0,0,0,0,0,0);
+$basedist + 67;
+	Structure['Stop_p'].Put(0,-2.25,1,0,0,0,0,0,0);
+
+$basedist + 404.94 - (283.5+17);
+	#Train.Add('102A', 'YS2201_14B.txt', 'M-k', 1);
+	#Train['102A'].Stop(2, 0, 0, 0);
+
+$basedist + 401;
+	$SignalPos = distance - 600;
+	include 'map_beacon_abs_dep.txt';
+	Section.Begin(0,1,3,5);
+	Signal['fourY'].Put(0, 'j4', -2.3, 4.7, 0, 0, 0, 0, 0, 0);
+	Signal['threeR'].Put(0, 'M-k', -2.3, 4.6, 0, 0, 0, 0, 0, 0);
+	Signal['threeR'].Put(0, 'M-m', 2.3, 4.6, 0, 0, 0, 0, 0, 0);
+	Signal['fourR'].Put(0, 'j10', 2.3, 4.7,0, 0, 0, 0, 0, 0);
+
+
+$basedist + 552.88;
+$basedist = distance;

@@ -1,0 +1,23 @@
+BveTs Map 2.02:utf-8
+
+# offset
+$basedist = 0.000000;
+
+# Track['22point'].X
+$basedist + 1.752;
+Track['22point'].X.Interpolate(-27.845,0.000);
+
+# Track['22point'].Y
+$basedist + 1.752;
+Track['22point'].Y.Interpolate(0.000,0.000);
+
+# Track['22point'].Cant.Interpolate
+$basedist + 1.752;
+Track['22point'].Cant.Interpolate(0.000);
+
+# Track['22point'].Cant.SetFunction
+
+# Track['22point'].Cant.SetCenter
+
+# Track['22point'].Cant.SetGauge
+

@@ -1,0 +1,108 @@
+BveTs Map 2.02
+
+$basedist + 52;
+	Curve.BeginTransition();
+	Track['j10'].Cant.BeginTransition();
+
+$basedist + 132;
+	Curve.Begin(685, 0.08);
+	SpeedLimit.Begin(95);
+	Track['j10'].Cant.Begin(0.08);
+
+$basedist + 166.2;
+	Curve.BeginTransition();
+	Track['j10'].Cant.BeginTransition();
+
+$basedist + 246.2;
+	Curve.End();
+	SpeedLimit.End();
+	Track['j10'].Cant.End();
+
+$basedist + 316.2;
+	Curve.BeginTransition();
+	Track['j10'].Position(4, 0);
+	Track['j10w'].Position(4, 0);
+	Track['j10'].Cant.BeginTransition();
+
+$basedist + 381.2;
+	Curve.Begin(-800, 0.07);
+	SpeedLimit.Begin(100);
+	Track['j10'].Cant.Begin(-0.07);
+
+$basedist + 605.9;
+	Curve.BeginTransition();
+	Track['j10'].Cant.BeginTransition();
+	$SignalPos = distance - 600;
+	include 'map_beacon_block.txt';
+	Section.Begin(0,3,5);
+	Signal['three'].Put(0, 'j4', -2.3, 4.5, 0, 0, 0, 0, 0, 0);
+
+$basedist + 660.9;
+	Curve.End();
+	SpeedLimit.End();
+	Track['j10'].Cant.End();
+
+$basedist + 728.9;
+	Gradient.BeginTransition();
+	Track['mat'].position(0, -0.4, 0, -3000);
+
+$basedist + 811.4;
+	Gradient.Begin(27.5);
+	#地上1.14m
+	Track['mat'].position(0, -0.4-1.14);
+
+$basedist + 1238.1;
+	Gradient.BeginTransition();
+	# 地上12.87m
+	Track['mat'].position(0, -0.4-12.87, 0, 3000);
+
+$basedist + 1320.6;
+	Gradient.Begin(-0.5);
+	# 地上14m、以下同じ
+	Track['mat'].position(0, -0.4-14);
+
+$basedist + 1336.2;
+	Gradient.BeginTransition();
+
+$basedist + 1437.7;
+	Gradient.End();
+
+$basedist + 1500;
+	$SignalPos = distance - 600;
+	include 'map_beacon_block.txt';
+	Section.Begin(0,3,5);
+	Signal['three'].Put(0, 'j4', -2.3, 4.5, 0, 0, 0, 0, 0, 0);
+
+$basedist + 1714;
+	Gradient.BeginTransition();
+
+$basedist + 1723;
+	Gradient.Begin(3);
+
+$basedist + 1840;
+	$SignalPos = distance - 600;
+	include 'map_beacon_block_3.txt';
+	Section.Begin(0,3,5);
+	Signal['three'].Put(0, 'j4', -2.3, 4.5, 0, 0, 0, 0, 0, 0);
+
+$basedist + 2010.1;
+	Gradient.BeginTransition();
+
+$basedist + 2019.1;
+	Gradient.End();
+
+$basedist + 2496;
+	$SignalPos = distance - 600;
+	include 'map_beacon_block.txt';
+	Section.Begin(0,3,5);
+	Signal['three'].Put(0, 'j4', -2.3, 4.5, 0, 0, 0, 0, 0, 0);
+
+$basedist + 3107;
+	$SignalPos = distance - 600;
+	include 'map_beacon_block.txt';
+	Section.Begin(0,1,3,5);
+	Signal['fourY'].Put(0, 'j4', -2.3, 4.5, 0, 0, 0, 0, 0, 0);
+
+$basedist + 3580;
+
+$basedist = distance;

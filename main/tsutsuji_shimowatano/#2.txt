@@ -1,0 +1,31 @@
+BveTs Map 2.02
+
+10;
+	Curve.Begin(0);
+
+590;
+	Curve.Begin(546.3); #16番分岐
+
+624.13;
+	Curve.End();
+
+654.02;
+	Curve.Begin(-546.3); #16番分岐
+
+688.15;
+	Curve.End();
+
+1255.1;
+	Curve.Begin(-546.3); #16番分岐
+
+1289.23;
+	Curve.End();
+
+1319.12;
+	Curve.Begin(546.3); #16番分岐
+
+1353.25;
+	Curve.End();
+
+1400;
+	Curve.End();

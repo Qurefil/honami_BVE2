@@ -1,0 +1,55 @@
+BveTs Map 2.02:utf-8
+
+# offset
+$basedist = 0.000000;
+
+# Track['majiro_km'].X
+$basedist + 283.726;
+Track['majiro_km'].X.Interpolate(nan,198.993);
+$basedist + 287.514;
+Track['majiro_km'].X.Interpolate(569.024,160.025);
+$basedist + 342.603;
+Track['majiro_km'].X.Interpolate(476.457,163.531);
+$basedist + 358.136;
+Track['majiro_km'].X.Interpolate(465.095,80.562);
+$basedist + 388.136;
+Track['majiro_km'].X.Interpolate(453.463,-795.714);
+$basedist + 420.085;
+Track['majiro_km'].X.Interpolate(448.044,-70.335);
+$basedist + 435.195;
+Track['majiro_km'].X.Interpolate(443.432,0.000);
+
+# Track['majiro_km'].Y
+$basedist + 283.726;
+Track['majiro_km'].Y.Interpolate(nan,0.000);
+$basedist + 287.514;
+Track['majiro_km'].Y.Interpolate(0.000,0.000);
+$basedist + 342.603;
+Track['majiro_km'].Y.Interpolate(0.000,0.000);
+$basedist + 358.136;
+Track['majiro_km'].Y.Interpolate(0.000,0.000);
+$basedist + 388.136;
+Track['majiro_km'].Y.Interpolate(0.000,0.000);
+$basedist + 420.085;
+Track['majiro_km'].Y.Interpolate(0.000,0.000);
+$basedist + 435.195;
+Track['majiro_km'].Y.Interpolate(0.000,0.000);
+
+# Track['majiro_km'].Cant.Interpolate
+$basedist + 435.195;
+Track['majiro_km'].Cant.Interpolate(0.000);
+$basedist + 342.603;
+Track['majiro_km'].Cant.Interpolate(0.070);
+$basedist + 287.514;
+Track['majiro_km'].Cant.Interpolate(0.068);
+$basedist + 283.726;
+Track['majiro_km'].Cant.Interpolate(nan);
+$basedist + 283.726;
+Track['majiro_km'].Cant.Interpolate(nan);
+
+# Track['majiro_km'].Cant.SetFunction
+
+# Track['majiro_km'].Cant.SetCenter
+
+# Track['majiro_km'].Cant.SetGauge
+

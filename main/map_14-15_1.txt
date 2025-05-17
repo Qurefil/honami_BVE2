@@ -1,0 +1,33 @@
+BveTs Map 2.02
+
+# とんねるつくる？
+
+$basedist + 121.2;
+	Gradient.BeginTransition();
+	Track['mat'].Position(0, -0.5, 0, -4000);
+
+$basedist + 233.2;
+	Gradient.Begin(28);
+	Track['mat'].Position(0, -2);
+
+$basedist + 692.8;
+	Gradient.BeginTransition();
+	Track['mat'].Position(0, -14.5, 0, -4000);
+
+$basedist + 804.8;
+	Gradient.End();
+	Track['mat'].Position(0, -16.5);
+
+$basedist + 810;
+	Curve.BeginTransition();
+
+$basedist + 894;
+	Curve.Begin(-790, 0.07);
+
+$basedist + 1040;
+	Curve.BeginTransition();
+
+$basedist + 1124;
+	Curve.End();
+
+$basedist = distance;

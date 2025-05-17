@@ -1,0 +1,101 @@
+BveTs Map 2.02
+
+$basedist + 37;
+	Curve.BeginTransition();
+
+$basedist + 96;
+	Track['mat'].Position(0,-0.4);
+	# ここからTN
+
+$basedist + 127;
+	SpeedLimit.Begin(125);
+	Curve.Begin(820, 0.072);
+
+$basedist + 144;
+	Gradient.BeginTransition();
+
+$basedist + 201;
+	Gradient.Begin(19);
+
+$basedist + 309;
+	SpeedLimit.End();
+	Curve.BeginTransition();
+
+$basedist + 399;
+	Curve.End();
+
+$basedist + 410;
+	Gradient.BeginTransition();
+
+$basedist + 431;
+	Gradient.Begin(12);
+
+$basedist + 444;
+	Curve.BeginTransition();
+
+$basedist + 523;
+	$SignalPos = distance - 600;
+	include 'map_beacon_block.txt';
+	Section.Begin(0,3,5);
+	Signal['three'].Put(0, 'j4', -2.3, 4.5, 0, 0, 0, 0, 0, 0);
+
+$basedist + 556;
+	SpeedLimit.Begin(120);
+	Curve.Begin(-703, 0.090);
+
+$basedist + 598;
+	SpeedLimit.End();
+	Gradient.BeginTransition();
+
+$basedist + 635;
+	Gradient.Begin(3);
+
+$basedist + 673;
+	Gradient.BeginTransition();
+
+$basedist + 697;
+	Gradient.Begin(-5);
+
+$basedist + 711;
+	Curve.BeginTransition();
+
+$basedist + 823;
+	Curve.End();
+
+$basedist + 1190;
+	$SignalPos = distance - 600;
+	include 'map_beacon_block.txt';
+	Section.Begin(0,3,5);
+	Signal['three'].Put(0, 'j4', -2.3, 4.5, 0, 0, 0, 0, 0, 0);
+
+$basedist + 1536;
+	Curve.BeginTransition();
+
+$basedist + 1642;
+	SpeedLimit.Begin(125);
+	Curve.Begin(785);
+
+$basedist + 1790;
+	SpeedLimit.End();
+	Curve.BeginTransition();
+
+$basedist + 1825;
+	$SignalPos = distance - 600;
+	include 'map_beacon_block.txt';
+	Section.Begin(0,3,5);
+	Signal['three'].Put(0, 'j4', -2.3, 4.5, 0, 0, 0, 0, 0, 0);
+
+$basedist + 1881;
+	Track['mat'].Position(0,-18.4);
+	# TNおわり
+
+$basedist + 1896;
+	Curve.End();
+
+$basedist + 1912;
+	Gradient.BeginTransition();
+
+$basedist + 1918;
+	Gradient.Begin(-7);
+
+$basedist + 1985; $basedist = distance;

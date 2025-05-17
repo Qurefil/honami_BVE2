@@ -1,0 +1,21 @@
+BveTs Map 2.02
+
+$basedist;
+	include 'map_5-5_2/majiro4.txt';
+	# include 'map_5-5_2/majiro_ku.txt';
+	include 'map_5-5_2/majiro_ku-5.txt';
+	include 'map_5-5_2/majiro_ku-7.txt';
+	include 'map_5-5_2/majiro_ku-9.txt';
+
+$basedist + 319.684744;
+	include 'map_5-5_2/majiro4_2.txt';
+	include 'map_5-5_2/majiro4-5.txt';
+	include 'map_5-5_2/majiro4-7.txt';
+	include 'map_5-5_2/majiro4-9.txt';
+
+$basedist + 346;
+	include 'map_beacon_abs_dep.txt';
+	Section.Begin(0,1,2,3,4);
+	
+$basedist + 370;
+$basedist = distance;

@@ -1,0 +1,152 @@
+BveTs Map 2.02
+
+# basedist = 現在 - 908.95
+
+$basedist + 27.05;
+	#ここから片1車線くらいの踏切を置きたい　願望なんで適当でいいっす 大船みたいな
+
+$basedist + 66.05;
+	Curve.BeginTransition(); #緩和曲線20.00m
+	Track['j10'].Cant.BeginTransition();
+
+$basedist + 86.05;
+	Curve.Begin(500, 0.034);
+	Track['j10'].Cant.Begin(0.034);
+
+$basedist + 161.05;
+	Curve.BeginTransition(); #緩和曲線20.00m
+	Track['j10'].Cant.BeginTransition();
+
+$basedist + 181.05;
+	Curve.End();
+	Track['j10'].Cant.End();
+
+$basedist + 191.05;
+	Track['M-k'].position(-24.55, 0);
+	Track['M-kw'].position(-24.55, 0);
+	Track['M-k'].Cant.BeginTransition();
+	Track['M-m'].position(-20.5, -4.06);
+	Track['M-mw'].position(-20.5, -4.06);
+	Repeater['BallastM-m'].Begin('M-m', 0, 0, 0, 0, 0, 0, 3, 5, 5, 'Ballast0');
+	Repeater['RailLM-m'].Begin('M-m', -0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailL0', 'RailL1', 'RailL2', 'RailL3', 'RailL4');
+	Repeater['RailRM-m'].Begin('M-m', 0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailR0', 'RailR1', 'RailR2', 'RailR3', 'RailR4');
+	Repeater['wireM-m'].Begin('M-mw', 0, 0, 0, 0, 0, 0, 1, 50, 50, 'wire');
+	Repeater['BallastM-k'].Begin('M-k', 0, 0, 0, 0, 0, 0, 3, 5, 5, 'Ballast0');
+	Repeater['RailLM-k'].Begin('M-k', -0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailL0', 'RailL1', 'RailL2', 'RailL3', 'RailL4');
+	Repeater['RailRM-k'].Begin('M-k', 0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailR0', 'RailR1', 'RailR2', 'RailR3', 'RailR4');
+	Repeater['wireM-k'].Begin('M-kw', 0, 0, 0, 0, 0, 0, 1, 50, 50, 'wire');
+
+$basedist + 287.06;
+	Track['M-k'].position(-10.83, 0, -685);
+	Track['M-kw'].position(-10.83, 0, -685);
+	Track['M-k'].Cant.Begin(0.06); #制限90くらい
+	Track['M-m'].position(-6.79, -6.66, 0, 3000);
+	Track['M-mw'].position(-6.79, -6.66, 0, 3000);
+
+$basedist + 327.59;
+	Track['M-m'].position(-1, -7);
+	Track['M-mw'].position(-1, -7);
+	Track['M-m'].Cant.BeginTransition();
+
+$basedist + 333.45;
+	Track['M-m'].position(-0.1633, -7, -800); #7番相当(交差角度8.17°)
+	Track['M-m'].Cant.Begin(0.025); #制限80くらい
+	Track['M-mw'].position(-0.1633, -7, -800);
+
+$basedist + 366.79;
+	Track['M-k'].position(-4.4, 0, -2000);
+	Track['M-kw'].position(-4.4, 0, -2000);
+	Track['M-k'].Cant.BeginTransition();
+$basedist + 391.79;
+	Track['M-k'].position(-4.1, 0, -5000);
+	Track['M-kw'].position(-4.1, 0, -5000);
+$basedist + 411.79;
+	Track['M-k'].position(-4, 0);
+	Track['M-kw'].position(-4, 0);
+	Track['M-k'].Cant.End();
+	Track['M-m'].Cant.BeginTransition();
+
+$basedist + 447.15;
+	Track['M-m'].position(8, -7, 0);
+	Track['M-mw'].position(8, -7, 0);
+	Track['M-m'].Cant.End(); 
+$basedist + 472.15;
+	Track['M-m'].position(8, -7, 0, 3000);
+	Track['M-mw'].position(8, -7, 0, 3000);
+$basedist + 562.15;
+	Track['M-m'].position(8, -5.65); #30‰
+	Track['M-mw'].position(8, -5.65); #30‰
+
+$basedist + 705.49;
+	Track['M-m'].position(8, -1.35, 0, -3000);
+	Track['M-mw'].position(8, -1.35, 0, -3000);
+
+$basedist + 795.48;
+	Track['M-m'].position(8, 0);
+	Track['M-mw'].position(8, 0);
+	Track['M-k'].position(-4, 0);
+	Track['M-kw'].position(-4, 0);
+	Section.Begin(0,2);
+	Signal['shunt'].Put(0, 'j4', -2, 0, 0, 0, 0, 0, 0, 0);
+	Signal['shuntR'].Put(0, 'j10', 2, 0, 0, 0, 0, 0, 0, 0);
+	#入替にも番線(進路)表示器つける
+	Signal['fourR'].Put(0, 'M-k', -2.3, 4.5, 0, 0, 0, 0, 0, 0);
+	#美下場　4灯YG+番線表示1～4
+	#美上発　3灯
+	Structure['3B'].Put('M-m',2.3,4.5,0,0,0,0,0,0);
+
+($basedist + 824.05) - ($basedist + 824.05) % 50; // だいたい2150m地点
+	Track['M1-1w'].position(11, 0.05);
+	Track['M1-2w'].position(-7, 0.05);
+	Repeater['wireM1-1'].Begin('M1-1w', 0, 0, 0, 0, 0, 0, 1, 50, 50, 'wire');
+	Repeater['wireM1-2'].Begin('M1-2w', 0, 0, 0, 0, 0, 0, 1, 50, 50, 'wire');
+
+$basedist + 824.05;
+	Track['M-m'].position(8, 0, -307.3);
+	Track['M-mw'].position(8, 0);
+	Track['M-k'].position(-4, 0, 307.3);
+	Track['M-kw'].position(-4, 0);
+	Track['M1-1'].position(8, 0);
+	Track['M1-1w'].position(8, 0.05);
+	Track['M1-2'].position(-4, 0);
+	Track['M1-2w'].position(-4, 0.05);
+	Repeater['BallastM1-1'].Begin('M1-1', 0, 0, 0, 0, 0, 0, 3, 5, 5, 'Ballast0');
+	Repeater['RailLM1-1'].Begin('M1-1', -0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailL0', 'RailL1', 'RailL2', 'RailL3', 'RailL4');
+	Repeater['RailRM1-1'].Begin('M1-1', 0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailR0', 'RailR1', 'RailR2', 'RailR3', 'RailR4');
+	Repeater['BallastM1-2'].Begin('M1-2', 0, 0, 0, 0, 0, 0, 3, 5, 5, 'Ballast0');
+	Repeater['RailLM1-2'].Begin('M1-2', -0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailL0', 'RailL1', 'RailL2', 'RailL3', 'RailL4');
+	Repeater['RailRM1-2'].Begin('M1-2', 0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailR0', 'RailR1', 'RailR2', 'RailR3', 'RailR4');
+
+$basedist + 849.61;
+	Track['M-m'].position(6.933, 0);
+	Track['M-k'].position(-2.933, 0);
+	Track['M1-1w'].position(6.933, 0.05);
+	Track['M1-2w'].position(-2.933, 0.05);
+
+$basedist + 872.04;
+	Track['M-m'].position(5.067, 0, 307.3);
+	Track['M-k'].position(-1.067, 0, -307.3);
+	Track['M1-1w'].position(5.067, 0.05);
+	Track['M1-2w'].position(-1.067, 0.05);
+
+($basedist + 897.6) - ($basedist + 897.6) % 50;
+	Track['M1-1w'].position(3.7, 0.05);
+	Track['M1-2w'].position(0.3, 0.05);
+
+($basedist + 897.6) - ($basedist + 897.6) % 50 + 50;
+	Track['M1-1w'].position(11, 0.05);
+	Track['M1-2w'].position(-7, 0.05);
+	Repeater['wireM1-1'].End();
+	Repeater['wireM1-2'].End();
+
+$basedist + 897.6;
+	Track['M-m'].position(4, 0);
+	Track['M-k'].position(0, 0);
+	Repeater['BallastM-m'].End();
+	Repeater['RailLM-m'].End();
+	Repeater['RailRM-m'].End();
+	Repeater['BallastM-k'].End();
+	Repeater['RailLM-k'].End();
+	Repeater['RailRM-k'].End();
+
+$basedist = distance;

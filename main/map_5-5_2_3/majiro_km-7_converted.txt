@@ -1,0 +1,13 @@
+BveTs Map 2.02:utf-8
+
+# Track['majiro_ku-7'].X
+$basedist + 0.000;
+Track['majiro_ku-7'].X.Interpolate(30.000,62.246);
+$basedist + 12.195;
+Track['majiro_ku-7'].X.Interpolate(30.903,158);
+$basedist + 89.964+12.195;
+Track['majiro_ku-7'].X.Interpolate(76.673,0.000);
+$basedist + 89.964;
+	Repeater['Ballast_majiro_km-7'].End();
+	Repeater['RailL_majiro_km-7'].End();
+	Repeater['RailR_majiro_km-7'].End();

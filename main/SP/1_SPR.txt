@@ -1,0 +1,5 @@
+BveTs Map 2.02
+# ちなみにSPはStation.Putの略
+
+$kamiya_SP;
+	Station['H1'].Put(1, -1, 1);

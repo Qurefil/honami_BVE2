@@ -1,0 +1,80 @@
+﻿Bvets Vehicle Parameters 2.01
+
+FirstCar = M
+LoadCompensating = true
+
+[OneLeverCab]
+BrakeNotchCount = 8
+PowerNotchCount = 5
+AtsCancelNotch = 1
+MotorBrakeNotch = 1
+ReverserText = 後,切,前
+PowerText = 切,P1,P2,P3,P4,P5
+BrakeText = 切,B1,B2,B3,B4,B5,B6,B7,B8,非常
+
+[ConstantSpeedControl]
+Power = 1
+Newtral = 0
+Brake = 0
+
+[MainCircuit]
+RegenerationLimit = 0
+RegenerationStartLimit = 3
+LeverDelay = 0.3
+BrakePriority = true
+SlipVelocityCoefficient = 0
+
+[PowerReAdhesion]
+HoldingTime = 1
+ReferenceAcceleration = 2.5
+
+[Ecb]
+MaximumPressure = 438000
+LeverDelay = 0.2
+
+[AirSupplement]
+MaximumPressure = 438000
+InitialPressure = 40000
+RegenerationLimit = 20
+
+[BCServo]
+ApplySpeed = 700
+ReleaseSpeed = 700
+ApplyStart = 30000
+ApplyStop = 10000
+ReleaseStart = 30000
+ReleaseStop = 10000
+VolumeRatio = 20
+
+[Brake]
+PistonArea = 0.6 #小さくすると甘くなる
+ShoeFriction = 0.55, 0.01, 0.034 #JRS1種/高速車/合成制輪子
+
+[BrakeReAdhesion]
+SlipVelocity = 4
+SlipDeceleration = 10 #よくわからない
+
+[Compressor]
+UpperPressure = 784000
+LowerPressure = 686000
+CompressionSpeed = 5000
+
+[Dynamics]
+MotorcarWeight = 28400
+TrailerWeight = 25500
+MotorcarCount = 2
+TrailerCount = 1
+MotorcarInertiaFactor = 0.1
+TrailerInertiaFactor = 0.05
+CarLength = 20
+
+[Passengers]
+Capacity = 153
+
+[Door]
+CloseTime = 3
+
+[ViewPoint]
+X = -0.6
+Y = 2.5
+Z = -0.92

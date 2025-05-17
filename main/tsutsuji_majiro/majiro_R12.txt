@@ -1,0 +1,40 @@
+BveTs Map 2.02
+#_/_/_/_/_/_/_/_/_/_/_/
+#_/thanks for TSUTSUJI!_/
+#_/_/_/_/_/_/_/_/_/_/_/
+
+$basedist = 0;
+$basedist;
+	Curve.Begin(136.6);
+
+$basedist + 17.05;
+	Curve.End();
+
+$basedist + 25.849552;
+	Curve.BeginTransition();
+
+$basedist + 45.849552;
+	Curve.Begin(-180, 0.02);
+
+$basedist + 48.316609;
+	Curve.BeginTransition();
+
+$basedist + 68.316609;
+	Curve.End();
+
+$basedist + 138.316609;
+	Curve.Begin(-213.4);
+
+$basedist + 159.63885;
+	Curve.End();
+
+$basedist + 238.551226;
+	Curve.Begin(213.4);
+
+$basedist + 259.873467;
+	Curve.End();
+
+$basedist + 565;
+	Curve.End();
+
+$basedist = distance;

@@ -1,0 +1,46 @@
+BveTs Map 2.02
+
+$basedist + 0;
+	$SignalPos = distance - 600;
+	include 'map_beacon_abs.txt';
+	Section.Begin(0,1,3,5);
+	Signal['fourY'].Put(0, 'j4', -2.3, 4.5, 0, 0, 0, 0, 0, 0);
+
+$basedist + 26;
+	#ほーむかいし
+	Repeater['H6-2form'].Begin('j10', 0,0,0, 0,180,0, 0,0,2.1, 'form1');
+	Repeater['H6-1form'].Begin(0, 0,0,0, 0,0,0, 0,0,2.1, 'form1');
+
+$basedist + 276;
+	Structure['Stop_p'].Put(0,2.25,1,0,0,0,0,0,0);
+	Structure['Stop8'].Put(0,2.25,2.15,0,0,0,0,0,0);
+	$toyashiro2 = distance;
+	$toyashiro3 = distance;
+	$toyashiro4 = distance;
+	$toyashiro5 = distance;
+	$toyashiro6 = distance;
+	$toyashiro7 = distance;
+	$toyashiro8 = distance;
+
+$basedist + 317;
+	Structure['Stop_p'].Put(0,2.25,1,0,0,0,0,0,0);
+	Structure['Stop14'].Put(0,2.25,2.15,0,0,0,0,0,0);
+	$toyashiro9 = distance;
+	$toyashiro10 = distance;
+	$toyashiro11 = distance;
+	$toyashiro12 = distance;
+	$toyashiro13 = distance;
+	$toyashiro14 = distance;
+
+$basedist + 320;
+	#ほーむおわり 294m, 猶予7m
+	Repeater['H6-2form'].End();
+	Repeater['H6-1form'].End();
+
+$basedist + 330;
+	$SignalPos = distance - 600;
+	include 'map_beacon_abs_dep.txt';
+	Section.Begin(0,3,4,5);
+	Signal['fourG'].Put(0, 'j4', -2.3, 4.5, 0, 0, 0, 0, 0, 0);
+
+$basedist = distance;

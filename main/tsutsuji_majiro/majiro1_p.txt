@@ -1,0 +1,71 @@
+BveTs Map 2.02
+
+$basedist = 0;
+
+$basedist;
+	Curve.Begin(0);
+
+$basedist + 37.86;
+	Curve.Begin(-213.4);
+
+$basedist + 59.18224;
+	Curve.End();
+
+$basedist + 102.760663;
+	Curve.BeginTransition();
+
+$basedist + 132.760663;
+	Curve.Begin(620, 0.02);
+
+$basedist + 164.709064;
+	Curve.BeginTransition();
+
+$basedist + 194.709064;
+	Curve.End();
+
+$basedist + 358.136206;
+	Curve.BeginTransition();
+
+$basedist + 276.422635;
+	#ホーム中央
+	Station['H5'].Put(-1, -1, 1);
+	Structure['Stop_p'].Put(0,2.25,1,0,0,0,0,0,0);
+	Structure['Stop4'].Put(0,2.25,2.15,0,0,0,0,0,0);
+	Structure['Stop3'].Put(0,2.25,1.8,0,0,0,0,0,0);
+	Structure['Stop2'].Put(0,2.25,1.45,0,0,0,0,0,0);
+$basedist + 317.422635;
+	Structure['Stop_p'].Put(0,2.25,1,0,0,0,0,0,0);
+	Structure['Stop7'].Put(0,2.25,2.15,0,0,0,0,0,0);
+	Structure['Stop6'].Put(0,2.25,1.8,0,0,0,0,0,0);
+	Structure['Stop5'].Put(0,2.25,1.45,0,0,0,0,0,0);
+$basedist + 358.422635;
+	Structure['Stop_p'].Put(0,2.25,1,0,0,0,0,0,0);
+	Structure['Stop10'].Put(0,2.25,2.15,0,0,0,0,0,0);
+	Structure['Stop9'].Put(0,2.25,1.73,0,0,0,0,0,0);
+	Structure['Stop8'].Put(0,2.25,1.38,0,0,0,0,0,0);
+$basedist + 419.922635;
+	Structure['Stop_p'].Put(0,2.25,1,0,0,0,0,0,0);
+	Structure['Stop14'].Put(0,2.25,2.15,0,0,0,0,0,0);
+	Structure['Stop13'].Put(0,2.25,1.73,0,0,0,0,0,0);
+	Structure['Stop12'].Put(0,2.25,1.31,0,0,0,0,0,0);
+	Structure['Stop11'].Put(0,2.25,0.89,0,0,0,0,0,0);
+
+$basedist + 388.136206;
+	Curve.Begin(620, 0.02);
+
+$basedist + 420.084607;
+	Curve.BeginTransition();
+
+$basedist + 450.084607;
+	Curve.End();
+
+$basedist + 493.663031;
+	Curve.Begin(-213.4);
+
+$basedist + 514.985271;
+	Curve.End();
+
+$basedist + 552.845271;
+	Curve.End();
+
+$basedist = distance;

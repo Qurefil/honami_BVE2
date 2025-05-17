@@ -1,0 +1,33 @@
+BveTs Map 2.02
+
+$basedist = 0.000000;
+
+$basedist + 10;
+	Curve.Begin(0);
+
+$basedist + 590;
+	Curve.Begin(546.3); #16”Ô•ªŠò
+
+$basedist + 624.13;
+	Curve.End();
+
+$basedist + 654.02;
+	Curve.Begin(-546.3); #16”Ô•ªŠò
+
+$basedist + 688.15;
+	Curve.End();
+
+$basedist + 1255.1;
+	Curve.Begin(-546.3); #16”Ô•ªŠò
+
+$basedist + 1289.23;
+	Curve.End();
+
+$basedist + 1319.12;
+	Curve.Begin(546.3); #16”Ô•ªŠò
+
+$basedist + 1353.25;
+	Curve.End();
+
+$basedist + 1400;
+	Curve.End();

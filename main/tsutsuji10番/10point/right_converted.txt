@@ -1,0 +1,75 @@
+BveTs Map 2.02:utf-8
+
+# offset
+$0 = 0.000000;
+
+# Track['right'].X
+$0 + 0.000;
+Track['right'].X.Interpolate(0.000,-218.508);
+$0 + 21.320;
+Track['right'].X.Interpolate(-1.068,0.000);
+$0 + 36.380;
+Track['right'].X.Interpolate(-2.577,1824.023);
+$0 + 40.000;
+Track['right'].X.Interpolate(-2.938,447.844);
+$0 + 50.000;
+Track['right'].X.Interpolate(-3.837,208.377);
+$0 + 56.846;
+Track['right'].X.Interpolate(-4.273,41.014);
+$0 + 57.030;
+Track['right'].X.Interpolate(-4.282,355.652);
+$0 + 60.000;
+Track['right'].X.Interpolate(-4.404,366.199);
+$0 + 70.000;
+Track['right'].X.Interpolate(-4.588,1404.867);
+$0 + 76.842;
+Track['right'].X.Interpolate(-4.604,0.000);
+
+# Track['right'].Y
+$0 + 0.000;
+Track['right'].Y.Interpolate(0.000,0.000);
+$0 + 21.320;
+Track['right'].Y.Interpolate(0.000,0.000);
+$0 + 36.380;
+Track['right'].Y.Interpolate(0.000,0.000);
+$0 + 40.000;
+Track['right'].Y.Interpolate(0.000,0.000);
+$0 + 50.000;
+Track['right'].Y.Interpolate(0.000,0.000);
+$0 + 56.846;
+Track['right'].Y.Interpolate(0.000,0.000);
+$0 + 57.030;
+Track['right'].Y.Interpolate(0.000,0.000);
+$0 + 60.000;
+Track['right'].Y.Interpolate(0.000,0.000);
+$0 + 70.000;
+Track['right'].Y.Interpolate(0.000,0.000);
+$0 + 76.842;
+Track['right'].Y.Interpolate(0.000,0.000);
+
+# Track['right'].Cant.Interpolate
+$0 + 0.000;
+Track['right'].Cant.Interpolate(0.000);
+$0 + 21.285;
+Track['right'].Cant.Interpolate(0.000);
+$0 + 36.269;
+Track['right'].Cant.Interpolate(0.000);
+$0 + 56.197;
+Track['right'].Cant.Interpolate(0.000);
+$0 + 56.846;
+Track['right'].Cant.Interpolate(0.000);
+$0 + 76.842;
+Track['right'].Cant.Interpolate(0.000);
+
+# Track['right'].Cant.SetFunction
+$0 + 0.000;
+Track['right'].Cant.SetFunction(1);
+
+# Track['right'].Cant.SetCenter
+$0 + 0.000;
+Track['right'].Cant.SetCenter(0.000);
+
+# Track['right'].Cant.SetGauge
+$0 + 0.000;
+Track['right'].Cant.SetGauge(0.000);
+

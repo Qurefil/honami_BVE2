@@ -1,0 +1,57 @@
+BveTs Map 2.02
+
+($basedist + 25.14) - (($basedist + 25.14) % 50);
+	Track['M1-2_1w'].position(-3, 0.05);
+	Track['M1-2_2w'].position(7, 0.05);
+	Repeater['wireM1-2_1'].Begin('M1-2_1w', 0, 0, 0, 0, 0, 0, 1, 50, 50, 'wire');
+	Repeater['wireM1-2_2'].Begin('M1-2_2w', 0, 0, 0, 0, 0, 0, 1, 50, 50, 'wire');
+
+$basedist + 25.14;
+	Track['M1-2_1'].position(0, 0, 213.4);
+	Track['M1-2_2'].position(4, 0, -213.4);
+	Track['M1-2_1w'].position(0, 0.05);
+	Track['M1-2_2w'].position(4, 0.05);
+	Repeater['BallastM1-2_1'].Begin('M1-2_1', 0, 0, 0, 0, 0, 0, 3, 5, 5, 'Ballast0');
+	Repeater['RailLM1-2_1'].Begin('M1-2_1', -0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailL0', 'RailL1', 'RailL2', 'RailL3', 'RailL4');
+	Repeater['RailRM1-2_1'].Begin('M1-2_1', 0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailR0', 'RailR1', 'RailR2', 'RailR3', 'RailR4');
+	Repeater['BallastM1-2_2'].Begin('M1-2_2', 0, 0, 0, 0, 0, 0, 3, 5, 5, 'Ballast0');
+	Repeater['RailLM1-2_2'].Begin('M1-2_2', -0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailL0', 'RailL1', 'RailL2', 'RailL3', 'RailL4');
+	Repeater['RailRM1-2_2'].Begin('M1-2_2', 0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailR0', 'RailR1', 'RailR2', 'RailR3', 'RailR4');
+
+$basedist + 46.43;
+	Track['M1-2_1'].position(1.067, 0);
+	Track['M1-2_2'].position(2.933, 0);
+	Track['M1-2_1w'].position(1.067, 0.05);
+	Track['M1-2_2w'].position(2.933, 0.05);
+
+$basedist + 65.09;
+	Track['M1-2_1'].position(2.933, 0, -213.4);
+	Track['M1-2_2'].position(1.067, 0, 213.4);
+	Track['M1-2_1w'].position(2.933, 0.05);
+	Track['M1-2_2w'].position(1.067, 0.05);
+
+($basedist + 86.38) - (($basedist + 86.38) % 50) + 50;
+	Track['M1-2_1w'].position(7, 0.05);
+	Track['M1-2_2w'].position(-3, 0.05);
+	Repeater['wireM1-2_1'].End();
+	Repeater['wireM1-2_2'].End();
+
+$basedist + 86.38;
+	Track['M1-2_1'].position(4, 0);
+	Track['M1-2_2'].position(0, 0);
+	Track['M1-2_1w'].position(4, 0.05);
+	Track['M1-2_2w'].position(0, 0.05);
+	Repeater['BallastM1-2_1'].End();
+	Repeater['RailLM1-2_1'].End();
+	Repeater['RailRM1-2_1'].End();
+	Repeater['BallastM1-2_2'].End();
+	Repeater['RailLM1-2_2'].End();
+	Repeater['RailRM1-2_2'].End();
+
+$basedist + 90;
+	$SignalPos = distance - 600;
+	include 'map_beacon_abs_5.txt';
+	Section.Begin(0,3,4,5);
+	Signal['fourG'].Put(0, 'j4', 2.3, 4.5, 0, 0, 0, 0, 0, 0);
+
+$basedist = distance;

@@ -1,0 +1,149 @@
+BveTs Map 2.02:utf-8
+
+# offset
+$0 = 0.000000;
+
+# Track['thru'].X
+$0 + 0.000;
+Track['thru'].X.Interpolate(0.000,313.773);
+$0 + 25.939;
+Track['thru'].X.Interpolate(1.098,0.000);
+$0 + 46.867;
+Track['thru'].X.Interpolate(2.844,-428.171);
+$0 + 47.863;
+Track['thru'].X.Interpolate(2.928,-48.269);
+$0 + 48.020;
+Track['thru'].X.Interpolate(2.941,-329.782);
+$0 + 73.610;
+Track['thru'].X.Interpolate(3.995,0.000);
+$0 + 100.000;
+Track['thru'].X.Interpolate(3.995,1690.448);
+$0 + 100.137;
+Track['thru'].X.Interpolate(3.995,787.483);
+$0 + 130.000;
+Track['thru'].X.Interpolate(4.362,400.159);
+$0 + 153.642;
+Track['thru'].X.Interpolate(5.923,426.295);
+$0 + 154.666;
+Track['thru'].X.Interpolate(6.022,544.526);
+$0 + 167.380;
+Track['thru'].X.Interpolate(7.437,1927.637);
+$0 + 184.147;
+Track['thru'].X.Interpolate(9.610,-1097.452);
+$0 + 201.143;
+Track['thru'].X.Interpolate(11.785,-486.737);
+$0 + 214.666;
+Track['thru'].X.Interpolate(13.222,-403.255);
+$0 + 236.106;
+Track['thru'].X.Interpolate(14.617,-598.177);
+$0 + 237.500;
+Track['thru'].X.Interpolate(14.669,-887.732);
+$0 + 267.695;
+Track['thru'].X.Interpolate(15.020,0.000);
+$0 + 300.000;
+Track['thru'].X.Interpolate(15.005,-9054.184);
+$0 + 300.696;
+Track['thru'].X.Interpolate(15.005,-844.290);
+$0 + 330.000;
+Track['thru'].X.Interpolate(14.651,-280.208);
+$0 + 331.260;
+Track['thru'].X.Interpolate(14.606,-506.134);
+$0 + 335.825;
+Track['thru'].X.Interpolate(14.414,-372.239);
+$0 + 337.454;
+Track['thru'].X.Interpolate(14.334,-929.364);
+$0 + 365.825;
+Track['thru'].X.Interpolate(12.278,0.000);
+$0 + 367.798;
+Track['thru'].X.Interpolate(12.112,0.000);
+$0 + 498.338;
+Track['thru'].X.Interpolate(1.150,257.563);
+$0 + 499.333;
+Track['thru'].X.Interpolate(1.067,321.343);
+$0 + 524.903;
+Track['thru'].X.Interpolate(-0.000,0.000);
+$0 + 525.275;
+Track['thru'].X.Interpolate(-0.000,0.000);
+$0 + 601.275;
+Track['thru'].X.Interpolate(0.000,0.000);
+
+# Track['thru'].Y
+$0 + 0.000;
+Track['thru'].Y.Interpolate(0.000,0.000);
+$0 + 25.939;
+Track['thru'].Y.Interpolate(0.000,0.000);
+$0 + 46.867;
+Track['thru'].Y.Interpolate(0.000,0.000);
+$0 + 47.863;
+Track['thru'].Y.Interpolate(0.000,0.000);
+$0 + 48.020;
+Track['thru'].Y.Interpolate(0.000,0.000);
+$0 + 73.610;
+Track['thru'].Y.Interpolate(0.000,0.000);
+$0 + 100.000;
+Track['thru'].Y.Interpolate(0.000,0.000);
+$0 + 100.137;
+Track['thru'].Y.Interpolate(0.000,0.000);
+$0 + 130.000;
+Track['thru'].Y.Interpolate(0.000,0.000);
+$0 + 153.642;
+Track['thru'].Y.Interpolate(0.000,0.000);
+$0 + 154.666;
+Track['thru'].Y.Interpolate(0.000,0.000);
+$0 + 167.380;
+Track['thru'].Y.Interpolate(0.000,0.000);
+$0 + 184.147;
+Track['thru'].Y.Interpolate(0.000,0.000);
+$0 + 201.143;
+Track['thru'].Y.Interpolate(0.000,0.000);
+$0 + 214.666;
+Track['thru'].Y.Interpolate(0.000,0.000);
+$0 + 236.106;
+Track['thru'].Y.Interpolate(0.000,0.000);
+$0 + 237.500;
+Track['thru'].Y.Interpolate(0.000,0.000);
+$0 + 267.695;
+Track['thru'].Y.Interpolate(0.000,0.000);
+$0 + 300.000;
+Track['thru'].Y.Interpolate(0.000,0.000);
+$0 + 300.696;
+Track['thru'].Y.Interpolate(0.000,0.000);
+$0 + 330.000;
+Track['thru'].Y.Interpolate(0.000,0.000);
+$0 + 331.260;
+Track['thru'].Y.Interpolate(0.000,0.000);
+$0 + 335.825;
+Track['thru'].Y.Interpolate(0.000,0.000);
+$0 + 337.454;
+Track['thru'].Y.Interpolate(0.000,0.000);
+$0 + 365.825;
+Track['thru'].Y.Interpolate(0.000,0.000);
+$0 + 367.798;
+Track['thru'].Y.Interpolate(0.000,0.000);
+$0 + 498.338;
+Track['thru'].Y.Interpolate(0.000,0.000);
+$0 + 499.333;
+Track['thru'].Y.Interpolate(0.000,0.000);
+$0 + 524.903;
+Track['thru'].Y.Interpolate(0.000,0.000);
+$0 + 525.275;
+Track['thru'].Y.Interpolate(0.000,0.000);
+$0 + 601.275;
+Track['thru'].Y.Interpolate(0.000,0.000);
+
+# Track['thru'].Cant.Interpolate
+$0 + 0.000;
+Track['thru'].Cant.Interpolate(0.000);
+
+# Track['thru'].Cant.SetFunction
+$0 + 0.000;
+Track['thru'].Cant.SetFunction(1);
+
+# Track['thru'].Cant.SetCenter
+$0 + 0.000;
+Track['thru'].Cant.SetCenter(0.000);
+
+# Track['thru'].Cant.SetGauge
+$0 + 0.000;
+Track['thru'].Cant.SetGauge(0.000);
+

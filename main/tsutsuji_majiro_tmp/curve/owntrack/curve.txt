@@ -1,0 +1,33 @@
+BveTs Map 2.02
+
+$basedist = 0.000000;
+
+$CCL = 30;
+$TCL = 30;
+Curve.SetFunction(0);
+
+$basedist = 0;
+	Curve.SetFunction(0);
+
+$basedist + $basedist + 10;
+	Curve.BeginTransition();
+
+$basedist + $basedist + 10 + $TCL;
+	Curve.Begin(1200);
+
+$basedist + $basedist + 10 + $TCL + $CCL;
+	Curve.BeginTransition();
+
+$basedist + $basedist + 10 + $TCL + $CCL + $TCL + $TCL;
+	Curve.Begin(-1200);
+
+$basedist + $basedist + 10 + $TCL + $CCL + $TCL + $TCL + $CCL;
+	Curve.BeginTransition();
+
+$basedist + $basedist + 10 + $TCL + $CCL + $TCL + $TCL + $CCL + $TCL;
+	Curve.End();
+
+$basedist + $basedist + 370;
+	Curve.End();
+
+$basedist = distance;

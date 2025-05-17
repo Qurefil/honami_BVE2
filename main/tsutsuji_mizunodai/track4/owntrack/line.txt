@@ -1,0 +1,8 @@
+BveTs Map 2.02
+
+$basedist = 0.000000;
+
+$basedist + 10;
+	Curve.Begin(0);
+$basedist + 800;
+	Curve.End();

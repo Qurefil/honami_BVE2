@@ -1,0 +1,13 @@
+BveTs Map 2.02
+#_/_/_/_/_/_/_/_/_/_/_/
+#_/thanks for TSUTSUJI!_/
+#_/_/_/_/_/_/_/_/_/_/_/
+
+$basedist = 0;
+$basedist;
+	Curve.End();
+
+$basedist + 164;
+	Curve.End();
+
+$basedist = distance;

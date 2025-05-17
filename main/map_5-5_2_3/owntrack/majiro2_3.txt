@@ -1,0 +1,49 @@
+BveTs Map 2.02
+
+$basedist;
+	include 'map_5-5_2_3/majiro9-4.txt';
+	include 'map_5-5_2_3/majiro7-4.txt';
+	include 'map_5-5_2_3/majiro5-4.txt';
+	include 'map_5-5_2_3/majiro_km-9.txt';
+	include 'map_5-5_2_3/majiro_km-7.txt';
+	include 'map_5-5_2_3/majiro_km-5.txt';
+	include 'map_5-5_2_3/majiro4_2.txt';
+
+$basedist + 249.184363;
+$SignalPos = distance;
+$SignalPos-180;
+	Beacon.Put(3, -1, 0);
+$SignalPos-130;
+	Beacon.Put(3, -1, 0);
+$SignalPos-85;
+	Beacon.Put(3, -1, 0);
+$SignalPos-50;
+	Beacon.Put(3, -1, 0);
+$SignalPos-25;
+	Beacon.Put(4, -1, 0);
+$SignalPos;
+	Section.Begin(0,1,2,4);
+	Signal['fourY'].Put(0, 'j4', -2.3, 4.5, 0, 0, 0, 0, 0, 0);
+
+$basedist + 260;
+	Track['H5-2'].Position(5, 0, -213.4);
+	Track['H5-3'].Position(0, 0, 213.4);
+	Repeater['RailH5-2'].Begin('H5-2', 0, 0, 0, 0, 0, 0, 3, 2, 2, 'Rail_1');
+	Repeater['RailH5-3'].Begin('H5-3', 0, 0, 0, 0, 0, 0, 3, 2, 2, 'Rail_1');
+
+$basedist + 281.3;
+	Track['H5-2'].Position(3.933, 0);
+	Track['H5-3'].Position(1.067, 0);
+
+$basedist + 309.96;
+	Track['H5-2'].Position(1.067, 0, 213.4);
+	Track['H5-3'].Position(3.933, 0, -213.4);
+
+$basedist + 331.26;
+	Track['H5-2'].Position(0, 0);
+	Track['H5-3'].Position(5, 0);
+	Repeater['RailH5-2'].End();
+	Repeater['RailH5-3'].End();
+
+
+$basedist = distance;

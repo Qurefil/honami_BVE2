@@ -1,0 +1,119 @@
+BveTs Map 2.02:utf-8
+
+# offset
+$basedist = 0.000000;
+
+# Track['straight'].X
+$basedist + 1.752;
+Track['straight'].X.Interpolate(-27.845,0.000);
+$basedist + 11.732;
+Track['straight'].X.Interpolate(-27.217,0.000);
+$basedist + 23.209;
+Track['straight'].X.Interpolate(-26.495,0.000);
+$basedist + 53.150;
+Track['straight'].X.Interpolate(-24.611,0.000);
+$basedist + 60.000;
+Track['straight'].X.Interpolate(-24.180,0.000);
+$basedist + 63.630;
+Track['straight'].X.Interpolate(-23.952,0.000);
+$basedist + 74.608;
+Track['straight'].X.Interpolate(-23.261,0.000);
+$basedist + 85.000;
+Track['straight'].X.Interpolate(-22.607,0.000);
+$basedist + 85.586;
+Track['straight'].X.Interpolate(-22.571,0.000);
+$basedist + 96.564;
+Track['straight'].X.Interpolate(-21.880,0.000);
+$basedist + 126.505;
+Track['straight'].X.Interpolate(-19.996,0.000);
+$basedist + 131.495;
+Track['straight'].X.Interpolate(-19.682,0.000);
+$basedist + 136.485;
+Track['straight'].X.Interpolate(-19.368,0.000);
+$basedist + 141.476;
+Track['straight'].X.Interpolate(-19.054,0.000);
+$basedist + 147.464;
+Track['straight'].X.Interpolate(-18.678,0.000);
+$basedist + 191.377;
+Track['straight'].X.Interpolate(-15.915,0.000);
+$basedist + 427.083;
+Track['straight'].X.Interpolate(-1.085,-564.150);
+$basedist + 460.865;
+Track['straight'].X.Interpolate(-0.006,0.000);
+
+# Track['straight'].Y
+$basedist + 1.752;
+Track['straight'].Y.Interpolate(0.000,0.000);
+$basedist + 11.732;
+Track['straight'].Y.Interpolate(0.000,0.000);
+$basedist + 23.209;
+Track['straight'].Y.Interpolate(0.000,0.000);
+$basedist + 53.150;
+Track['straight'].Y.Interpolate(0.000,0.000);
+$basedist + 60.000;
+Track['straight'].Y.Interpolate(0.000,0.000);
+$basedist + 63.630;
+Track['straight'].Y.Interpolate(0.000,0.000);
+$basedist + 74.608;
+Track['straight'].Y.Interpolate(0.000,0.000);
+$basedist + 85.000;
+Track['straight'].Y.Interpolate(0.000,0.000);
+$basedist + 85.586;
+Track['straight'].Y.Interpolate(0.000,0.000);
+$basedist + 96.564;
+Track['straight'].Y.Interpolate(0.000,0.000);
+$basedist + 126.505;
+Track['straight'].Y.Interpolate(0.000,0.000);
+$basedist + 131.495;
+Track['straight'].Y.Interpolate(0.000,0.000);
+$basedist + 136.485;
+Track['straight'].Y.Interpolate(0.000,0.000);
+$basedist + 141.476;
+Track['straight'].Y.Interpolate(0.000,0.000);
+$basedist + 147.464;
+Track['straight'].Y.Interpolate(0.000,0.000);
+$basedist + 191.377;
+Track['straight'].Y.Interpolate(0.000,0.000);
+$basedist + 427.083;
+Track['straight'].Y.Interpolate(0.000,0.000);
+$basedist + 460.865;
+Track['straight'].Y.Interpolate(0.000,0.000);
+
+# Track['straight'].Cant.Interpolate
+$basedist + 1.752;
+Track['straight'].Cant.Interpolate(0.000);
+$basedist + 11.732;
+Track['straight'].Cant.Interpolate(0.000);
+$basedist + 23.209;
+Track['straight'].Cant.Interpolate(0.000);
+$basedist + 53.150;
+Track['straight'].Cant.Interpolate(0.000);
+$basedist + 63.630;
+Track['straight'].Cant.Interpolate(0.000);
+$basedist + 74.608;
+Track['straight'].Cant.Interpolate(0.000);
+$basedist + 85.586;
+Track['straight'].Cant.Interpolate(0.000);
+$basedist + 96.564;
+Track['straight'].Cant.Interpolate(0.000);
+$basedist + 126.505;
+Track['straight'].Cant.Interpolate(0.000);
+$basedist + 131.495;
+Track['straight'].Cant.Interpolate(0.000);
+$basedist + 136.485;
+Track['straight'].Cant.Interpolate(0.000);
+$basedist + 141.476;
+Track['straight'].Cant.Interpolate(0.000);
+$basedist + 147.464;
+Track['straight'].Cant.Interpolate(0.000);
+$basedist + 191.377;
+Track['straight'].Cant.Interpolate(0.000);
+$basedist + 460.865;
+Track['straight'].Cant.Interpolate(0.000);
+
+# Track['straight'].Cant.SetFunction
+
+# Track['straight'].Cant.SetCenter
+
+# Track['straight'].Cant.SetGauge
+

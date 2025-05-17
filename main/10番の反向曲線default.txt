@@ -1,0 +1,29 @@
+0.000;
+	Track['right'].X.Interpolate(0.000, -213.408);
+
+21.287; // 0
+	Track['right'].X.Interpolate(-1.067, 0.000);
+
+36.380; // 15.093  0
+	Track['right'].X.Interpolate(-2.577, 1824.023);
+
+40.000; // 18.713  3.62
+	Track['right'].X.Interpolate(-2.938, 447.844);
+
+50.000; // 28.713  13.62
+	Track['right'].X.Interpolate(-3.837, 208.377);
+
+56.846; // 35.559  20.466
+	Track['right'].X.Interpolate(-4.273, 41.014);
+
+57.030; // 35.743  20.65
+	Track['right'].X.Interpolate(-4.282, 355.652);
+
+60.000; // 38.713  23.62
+	Track['right'].X.Interpolate(-4.404, 366.199);
+
+70.000; // 48.713  33.62
+	Track['right'].X.Interpolate(-4.588, 1404.867);
+
+76.842; // 55.555  40.462
+	Track['right'].X.Interpolate(-4.604, 0.000);

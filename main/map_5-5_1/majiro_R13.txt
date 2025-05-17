@@ -1,0 +1,69 @@
+BveTs Map 2.02:utf-8
+
+# offset
+$basedist = 0.000000;
+
+# Track['majiro_R13'].X
+$basedist + 268.923;
+Track['majiro_R13'].X.Interpolate(nan,-90.034);
+$basedist + 269.987;
+Track['majiro_R13'].X.Interpolate(445.188,0.000);
+$basedist + 270.182;
+Track['majiro_R13'].X.Interpolate(447.191,0.000);
+$basedist + 271.277;
+Track['majiro_R13'].X.Interpolate(458.119,160.391);
+$basedist + 272.859;
+Track['majiro_R13'].X.Interpolate(473.941,0.000);
+$basedist + 273.923;
+Track['majiro_R13'].X.Interpolate(inf,0.000);
+
+# Track['majiro_R13'].Y
+$basedist + 268.923;
+Track['majiro_R13'].Y.Interpolate(nan,0.000);
+$basedist + 269.987;
+Track['majiro_R13'].Y.Interpolate(0.000,0.000);
+$basedist + 270.182;
+Track['majiro_R13'].Y.Interpolate(0.000,0.000);
+$basedist + 271.277;
+Track['majiro_R13'].Y.Interpolate(0.000,0.000);
+$basedist + 272.859;
+Track['majiro_R13'].Y.Interpolate(0.000,0.000);
+$basedist + 273.923;
+Track['majiro_R13'].Y.Interpolate(0.000,0.000);
+
+# Track['majiro_R13'].Cant.Interpolate
+$basedist + 269.119;
+Track['majiro_R13'].Cant.Interpolate(0.000);
+$basedist + 270.182;
+Track['majiro_R13'].Cant.Interpolate(0.000);
+$basedist + 271.277;
+Track['majiro_R13'].Cant.Interpolate(0.000);
+$basedist + 273.399;
+Track['majiro_R13'].Cant.Interpolate(0.000);
+$basedist + 273.553;
+Track['majiro_R13'].Cant.Interpolate(0.000);
+$basedist + 273.923;
+Track['majiro_R13'].Cant.Interpolate(0.000);
+$basedist + 273.923;
+Track['majiro_R13'].Cant.Interpolate(0.000);
+$basedist + 272.859;
+Track['majiro_R13'].Cant.Interpolate(0.000);
+$basedist + 269.987;
+Track['majiro_R13'].Cant.Interpolate(0.000);
+$basedist + 268.923;
+Track['majiro_R13'].Cant.Interpolate(nan);
+$basedist + 268.923;
+Track['majiro_R13'].Cant.Interpolate(nan);
+
+# Track['majiro_R13'].Cant.SetFunction
+$basedist + 269.119;
+Track['majiro_R13'].Cant.SetFunction(1);
+
+# Track['majiro_R13'].Cant.SetCenter
+$basedist + 269.119;
+Track['majiro_R13'].Cant.SetCenter(0.000);
+
+# Track['majiro_R13'].Cant.SetGauge
+$basedist + 269.119;
+Track['majiro_R13'].Cant.SetGauge(0.000);
+

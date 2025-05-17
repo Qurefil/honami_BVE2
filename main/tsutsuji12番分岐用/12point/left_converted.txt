@@ -1,0 +1,155 @@
+BveTs Map 2.02:utf-8
+
+# offset
+$0 = 0.000000;
+
+# Track['left'].X
+$0 + 0.000;
+Track['left'].X.Interpolate(0.000,-313.410);
+$0 + 25.590;
+Track['left'].X.Interpolate(-1.068,0.000);
+$0 + 47.913;
+Track['left'].X.Interpolate(-2.930,33.273);
+$0 + 48.020;
+Track['left'].X.Interpolate(-2.939,326.308);
+$0 + 73.610;
+Track['left'].X.Interpolate(-3.995,0.000);
+$0 + 100.000;
+Track['left'].X.Interpolate(-3.995,-787.422);
+$0 + 130.000;
+Track['left'].X.Interpolate(-4.365,-397.418);
+$0 + 153.175;
+Track['left'].X.Interpolate(-5.871,-561.712);
+$0 + 154.666;
+Track['left'].X.Interpolate(-6.013,0.000);
+$0 + 211.591;
+Track['left'].X.Interpolate(-12.925,330.745);
+$0 + 214.666;
+Track['left'].X.Interpolate(-13.222,390.284);
+$0 + 236.816;
+Track['left'].X.Interpolate(-14.659,317.922);
+$0 + 237.516;
+Track['left'].X.Interpolate(-14.684,877.262);
+$0 + 266.812;
+Track['left'].X.Interpolate(-15.020,0.000);
+$0 + 300.000;
+Track['left'].X.Interpolate(-15.005,122.239);
+$0 + 300.016;
+Track['left'].X.Interpolate(-15.005,782.105);
+$0 + 330.000;
+Track['left'].X.Interpolate(-14.617,277.772);
+$0 + 331.292;
+Track['left'].X.Interpolate(-14.567,416.078);
+$0 + 335.825;
+Track['left'].X.Interpolate(-14.362,403.216);
+$0 + 337.552;
+Track['left'].X.Interpolate(-14.271,1002.882);
+$0 + 365.825;
+Track['left'].X.Interpolate(-12.169,0.000);
+$0 + 368.207;
+Track['left'].X.Interpolate(-11.969,0.000);
+$0 + 497.914;
+Track['left'].X.Interpolate(-1.078,-277.487);
+$0 + 499.666;
+Track['left'].X.Interpolate(-0.936,-318.410);
+$0 + 523.628;
+Track['left'].X.Interpolate(-0.000,0.000);
+
+# Track['left'].Y
+$0 + 0.000;
+Track['left'].Y.Interpolate(0.000,0.000);
+$0 + 25.590;
+Track['left'].Y.Interpolate(0.000,0.000);
+$0 + 47.913;
+Track['left'].Y.Interpolate(0.000,0.000);
+$0 + 48.020;
+Track['left'].Y.Interpolate(0.000,0.000);
+$0 + 73.610;
+Track['left'].Y.Interpolate(0.000,0.000);
+$0 + 100.000;
+Track['left'].Y.Interpolate(0.000,0.000);
+$0 + 130.000;
+Track['left'].Y.Interpolate(0.000,0.000);
+$0 + 153.175;
+Track['left'].Y.Interpolate(0.000,0.000);
+$0 + 154.666;
+Track['left'].Y.Interpolate(0.000,0.000);
+$0 + 211.591;
+Track['left'].Y.Interpolate(0.000,0.000);
+$0 + 214.666;
+Track['left'].Y.Interpolate(0.000,0.000);
+$0 + 236.816;
+Track['left'].Y.Interpolate(0.000,0.000);
+$0 + 237.516;
+Track['left'].Y.Interpolate(0.000,0.000);
+$0 + 266.812;
+Track['left'].Y.Interpolate(0.000,0.000);
+$0 + 300.000;
+Track['left'].Y.Interpolate(0.000,0.000);
+$0 + 300.016;
+Track['left'].Y.Interpolate(0.000,0.000);
+$0 + 330.000;
+Track['left'].Y.Interpolate(0.000,0.000);
+$0 + 331.292;
+Track['left'].Y.Interpolate(0.000,0.000);
+$0 + 335.825;
+Track['left'].Y.Interpolate(0.000,0.000);
+$0 + 337.552;
+Track['left'].Y.Interpolate(0.000,0.000);
+$0 + 365.825;
+Track['left'].Y.Interpolate(0.000,0.000);
+$0 + 368.207;
+Track['left'].Y.Interpolate(0.000,0.000);
+$0 + 497.914;
+Track['left'].Y.Interpolate(0.000,0.000);
+$0 + 499.666;
+Track['left'].Y.Interpolate(0.000,0.000);
+$0 + 523.628;
+Track['left'].Y.Interpolate(0.000,0.000);
+
+# Track['left'].Cant.Interpolate
+$0 + 0.000;
+Track['left'].Cant.Interpolate(0.000);
+$0 + 25.560;
+Track['left'].Cant.Interpolate(0.000);
+$0 + 47.913;
+Track['left'].Cant.Interpolate(0.000);
+$0 + 73.473;
+Track['left'].Cant.Interpolate(0.000);
+$0 + 99.863;
+Track['left'].Cant.Interpolate(0.000);
+$0 + 129.859;
+Track['left'].Cant.Interpolate(0.050);
+$0 + 154.467;
+Track['left'].Cant.Interpolate(0.050);
+$0 + 214.034;
+Track['left'].Cant.Interpolate(0.050);
+$0 + 236.816;
+Track['left'].Cant.Interpolate(0.050);
+$0 + 266.812;
+Track['left'].Cant.Interpolate(0.000);
+$0 + 299.312;
+Track['left'].Cant.Interpolate(0.000);
+$0 + 329.308;
+Track['left'].Cant.Interpolate(0.000);
+$0 + 335.127;
+Track['left'].Cant.Interpolate(0.000);
+$0 + 365.048;
+Track['left'].Cant.Interpolate(0.000);
+$0 + 497.914;
+Track['left'].Cant.Interpolate(0.000);
+$0 + 523.628;
+Track['left'].Cant.Interpolate(0.000);
+
+# Track['left'].Cant.SetFunction
+$0 + 0.000;
+Track['left'].Cant.SetFunction(1);
+
+# Track['left'].Cant.SetCenter
+$0 + 0.000;
+Track['left'].Cant.SetCenter(0.000);
+
+# Track['left'].Cant.SetGauge
+$0 + 0.000;
+Track['left'].Cant.SetGauge(0.000);
+

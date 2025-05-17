@@ -1,0 +1,10 @@
+BveTs Map 2.02
+
+$SignalPos+0; // 600m
+	Beacon.Put(3, 1, 0);
+$SignalPos+320; // 280m
+	Beacon.Put(3, 1, 0);
+$SignalPos+515; // 85m
+	Beacon.Put(3, 1, 0);
+$SignalPos+570; // 30m
+	Beacon.Put(5, 1, 0);

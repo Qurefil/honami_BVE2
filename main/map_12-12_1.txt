@@ -1,0 +1,62 @@
+BveTs Map 2.02
+
+$basedist + 137.6;
+	Curve.BeginTransition();
+
+$basedist + 214.6;
+	Curve.Begin(830);
+
+$basedist + 240.9;
+	$SignalPos = distance - 600;
+	include 'map_beacon_abs.txt';
+	Section.Begin(0,1,5);
+	Signal['fourY'].Put(0, 'j4', -2.3, 4.5, 0, 0, 0, 0, 0, 0);
+
+$basedist + 282.9;
+	#ほーむかいし
+	Repeater['H12-2form'].Begin('j10', 0,0,0, 0,180,0, 0,0,2.1, 'form1');
+	Repeater['H12-1form'].Begin(0, 0,0,0, 0,0,0, 0,0,2.1, 'form1');
+
+$basedist + 325.3;
+	Curve.BeginTransition();
+
+$basedist + 402.3;
+	Curve.End();
+
+$basedist + 469.5;
+	Structure['Stop_p'].Put(0,2.25,1,0,0,0,0,0,0);
+	Structure['Stop5'].Put(0,2.25,2.15,0,0,0,0,0,0);
+	$hamamiya2 = distance;
+	$hamamiya3 = distance;
+	$hamamiya4 = distance;
+	$hamamiya5 = distance;
+
+$basedist + 490;
+	Structure['Stop_p'].Put(0,2.25,1,0,0,0,0,0,0);
+	Structure['Stop8'].Put(0,2.25,2.15,0,0,0,0,0,0);
+	$hamamiya6 = distance;
+	$hamamiya7 = distance;
+	$hamamiya8 = distance;
+
+$basedist + 572;
+	Structure['Stop_p'].Put(0,2.25,1,0,0,0,0,0,0);
+	Structure['Stop14'].Put(0,2.25,2.15,0,0,0,0,0,0);
+	$hamamiya9 = distance;
+	$hamamiya10 = distance;
+	$hamamiya11 = distance;
+	$hamamiya12 = distance;
+	$hamamiya13 = distance;
+	$hamamiya14 = distance;
+
+$basedist + 574;
+	#ほーむおわり 291.1m, 猶予+2.1-2m
+	Repeater['H12-2form'].End();
+	Repeater['H12-1form'].End();
+
+$basedist + 588.9;
+	$SignalPos = distance - 600;
+	include 'map_beacon_abs_dep.txt';
+	Section.Begin(0,3,4,5);
+	Signal['fourG'].Put(0, 'j4', -2.3, 4.5, 0, 0, 0, 0, 0, 0);
+
+$basedist = distance;

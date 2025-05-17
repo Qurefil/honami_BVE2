@@ -1,0 +1,52 @@
+BveTs Map 2.02
+
+$basedist = 0.000000;
+
+$basedist + 10;
+	Curve.SetFunction(0);
+	Curve.Begin(0);
+
+$basedist + 35;
+	Curve.Begin(-1673.1); #28”Ô•ªŠò
+
+$basedist + 94.75;
+	Curve.End();
+
+$START = 180;
+$TCL = 29;
+$CCL = 5;
+$RADIUS = 950; #C10
+
+$basedist + $START;
+	Curve.BeginTransition();
+
+$basedist + $START + $TCL;
+	Curve.Begin($RADIUS);
+
+$basedist + $START + $TCL+$CCL;
+	Curve.BeginTransition();
+
+$basedist + $START + $TCL+$CCL+$TCL;
+	Curve.End();
+
+$START = 678.5-180+94.75-$TCL-$CCL-$TCL;
+$basedist + $START;
+	Curve.BeginTransition();
+
+$basedist + $START + $TCL;
+	Curve.Begin($RADIUS);
+
+$basedist + $START + $TCL+$CCL;
+	Curve.BeginTransition();
+
+$basedist + $START + $TCL+$CCL+$TCL;
+	Curve.End();
+
+$basedist + 678.5;
+	Curve.Begin(-1673.1);
+
+$basedist + 738.25;
+	Curve.End();
+
+$basedist + 800;
+	Curve.End();

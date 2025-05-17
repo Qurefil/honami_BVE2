@@ -1,0 +1,412 @@
+[@TSUTSUJI_GENERAL]
+owntrack = majiro1
+unit_length = 1
+offset_variable = basedist
+origin_distance = 0
+output_path = ./result_majiro1
+
+[majiro2_1]
+file = majiro2_1.txt
+absolute_coordinate = True
+x = 0
+y = 0
+z = 0
+angle = 0
+color = orange
+
+[majiro_ud1]
+file = majiro_ud1.txt
+absolute_coordinate = False
+parent_track = majiro2_1
+origin_kilopost = 130
+endpoint = 209.462
+x = 0
+y = 0
+z = 0
+angle = 0
+color = gray
+
+[majiro1]
+file = majiro1_p.txt
+absolute_coordinate = False
+parent_track = majiro2_1
+origin_kilopost = 370
+x = 0
+y = 0
+z = 0
+angle = 0
+color = brown
+
+[majiro2_2]
+file = majiro2_2_p.txt
+absolute_coordinate = False
+parent_track = majiro2_1
+origin_kilopost = 370
+x = 0
+y = 0
+z = 0
+angle = 0
+color = orange
+
+[majiro2_3]
+file = majiro2_3.txt
+absolute_coordinate = False
+parent_track = majiro2_2
+origin_kilopost = 551.948091
+x = 0
+y = 0
+z = 0
+angle = 0
+color = orange
+
+[majiro3_1A]
+file = majiro3_1A.txt
+absolute_coordinate = False
+parent_track = majiro2_1
+origin_kilopost = 370
+x = 0
+y = 0
+z = 0
+angle = 0
+color = gray
+
+[majiro3_2]
+file = majiro3_2_p.txt
+absolute_coordinate = False
+parent_track = majiro3_1A
+origin_kilopost = 88.046788
+x = 0
+y = 0
+z = 0
+angle = 0
+color = gray
+
+[majiro3_3A]
+file = majiro3_3A.txt
+absolute_coordinate = False
+parent_track = majiro3_2
+origin_kilopost = 386.274876
+x = 0
+y = 0
+z = 0
+angle = 0
+color = gray
+
+[majiro4_1]
+file = majiro4_1.txt
+absolute_coordinate = False
+parent_track = majiro2_1
+origin_kilopost = 0
+x = 5
+y = 0
+z = 0
+angle = 0
+color = cyan
+
+[majiro3_1B]
+file = majiro3_1B.txt
+absolute_coordinate = False
+parent_track = majiro4_1
+origin_kilopost = 386.274876
+x = 0
+y = 0
+z = 0
+angle = 0
+color = gray
+
+[majiro3_3B]
+file = majiro3_3B.txt
+absolute_coordinate = False
+parent_track = majiro3_2
+origin_kilopost = 330
+x = 0
+y = 0
+z = 0
+angle = 0
+color = gray
+
+[majiro4_2]
+file = majiro4_2.txt
+absolute_coordinate = False
+parent_track = majiro4_1
+origin_kilopost = 330
+x = 0
+y = 0
+z = 0
+angle = 0
+color = cyan
+
+[majiro4-5]
+file = majiro4-5.txt
+absolute_coordinate = False
+parent_track = majiro4_1
+origin_kilopost = 330
+x = 0
+y = 0
+z = 0
+angle = 0
+color = red
+
+[majiro5]
+file = majiro5.txt
+absolute_coordinate = False
+parent_track = majiro4-5
+origin_kilopost = 99.644262
+x = 0
+y = 0
+z = 0
+angle = 0
+color = red
+
+[majiro5-4]
+file = majiro5-4.txt
+absolute_coordinate = False
+parent_track = majiro5
+origin_kilopost = 434.581803
+x = 0
+y = 0
+z = 0
+angle = 0
+color = red
+
+[majiro4-7]
+file = majiro4-7.txt
+absolute_coordinate = False
+parent_track = majiro4
+origin_kilopost = 330
+x = 0
+y = 0
+z = 0
+angle = 0
+color = red
+
+[majiro7]
+file = majiro7.txt
+absolute_coordinate = False
+parent_track = majiro4-7
+origin_kilopost = 168.024866
+x = 0
+y = 0
+z = 0
+angle = 0
+color = red
+
+[majiro7-4]
+file = majiro7-4.txt
+absolute_coordinate = False
+parent_track = majiro7
+origin_kilopost = 299.290901
+x = 0
+y = 0
+z = 0
+angle = 0
+color = red
+
+[majiro4-9]
+file = majiro4-9.txt
+absolute_coordinate = False
+parent_track = majiro4
+origin_kilopost = 330
+x = 0
+y = 0
+z = 0
+angle = 0
+color = red
+
+[majiro9]
+file = majiro9.txt
+absolute_coordinate = False
+parent_track = majiro4-9
+origin_kilopost = 236.40547
+x = 0
+y = 0
+z = 0
+angle = 0
+color = red
+
+[majiro9-4]
+file = majiro9-4.txt
+absolute_coordinate = False
+parent_track = majiro9
+origin_kilopost = 164
+x = 0
+y = 0
+z = 0
+angle = 0
+color = red
+
+[majiro_ku-5]
+file = majiro_ku-5.txt
+absolute_coordinate = False
+parent_track = majiro4-5
+origin_kilopost = 99.644262
+x = 0
+y = 0
+z = 0
+angle = 180
+color = pink
+
+[majiro_ku-7]
+file = majiro_ku-7.txt
+absolute_coordinate = False
+parent_track = majiro4-7
+origin_kilopost = 168.024866
+x = 0
+y = 0
+z = 0
+angle = 180
+color = pink
+
+[majiro_ku-9]
+file = majiro_ku-9.txt
+absolute_coordinate = False
+parent_track = majiro4-9
+origin_kilopost = 236.40547
+x = 0
+y = 0
+z = 0
+angle = 180
+color = pink
+
+[majiro_ku]
+file = majiro_ku.txt
+absolute_coordinate = False
+parent_track = majiro_ku-5
+origin_kilopost = 178
+x = 0
+y = 0
+z = 0
+angle = 0
+color = pink
+
+[majiro_km-5]
+file = majiro_km-5.txt
+absolute_coordinate = False
+parent_track = majiro5
+origin_kilopost = 434.581803
+x = 0
+y = 0
+z = 0
+angle = 0
+color = pink
+
+[majiro_km-7]
+file = majiro_km-7.txt
+absolute_coordinate = False
+parent_track = majiro7
+origin_kilopost = 299.290901
+x = 0
+y = 0
+z = 0
+angle = 0
+color = pink
+
+[majiro_km-9]
+file = majiro_km-9.txt
+absolute_coordinate = False
+parent_track = majiro9
+origin_kilopost = 164
+x = 0
+y = 0
+z = 0
+angle = 0
+color = pink
+
+[majiro_km]
+file = majiro_km.txt
+absolute_coordinate = False
+parent_track = majiro_km-5
+origin_kilopost = 178
+x = 0
+y = 0
+z = 0
+angle = 0
+color = pink
+
+[majiro_R11]
+file = majiro_R11.txt
+absolute_coordinate = False
+parent_track = majiro_ku
+origin_kilopost = 760
+x = 0
+y = 0
+z = 0
+angle = 180
+color = gray
+
+[majiro_R12]
+file = majiro_R12.txt
+absolute_coordinate = False
+parent_track = majiro_ku
+origin_kilopost = 760
+x = 0
+y = 0
+z = 0
+angle = 180
+color = gray
+
+[majiro_R13]
+file = majiro_R13.txt
+absolute_coordinate = False
+parent_track = majiro_ku
+origin_kilopost = 760
+x = 0
+y = 0
+z = 0
+angle = 180
+color = gray
+
+[majiro_R14]
+file = majiro_R14.txt
+absolute_coordinate = False
+parent_track = majiro_ku
+origin_kilopost = 760
+x = 0
+y = 0
+z = 0
+angle = 180
+color = gray
+
+[majiro_R15]
+file = majiro_R15.txt
+absolute_coordinate = False
+parent_track = majiro_km
+origin_kilopost = 760
+x = 0
+y = 0
+z = 0
+angle = 180
+color = gray
+
+[majiro_R16]
+file = majiro_R16.txt
+absolute_coordinate = False
+parent_track = majiro_km
+origin_kilopost = 760
+x = 0
+y = 0
+z = 0
+angle = 180
+color = gray
+
+[majiro_R17]
+file = majiro_R17.txt
+absolute_coordinate = False
+parent_track = majiro_km
+origin_kilopost = 760
+x = 0
+y = 0
+z = 0
+angle = 180
+color = gray
+
+[majiro_R18]
+file = majiro_R18.txt
+absolute_coordinate = False
+parent_track = majiro_km
+origin_kilopost = 760
+x = 0
+y = 0
+z = 0
+angle = 180
+color = gray

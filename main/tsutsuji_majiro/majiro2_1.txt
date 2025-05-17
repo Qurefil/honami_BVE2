@@ -1,0 +1,10 @@
+BveTs Map 2.02
+
+$basedist = 0;
+$basedist + 10;
+	Curve.Begin(0);
+
+$basedist + 370;
+	Curve.End();
+
+$basedist = distance;

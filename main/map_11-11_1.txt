@@ -1,0 +1,52 @@
+BveTs Map 2.02
+
+$basedist + 0;
+	$SignalPos = distance - 600;
+	include 'map_beacon_abs.txt';
+	Section.Begin(0,1,5);
+	Signal['fourY'].Put(0, 'j4', -2.3, 4.5, 0, 0, 0, 0, 0, 0);
+
+$basedist + 26;
+	#ほーむかいし
+	Repeater['H11-2form'].Begin('j10', 0,0,0, 0,180,0, 0,0,2.1, 'form1');
+	Repeater['H11-1form'].Begin(0, 0,0,0, 0,0,0, 0,0,2.1, 'form1');
+
+$basedist + 151;
+	Structure['Stop_p'].Put(0,2.25,1,0,0,0,0,0,0);
+	Structure['Stop3'].Put(0,2.25,2.15,0,0,0,0,0,0);
+	$atsu2 = distance;
+	$atsu3 = distance;
+
+$basedist + 192;
+	Structure['Stop_p'].Put(0,2.25,1,0,0,0,0,0,0);
+	Structure['Stop6'].Put(0,2.25,2.15,0,0,0,0,0,0);
+	$atsu4 = distance;
+	$atsu5 = distance;
+	$atsu6 = distance;
+
+$basedist + 233;
+	Structure['Stop_p'].Put(0,2.25,1,0,0,0,0,0,0);
+	Structure['Stop9'].Put(0,2.25,2.15,0,0,0,0,0,0);
+	$atsu7 = distance;
+	$atsu8 = distance;
+	$atsu9 = distance;
+
+$basedist + 274;
+	Structure['Stop_p'].Put(0,2.25,1,0,0,0,0,0,0);
+	Structure['Stop12'].Put(0,2.25,2.15,0,0,0,0,0,0);
+	$atsu10 = distance;
+	$atsu11 = distance;
+	$atsu12 = distance;
+
+$basedist + 276;
+	#ほーむおわり 250m, 猶予+2-2m
+	Repeater['H11-2form'].End();
+	Repeater['H11-1form'].End();
+
+$basedist + 300;
+	$SignalPos = distance - 600;
+	include 'map_beacon_abs_dep.txt';
+	Section.Begin(0,3,4,5);
+	Signal['fourG'].Put(0, 'j4', -2.3, 4.5, 0, 0, 0, 0, 0, 0);
+
+$basedist = distance;

@@ -1,0 +1,15 @@
+BveTs Map 2.02
+
+# basedist = 現在 - 730.3
+
+$basedist + 20.3; #左線洗車場ここから
+
+$basedist + 89.7;
+	Section.Begin(0, 2);
+	Signal['shunt'].Put(0, 'j4', -2.3, 0, 0, 0, 0, 0, 0, 0);
+	Track['j3w'].position(0.2, 0);
+
+$basedist = distance;
+
+$basedist + 10.3; #洗車場ここまで
+
