@@ -10,6 +10,12 @@ $basedist + 233.2;
 	Gradient.Begin(28);
 	Track['mat'].Position(0, -2);
 
+$basedist + 540;
+	$SignalPos = distance - 600;
+	include 'map_beacon_block.txt';
+	Section.Begin(0,3,5);
+	Signal['three'].Put(0, 'j4', -2.3, 4.5, 0, 0, 0, 0, 0, 0);
+
 $basedist + 692.8;
 	Gradient.BeginTransition();
 	Track['mat'].Position(0, -14.5, 0, -4000);

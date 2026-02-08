@@ -1,0 +1,52 @@
+BveTs Map 2.02
+
+0;
+	Curve.SetFunction(0);
+
+479.13;
+	# RD線亘り開始 #16
+	Curve.Begin(546.3);
+
+513.26;
+	Curve.End();
+
+830.33;
+	Curve.Begin(-546.3);
+
+864.46;
+	Curve.End();
+
+900.306;
+	Curve.BeginTransition();
+
+944.306;
+	Curve.Begin(565);
+
+1175.306;
+	Curve.BeginTransition();
+
+1219.306;
+	Curve.End();
+
+
+
+$STA = 1398.5;
+
+$STA;
+	Curve.Begin(-307.3); #12
+
+$STA + 25.59;
+	Curve.End();
+
+
+1450;
+	Curve.Begin(307.3);
+1475.59;
+	Curve.End();
+1495.02;
+	Curve.Begin(-307.3);
+1520.58;
+	Curve.End();
+
+1530;
+	Curve.End();

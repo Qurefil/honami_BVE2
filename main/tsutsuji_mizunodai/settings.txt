@@ -1,7 +1,6 @@
 [@TSUTSUJI_GENERAL]
-owntrack = track4_line
+owntrack = track4
 unit_length = 0.1
-offset_variable = basedist
 origin_distance = 0
 output_path = ./track4
 
@@ -12,71 +11,30 @@ x = 0
 y = 0
 z = 0
 angle = 0
-color = orange
+color = red
+supplemental_cp = 575, 585, 600, 615, 630, 645, 660, 675, 680, 730, 740, 750, 765, 780, 795, 810, 825, 840, 855, 870, 885, 900, 1310, 1320, 
 
 [track4]
 file = track4.txt
 absolute_coordinate = False
 parent_track = track1
 origin_kilopost = 0
-supplemental_cp = 60,85
 x = -4
 y = 0
 z = 0
 angle = 0
 color = red
+supplemental_cp = 60, 85, 575, 585, 600, 615, 630, 645, 660, 675, 680, 730, 740, 750, 765, 780, 795, 810, 825, 840, 855, 870, 885, 900, 1000
 
-[track3]
-file = track3.txt
+
+[track2]
+file = track2.txt
 absolute_coordinate = False
-parent_track = track4
-origin_kilopost = 350
+parent_track = track1
+origin_kilopost = -602
 x = 0
 y = 0
 z = 0
 angle = 0
-color = red
-
-[track1_line]
-file = line.txt
-absolute_coordinate = False
-parent_track = track1
-origin_kilopost = 0
-x = 0
-y = 0
-z = 0
-angle = 0
-color = gray
-
-[track2_line]
-file = line.txt
-absolute_coordinate = False
-parent_track = track1
-origin_kilopost = 0
-x = -10
-y = 0
-z = 0
-angle = 0
-color = gray
-
-[track3_line]
-file = line.txt
-absolute_coordinate = False
-parent_track = track1
-origin_kilopost = 0
-x = -14
-y = 0
-z = 0
-angle = 0
-color = gray
-
-[track4_line]
-file = line.txt
-absolute_coordinate = False
-parent_track = track1
-origin_kilopost = 0
-x = -24
-y = 0
-z = 0
-angle = 0
-color = gray
+color = orange
+supplemental_cp = 575, 585, 600, 615, 630, 645, 660, 675, 680, 730, 740, 750, 765, 780, 795, 810, 825, 840, 855, 870, 885, 900, 1000

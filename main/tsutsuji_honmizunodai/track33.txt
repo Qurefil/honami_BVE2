@@ -1,0 +1,18 @@
+BveTs Map 2.02
+
+0;
+	Curve.SetFunction(0);
+
+$START = 0;
+
+$START;
+	Curve.Begin(213.4);
+
+$START + 21.32;
+	Curve.End();
+
+$START + 21.32 + 18.71;
+	Curve.Begin(-213.4);
+
+$START + 21.32 + 18.71 + 21.32;
+	Curve.End();

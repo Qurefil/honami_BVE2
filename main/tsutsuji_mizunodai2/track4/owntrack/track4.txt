@@ -1,0 +1,80 @@
+BveTs Map 2.02:utf-8
+
+# added by kilopost handling
+$basedist2 = 0.000000;
+
+$CCL = 15;
+$TCL = 80;
+$STR = 0;
+$R = -830;
+
+$basedist2 + 0.000000;
+Curve.SetFunction(0);
+
+$basedist = 220;
+	Curve.SetFunction(0);
+
+$basedist2 + 230.000000;
+	Curve.BeginTransition();
+
+$basedist2 + 310.000000;
+	Curve.Begin($R);
+
+$basedist2 + 325.000000;
+	Curve.BeginTransition();
+
+$basedist2 + 405.000000;
+	Curve.End();
+
+$basedist2 + 405.000000;
+	Curve.BeginTransition();
+
+$basedist2 + 485.000000;
+	Curve.Begin(-$R);
+
+$basedist2 + 500.000000;
+	Curve.BeginTransition();
+
+$basedist2 + 580.000000;
+	Curve.End();
+
+$basedist = distance + 528;
+
+
+$CCL = 0;
+$TCL = 64;
+$STR = 56.6;
+$R = 590;
+$CANT = 55;
+$SpLm = 90;
+# ‚±‚Ì•ªŠò—h‚ê‚»‚¤‚¾‚æ‚Ë
+
+$basedist2 + 1108.000000;
+	Curve.SetFunction(0);
+
+$basedist2 + 1118.000000;
+	Curve.BeginTransition();
+
+$basedist2 + 1182.000000;
+	Curve.Begin($R);
+
+$basedist2 + 1182.000000;
+	Curve.BeginTransition();
+
+$basedist2 + 1246.000000;
+	Curve.End();
+
+$basedist2 + 1302.600000;
+	Curve.BeginTransition();
+
+$basedist2 + 1366.600000;
+	Curve.Begin(-$R);
+
+$basedist2 + 1366.600000;
+	Curve.BeginTransition();
+
+$basedist2 + 1430.600000;
+	Curve.End();
+
+$basedist2 + 2108.000000;
+	Curve.End();

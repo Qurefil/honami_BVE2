@@ -1,0 +1,19 @@
+BveTs Map 2.02
+
+0;
+	Curve.SetFunction(0);
+
+820;
+	Curve.BeginTransition();
+
+880.12;
+	Curve.Begin(795.94);
+
+1141.36;
+	Curve.BeginTransition();
+
+1201.48;
+	Curve.End();
+
+1550;
+	Curve.End();

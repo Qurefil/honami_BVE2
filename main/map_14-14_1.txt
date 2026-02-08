@@ -81,10 +81,11 @@ $basedist + 313;
 	Repeater['H14-2form'].End();
 	Repeater['H14-1form'].End();
 
-$basedist + 588.9;
+$basedist + 338.9;
 	$SignalPos = distance - 600;
 	include 'map_beacon_abs_dep.txt';
 	Section.Begin(0,3,4,5);
 	Signal['fourG'].Put(0, 'j4', -2.3, 4.5, 0, 0, 0, 0, 0, 0);
 
+$basedist + 588.9;
 $basedist = distance;

@@ -1,0 +1,121 @@
+BveTs Map 2.02:utf-8
+
+# added by kilopost handling
+$basedist2 = 0.000000;
+
+# Track['track4_line'].X
+$basedist2 + 0.000000;
+Track['track4_line'].X.Interpolate(-20.000,0.000);
+$basedist2 + 60.000000;
+Track['track4_line'].X.Interpolate(-20.000,0.000);
+$basedist2 + 85.000000;
+Track['track4_line'].X.Interpolate(-20.000,0.000);
+$basedist2 + 230.000000;
+Track['track4_line'].X.Interpolate(-20.000,1678.166);
+$basedist2 + 310.000000;
+Track['track4_line'].X.Interpolate(-18.875,847.225);
+$basedist2 + 325.000000;
+Track['track4_line'].X.Interpolate(-18.035,1638.160);
+$basedist2 + 405.000000;
+Track['track4_line'].X.Interpolate(-10.066,-1651.687);
+$basedist2 + 485.000000;
+Track['track4_line'].X.Interpolate(-2.008,-827.191);
+$basedist2 + 500.000000;
+Track['track4_line'].X.Interpolate(-1.147,-1574.931);
+$basedist2 + 575.000000;
+Track['track4_line'].X.Interpolate(0.000,0.000);
+$basedist2 + 580.000000;
+Track['track4_line'].X.Interpolate(0.000,0.000);
+$basedist2 + 585.000000;
+Track['track4_line'].X.Interpolate(0.000,0.000);
+$basedist2 + 600.000000;
+Track['track4_line'].X.Interpolate(0.000,0.000);
+$basedist2 + 615.000000;
+Track['track4_line'].X.Interpolate(0.000,0.000);
+$basedist2 + 630.000000;
+Track['track4_line'].X.Interpolate(0.000,0.000);
+$basedist2 + 645.000000;
+Track['track4_line'].X.Interpolate(0.000,0.000);
+$basedist2 + 660.000000;
+Track['track4_line'].X.Interpolate(0.000,0.000);
+$basedist2 + 675.000000;
+Track['track4_line'].X.Interpolate(0.000,0.000);
+$basedist2 + 680.000000;
+Track['track4_line'].X.Interpolate(0.000,0.000);
+$basedist2 + 730.000000;
+Track['track4_line'].X.Interpolate(0.000,0.000);
+$basedist2 + 740.000000;
+Track['track4_line'].X.Interpolate(0.000,0.000);
+$basedist2 + 750.000000;
+Track['track4_line'].X.Interpolate(0.000,0.000);
+$basedist2 + 765.000000;
+Track['track4_line'].X.Interpolate(0.000,0.000);
+$basedist2 + 780.000000;
+Track['track4_line'].X.Interpolate(0.000,0.000);
+$basedist2 + 790.902000;
+Track['track4_line'].X.Interpolate(0.000,0.000);
+
+# Track['track4_line'].Y
+$basedist2 + 0.000000;
+Track['track4_line'].Y.Interpolate(0.000,0.000);
+$basedist2 + 60.000000;
+Track['track4_line'].Y.Interpolate(0.000,0.000);
+$basedist2 + 85.000000;
+Track['track4_line'].Y.Interpolate(0.000,0.000);
+$basedist2 + 230.000000;
+Track['track4_line'].Y.Interpolate(0.000,0.000);
+$basedist2 + 310.000000;
+Track['track4_line'].Y.Interpolate(0.000,0.000);
+$basedist2 + 325.000000;
+Track['track4_line'].Y.Interpolate(0.000,0.000);
+$basedist2 + 405.000000;
+Track['track4_line'].Y.Interpolate(0.000,0.000);
+$basedist2 + 485.000000;
+Track['track4_line'].Y.Interpolate(0.000,0.000);
+$basedist2 + 500.000000;
+Track['track4_line'].Y.Interpolate(0.000,0.000);
+$basedist2 + 575.000000;
+Track['track4_line'].Y.Interpolate(0.000,0.000);
+$basedist2 + 580.000000;
+Track['track4_line'].Y.Interpolate(0.000,0.000);
+$basedist2 + 585.000000;
+Track['track4_line'].Y.Interpolate(0.000,0.000);
+$basedist2 + 600.000000;
+Track['track4_line'].Y.Interpolate(0.000,0.000);
+$basedist2 + 615.000000;
+Track['track4_line'].Y.Interpolate(0.000,0.000);
+$basedist2 + 630.000000;
+Track['track4_line'].Y.Interpolate(0.000,0.000);
+$basedist2 + 645.000000;
+Track['track4_line'].Y.Interpolate(0.000,0.000);
+$basedist2 + 660.000000;
+Track['track4_line'].Y.Interpolate(0.000,0.000);
+$basedist2 + 675.000000;
+Track['track4_line'].Y.Interpolate(0.000,0.000);
+$basedist2 + 680.000000;
+Track['track4_line'].Y.Interpolate(0.000,0.000);
+$basedist2 + 730.000000;
+Track['track4_line'].Y.Interpolate(0.000,0.000);
+$basedist2 + 740.000000;
+Track['track4_line'].Y.Interpolate(0.000,0.000);
+$basedist2 + 750.000000;
+Track['track4_line'].Y.Interpolate(0.000,0.000);
+$basedist2 + 765.000000;
+Track['track4_line'].Y.Interpolate(0.000,0.000);
+$basedist2 + 780.000000;
+Track['track4_line'].Y.Interpolate(0.000,0.000);
+$basedist2 + 790.902000;
+Track['track4_line'].Y.Interpolate(0.000,0.000);
+
+# Track['track4_line'].Cant.Interpolate
+$basedist2 + 0.000000;
+Track['track4_line'].Cant.Interpolate(0.000);
+$basedist2 + 790.902000;
+Track['track4_line'].Cant.Interpolate(0.000);
+
+# Track['track4_line'].Cant.SetFunction
+
+# Track['track4_line'].Cant.SetCenter
+
+# Track['track4_line'].Cant.SetGauge
+

@@ -1,0 +1,73 @@
+BveTs Map 2.02
+
+0;
+	Curve.SetFunction(0);
+
+360.9;
+	#16右開始
+	Curve.End();
+458.95;
+	#16右おわり
+	Curve.End();
+
+479.3;
+	# RD線亘り開始 #16
+	Curve.End();
+
+501;
+	# 12左開始
+	Curve.End();
+574.47;
+	# 12左おわり
+	Curve.End();
+
+655.3+18;
+	Curve.Begin(-546.3); # 16両 5.65m左移動
+
+689.43+18;
+	Curve.End();
+
+$STR = 36;
+$TCL = 30;
+$R = 720;
+$CCL = 15;
+$STA = 689.43+18;
+
+$STA + $STR;
+	Curve.BeginTransition();
+
+$STA + $STR + $TCL;
+	Curve.Begin($R);
+
+$STA + $STR + $TCL + $CCL;
+	Curve.BeginTransition();
+
+$STA + $STR + $TCL + $CCL + $TCL;
+	Curve.End();
+
+$STR = 64;
+$TCL = 30;
+$R = 450;
+$CCL = 15;
+$STA = 689.43+300;
+
+$STA;
+	Curve.BeginTransition();
+
+$STA + $TCL;
+	Curve.Begin($R);
+
+$STA + $TCL + $CCL;
+	Curve.BeginTransition();
+
+$STA + $TCL + $CCL + $TCL;
+	Curve.End();
+
+$STA + $TCL + $CCL + $TCL + $STR;
+	Curve.Begin(-213.4);
+
+$STA + $TCL + $CCL + $TCL + $STR + 21.32;
+	Curve.End();
+
+1500;
+	Curve.End();

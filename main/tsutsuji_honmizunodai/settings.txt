@@ -1,0 +1,187 @@
+[@TSUTSUJI_GENERAL]
+owntrack = track2
+unit_length = 0.01
+offset_variable = basedist
+origin_distance = 0
+output_path = ./track2
+
+[track2]
+file = track2.txt
+absolute_coordinate = True
+x = 0
+y = 0
+z = 0
+angle = 0
+color = red
+
+[track1]
+file = track1.txt
+absolute_coordinate = False
+parent_track = track2
+origin_kilopost = 0
+x = 0
+y = 0
+z = 0
+angle = 0
+color = orange
+
+[track3]
+file = track3.txt
+absolute_coordinate = False
+parent_track = track2
+origin_kilopost = 0
+x = 4
+y = 0
+z = 0
+angle = 0
+color = red
+
+[track4]
+file = track4.txt
+absolute_coordinate = False
+parent_track = track3
+origin_kilopost = 0
+x = 0
+y = 0
+z = 0
+angle = 0
+color = orange
+
+[track51]
+file = track51.txt
+absolute_coordinate = False
+parent_track = track2
+origin_kilopost = 0
+x = 0
+y = 0
+z = 0
+angle = 0
+color = brown
+
+[track52]
+file = track52.txt
+absolute_coordinate = False
+parent_track = track3
+origin_kilopost = 0
+x = 0
+y = 0
+z = 0
+angle = 0
+color = crimson
+
+
+[track31]
+file = track31.txt
+absolute_coordinate = False
+parent_track = track3
+origin_kilopost = 518
+x = 0
+y = 0
+z = 0
+angle = 0
+color = orange
+
+[track32]
+file = track32.txt
+absolute_coordinate = False
+parent_track = track3
+origin_kilopost = 1173.3
+x = 0
+y = 0
+z = 0
+angle = 0
+color = orange
+
+[track33]
+file = track33.txt
+absolute_coordinate = False
+parent_track = track1
+origin_kilopost = 1280.6
+x = 0
+y = 0
+z = 0
+angle = 0
+color = orange
+
+
+[track11]
+file = track11.txt
+absolute_coordinate = False
+parent_track = track2
+origin_kilopost = 1310.1
+x = 0
+y = 0
+z = 0
+angle = 0
+color = green
+
+[track12]
+file = track12.txt
+absolute_coordinate = False
+parent_track = track2
+origin_kilopost = 1310.1
+x = 0
+y = 0
+z = 0
+angle = 0
+color = aqua
+
+
+[track22]
+file = track22.txt
+absolute_coordinate = False
+parent_track = track2
+origin_kilopost = 0
+x = 37.25
+y = 0
+z = 0
+angle = 0
+color = deepskyblue
+
+[track21]
+file = track21.txt
+absolute_coordinate = False
+parent_track = track22
+origin_kilopost = 0
+x = 0
+y = 0
+z = 0
+angle = 0
+color = darkblue
+
+[track23]
+file = track23.txt
+absolute_coordinate = False
+parent_track = track22
+origin_kilopost = 0
+x = 3.75
+y = 0
+z = 0
+angle = 0
+color = deepskyblue
+
+[track24]
+file = track24.txt
+absolute_coordinate = False
+parent_track = track23
+origin_kilopost = 0
+x = 0
+y = 0
+z = 0
+angle = 0
+color = darkblue
+
+
+[track81]
+file = track81.txt
+absolute_coordinate = False
+parent_track = track2
+origin_kilopost = 0
+x = -23
+y = 0
+z = 0
+angle = 0
+color = aqua
+
+
+

@@ -1,0 +1,75 @@
+BveTs Map 2.02
+
+$CCL = 15;
+$TCL = 80;
+$STR = 0;
+$R = -830;
+Curve.SetFunction(0);
+
+$basedist = 0;
+	Curve.SetFunction(0);
+
+$basedist + 10;
+	Curve.BeginTransition();
+
+$basedist + 10 + $TCL;
+	Curve.Begin($R);
+
+$basedist + 10 + $TCL + $CCL;
+	Curve.BeginTransition();
+
+$basedist + 10 + $TCL + $CCL + $TCL;
+	Curve.End();
+
+$basedist + 10 + $TCL + $CCL + $TCL + $STR;
+	Curve.BeginTransition();
+
+$basedist + 10 + $TCL + $CCL + $TCL + $STR + $TCL;
+	Curve.Begin(-$R);
+
+$basedist + 10 + $TCL + $CCL + $TCL + $STR + $TCL + $CCL;
+	Curve.BeginTransition();
+
+$basedist + 10 + $TCL + $CCL + $TCL + $STR + $TCL + $CCL + $TCL;
+	Curve.End();
+
+$basedist = distance + 200;
+
+
+$CCL = 0;
+$TCL = 64;
+$STR = 56.6;
+$R = 590;
+$CANT = 55;
+$SpLm = 90;
+# この分岐揺れそうだよね
+
+$basedist + 0;
+	Curve.SetFunction(0);
+
+$basedist + 10;
+	Curve.BeginTransition();
+
+$basedist + 10 + $TCL;
+	Curve.Begin($R);
+
+$basedist + 10 + $TCL + $CCL;
+	Curve.BeginTransition();
+
+$basedist + 10 + $TCL + $CCL + $TCL;
+	Curve.End();
+
+$basedist + 10 + $TCL + $CCL + $TCL + $STR;
+	Curve.BeginTransition();
+
+$basedist + 10 + $TCL + $CCL + $TCL + $STR + $TCL;
+	Curve.Begin(-$R);
+
+$basedist + 10 + $TCL + $CCL + $TCL + $STR + $TCL + $CCL;
+	Curve.BeginTransition();
+
+$basedist + 10 + $TCL + $CCL + $TCL + $STR + $TCL + $CCL + $TCL;
+	Curve.End();
+
+$basedist + 1000;
+	Curve.End();

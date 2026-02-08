@@ -1,0 +1,127 @@
+BveTs Map 2.02:utf-8
+
+# added by kilopost handling
+$basedist = 0.000000;
+
+# Track['track22'].X
+$basedist + 0.000000;
+Track['track22'].X.Interpolate(37.250,0.000);
+$basedist + 360.900000;
+Track['track22'].X.Interpolate(37.250,0.000);
+$basedist + 458.950000;
+Track['track22'].X.Interpolate(37.250,0.000);
+$basedist + 479.300000;
+Track['track22'].X.Interpolate(37.250,0.000);
+$basedist + 501.000000;
+Track['track22'].X.Interpolate(37.250,0.000);
+$basedist + 574.470000;
+Track['track22'].X.Interpolate(37.250,0.000);
+$basedist + 640.000000;
+Track['track22'].X.Interpolate(37.250,1357.544);
+$basedist + 670.000000;
+Track['track22'].X.Interpolate(37.436,714.045);
+$basedist + 685.000000;
+Track['track22'].X.Interpolate(37.909,1782.318);
+$basedist + 715.000000;
+Track['track22'].X.Interpolate(39.570,0.000);
+$basedist + 735.000000;
+Track['track22'].X.Interpolate(40.772,-1289.532);
+$basedist + 765.000000;
+Track['track22'].X.Interpolate(42.353,-794.876);
+$basedist + 780.000000;
+Track['track22'].X.Interpolate(42.777,-1685.995);
+$basedist + 810.000000;
+Track['track22'].X.Interpolate(42.947,0.000);
+$basedist + 820.141000;
+Track['track22'].X.Interpolate(42.947,1561.617);
+$basedist + 880.133000;
+Track['track22'].X.Interpolate(43.617,799.212);
+$basedist + 990.000000;
+Track['track22'].X.Interpolate(55.375,-1818.457);
+$basedist + 1025.000000;
+Track['track22'].X.Interpolate(61.559,-1112.670);
+$basedist + 1038.000000;
+Track['track22'].X.Interpolate(63.554,1228.370);
+$basedist + 1073.000000;
+Track['track22'].X.Interpolate(68.914,798.407);
+$basedist + 1103.000000;
+Track['track22'].X.Interpolate(74.754,266.505);
+$basedist + 1138.000000;
+Track['track22'].X.Interpolate(84.338,236.461);
+$basedist + 1141.852000;
+Track['track22'].X.Interpolate(85.759,254.757);
+$basedist + 1151.000000;
+Track['track22'].X.Interpolate(89.432,-1107.608);
+
+# Track['track22'].Y
+$basedist + 0.000000;
+Track['track22'].Y.Interpolate(0.000,0.000);
+$basedist + 360.900000;
+Track['track22'].Y.Interpolate(0.000,0.000);
+$basedist + 458.950000;
+Track['track22'].Y.Interpolate(0.000,0.000);
+$basedist + 479.300000;
+Track['track22'].Y.Interpolate(0.000,0.000);
+$basedist + 501.000000;
+Track['track22'].Y.Interpolate(0.000,0.000);
+$basedist + 574.470000;
+Track['track22'].Y.Interpolate(0.000,0.000);
+$basedist + 640.000000;
+Track['track22'].Y.Interpolate(0.000,0.000);
+$basedist + 670.000000;
+Track['track22'].Y.Interpolate(0.000,0.000);
+$basedist + 685.000000;
+Track['track22'].Y.Interpolate(0.000,0.000);
+$basedist + 715.000000;
+Track['track22'].Y.Interpolate(0.000,0.000);
+$basedist + 735.000000;
+Track['track22'].Y.Interpolate(0.000,0.000);
+$basedist + 765.000000;
+Track['track22'].Y.Interpolate(0.000,0.000);
+$basedist + 780.000000;
+Track['track22'].Y.Interpolate(0.000,0.000);
+$basedist + 810.000000;
+Track['track22'].Y.Interpolate(0.000,0.000);
+$basedist + 820.141000;
+Track['track22'].Y.Interpolate(0.000,0.000);
+$basedist + 880.133000;
+Track['track22'].Y.Interpolate(0.000,0.000);
+$basedist + 990.000000;
+Track['track22'].Y.Interpolate(0.000,0.000);
+$basedist + 1025.000000;
+Track['track22'].Y.Interpolate(0.000,0.000);
+$basedist + 1038.000000;
+Track['track22'].Y.Interpolate(0.000,0.000);
+$basedist + 1073.000000;
+Track['track22'].Y.Interpolate(0.000,0.000);
+$basedist + 1103.000000;
+Track['track22'].Y.Interpolate(0.000,0.000);
+$basedist + 1138.000000;
+Track['track22'].Y.Interpolate(0.000,0.000);
+$basedist + 1141.852000;
+Track['track22'].Y.Interpolate(0.000,0.000);
+$basedist + 1151.000000;
+Track['track22'].Y.Interpolate(0.000,0.000);
+
+# Track['track22'].Cant.Interpolate
+$basedist + 0.000000;
+Track['track22'].Cant.Interpolate(0.000);
+$basedist + 820.141000;
+Track['track22'].Cant.Interpolate(0.000);
+$basedist + 880.133000;
+Track['track22'].Cant.Interpolate(0.000);
+$basedist + 1141.852000;
+Track['track22'].Cant.Interpolate(0.000);
+
+# Track['track22'].Cant.SetFunction
+$basedist + 0.000000;
+Track['track22'].Cant.SetFunction(0);
+
+# Track['track22'].Cant.SetCenter
+$basedist + 0.000000;
+Track['track22'].Cant.SetCenter(0.000);
+
+# Track['track22'].Cant.SetGauge
+$basedist + 0.000000;
+Track['track22'].Cant.SetGauge(0.000);
+

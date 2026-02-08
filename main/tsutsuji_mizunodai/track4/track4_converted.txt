@@ -9,13 +9,25 @@ Track['track4'].X.Interpolate(20.000,-1638.184);
 $basedist + 89.981;
 Track['track4'].X.Interpolate(18.715,-827.335);
 $basedist + 104.957;
-Track['track4'].X.Interpolate(17.857,0.000);
+Track['track4'].X.Interpolate(17.857,-1683.787);
+$basedist + 184.562;
+Track['track4'].X.Interpolate(9.999,1605.283);
 $basedist + 264.166;
 Track['track4'].X.Interpolate(2.141,829.328);
 $basedist + 279.142;
 Track['track4'].X.Interpolate(1.283,1718.127);
 $basedist + 359.123;
 Track['track4'].X.Interpolate(-0.002,0.000);
+$basedist + 559.123;
+Track['track4'].X.Interpolate(-0.002,0.000);
+$basedist + 569.123;
+Track['track4'].X.Interpolate(-0.002,1131.923);
+$basedist + 633.104;
+Track['track4'].X.Interpolate(1.155,1232.344);
+$basedist + 696.835;
+Track['track4'].X.Interpolate(6.932,0.000);
+$basedist + 753.102;
+Track['track4'].X.Interpolate(13.059,0.000);
 
 # Track['track4'].Y
 $basedist + 10.000;
@@ -24,11 +36,23 @@ $basedist + 89.981;
 Track['track4'].Y.Interpolate(0.000,0.000);
 $basedist + 104.957;
 Track['track4'].Y.Interpolate(0.000,0.000);
+$basedist + 184.562;
+Track['track4'].Y.Interpolate(0.000,0.000);
 $basedist + 264.166;
 Track['track4'].Y.Interpolate(0.000,0.000);
 $basedist + 279.142;
 Track['track4'].Y.Interpolate(0.000,0.000);
 $basedist + 359.123;
+Track['track4'].Y.Interpolate(0.000,0.000);
+$basedist + 559.123;
+Track['track4'].Y.Interpolate(0.000,0.000);
+$basedist + 569.123;
+Track['track4'].Y.Interpolate(0.000,0.000);
+$basedist + 633.104;
+Track['track4'].Y.Interpolate(0.000,0.000);
+$basedist + 696.835;
+Track['track4'].Y.Interpolate(0.000,0.000);
+$basedist + 753.102;
 Track['track4'].Y.Interpolate(0.000,0.000);
 
 # Track['track4'].Cant.Interpolate
@@ -38,14 +62,26 @@ $basedist + 89.981;
 Track['track4'].Cant.Interpolate(0.000);
 $basedist + 104.957;
 Track['track4'].Cant.Interpolate(0.000);
+$basedist + 184.562;
+Track['track4'].Cant.Interpolate(0.000);
 $basedist + 264.166;
 Track['track4'].Cant.Interpolate(0.000);
 $basedist + 279.142;
 Track['track4'].Cant.Interpolate(0.000);
 $basedist + 359.123;
 Track['track4'].Cant.Interpolate(0.000);
+$basedist + 569.123;
+Track['track4'].Cant.Interpolate(0.000);
+$basedist + 633.104;
+Track['track4'].Cant.Interpolate(0.000);
+$basedist + 696.835;
+Track['track4'].Cant.Interpolate(0.000);
+$basedist + 753.102;
+Track['track4'].Cant.Interpolate(0.000);
 
 # Track['track4'].Cant.SetFunction
+$basedist + 559.123;
+Track['track4'].Cant.SetFunction(1);
 
 # Track['track4'].Cant.SetCenter
 

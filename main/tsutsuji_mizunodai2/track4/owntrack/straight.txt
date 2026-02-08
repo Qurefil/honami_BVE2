@@ -1,0 +1,38 @@
+BveTs Map 2.02
+
+$basedist = 270.000000;
+
+$basedist = 0;
+$basedist + $basedist + 10;
+	Curve.Begin(0);
+$basedist + $basedist + 20;
+	Curve.Begin(0);
+$basedist + $basedist + 31.5;
+	Curve.Begin(0);
+$basedist + $basedist + 61.5;
+	Curve.Begin(0);
+$basedist + $basedist + 72;
+	Curve.Begin(0);
+$basedist + $basedist + 83;
+	Curve.Begin(0);
+$basedist + $basedist + 94;
+	Curve.Begin(0);
+$basedist + $basedist + 105;
+	Curve.Begin(0);
+$basedist + $basedist + 135;
+	Curve.Begin(0);
+$basedist + $basedist + 140;
+	Curve.Begin(0);
+$basedist + $basedist + 145;
+	Curve.Begin(0);
+$basedist + $basedist + 150;
+	Curve.Begin(0);
+$basedist + $basedist + 156;
+	Curve.Begin(0);
+$basedist + $basedist + 200;
+	Curve.Begin(0);
+
+$basedist + $basedist + 1000;
+	Curve.Begin(0);
+
+$basedist = distance;

@@ -55,6 +55,11 @@ $end = 18;
 	include 'map_14-14_1.txt';
 	include 'map_14-15_1.txt';
 	include 'map_15-15_4.txt';
+	include 'map_15-15_5.txt';
+	include 'map_15-16_1.txt';
+	include 'map_16-16_1.txt';
+	include 'map_16-17_1.txt';
+	include 'map_17-17_2.txt';
 
 
 9999997;
@@ -98,6 +103,6 @@ $inaage_SP = $inaage3;			include 'SP\14_SPL.txt'; # 左
 
 $mizunodai_SP = $mizunodai3;		include 'SP\15_SPR.txt'; # 右
 
-# $higashimizunodai_SP=$higashimizunodai3;	include 'SP\16_SPL.txt'; # 左
+$higashimizunodai_SP=$higashimizunodai3;	include 'SP\16_SPR.txt'; # 右
 
 # $honmizunodai_SP = $honmizunodai3;	include 'SP\17_SPL.txt'; # 左

@@ -1,0 +1,28 @@
+BveTs Map 2.02
+
+0;
+	Curve.SetFunction(0);
+
+$STR = 176;
+$TCL = 40;
+$R = 400;
+$CCL = 10;
+$STA = 689.43+290;
+
+$STA;
+	Curve.BeginTransition();
+
+$STA + $TCL;
+	Curve.Begin($R);
+
+$STA + $TCL + $CCL;
+	Curve.BeginTransition();
+
+$STA + $TCL + $CCL + $TCL;
+	Curve.End();
+
+$STA + $TCL + $CCL + $TCL + $STR;
+	Curve.Begin(-136.6); #8
+
+$STA + $TCL + $CCL + $TCL + $STR + 17.05;
+	Curve.End();

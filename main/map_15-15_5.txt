@@ -1,0 +1,44 @@
+BveTs Map 2.02
+
+$basedist + 13; 
+	# 12番 45km/h
+	Track['H15-ud3'].Position(0, 0, 307.3);
+	Track['H15-ud4'].Position(4, 0, -307.3);
+	Repeater['BallastH15-ud3'].Begin('H15-ud3', 0, 0, 0, 0, 0, 0, 3, 5, 5, 'Ballast0');
+	Repeater['RailLH15-ud3'].Begin('H15-ud3', -0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailL0', 'RailL1', 'RailL2', 'RailL3', 'RailL4');
+	Repeater['RailRH15-ud3'].Begin('H15-ud3', 0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailR0', 'RailR1', 'RailR2', 'RailR3', 'RailR4');
+	Repeater['BallastH15-ud4'].Begin('H15-ud4', 0, 0, 0, 0, 0, 0, 3, 5, 5, 'Ballast0');
+	Repeater['RailLH15-ud4'].Begin('H15-ud4', -0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailL0', 'RailL1', 'RailL2', 'RailL3', 'RailL4');
+	Repeater['RailRH15-ud4'].Begin('H15-ud4', 0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailR0', 'RailR1', 'RailR2', 'RailR3', 'RailR4');
+
+$basedist + 38.36;
+	Track['H15-ud3'].Position(1.067, 0);
+	Track['H15-ud4'].Position(2.933, 0);
+
+$basedist + 60.71;
+	Track['H15-ud3'].Position(2.933, 0, -307.3);
+	Track['H15-ud4'].Position(1.067, 0, 307.3);
+
+$basedist + 86.27;
+	Track['H15-ud3'].Position(4, 0);
+	Track['H15-ud4'].Position(0, 0);
+	Repeater['BallastH15-ud3'].End();
+	Repeater['RailLH15-ud3'].End();
+	Repeater['RailRH15-ud3'].End();
+	Repeater['BallastH15-ud4'].End();
+	Repeater['RailLH15-ud4'].End();
+	Repeater['RailRH15-ud4'].End();
+
+$basedist + 91;
+	$SignalPos = distance - 600;
+	include 'map_beacon_abs_dep.txt';
+	Section.Begin(0,1,3,5);
+	Signal['fourY'].Put(0, 'j4', -2.3, 4.5, 0, 0, 0, 0, 0, 0);
+
+$basedist + 400;
+	$SignalPos = distance - 600;
+	include 'map_beacon_abs_dep.txt';
+	Section.Begin(0,3,5);
+	Signal['three'].Put(0, 'j4', -2.3, 4.5, 0, 0, 0, 0, 0, 0);
+	
+$basedist = distance;

@@ -1,0 +1,70 @@
+BveTs Map 2.02
+
+$START = 102;
+$TCL = 40;
+$CCL = 4;
+$R = -530;
+
+0;
+Curve.SetFunction(0);
+
+$basedist = 0;
+	Curve.SetFunction(0);
+
+$basedist + 10;
+	Curve.Begin(-307.3);
+
+$basedist + 35.59;
+	Curve.End();
+
+$basedist + $START;
+	Curve.BeginTransition();
+
+$basedist + $START + $TCL;
+	Curve.Begin(-$R);
+
+$basedist + $START + $TCL+$CCL;
+	Curve.BeginTransition();
+
+$basedist + $START + $TCL+$CCL+$TCL;
+	Curve.End();
+
+$plusdist = 360;
+
+$basedist = distance + $plusdist;
+
+
+$TCL1 = 40;
+$CCL1 = 4;
+$R1 = 530;
+$STR = 66.41;
+$TCL2 = 0;
+$CCL2 = 25.59;
+$R2 = -307.3;
+
+$basedist;
+	Curve.BeginTransition();
+
+$basedist + $TCL1;
+	Curve.Begin($R1);
+
+$basedist + $TCL1 + $CCL1;
+	Curve.BeginTransition();
+
+$basedist + $TCL1 + $CCL1 + $TCL1;
+	Curve.End();
+
+$basedist + $TCL1 + $CCL1 + $TCL1 + $STR;
+	Curve.BeginTransition();
+
+$basedist + $TCL1 + $CCL1 + $TCL1 + $STR + $TCL2;
+	Curve.Begin($R2);
+
+$basedist + $TCL1 + $CCL1 + $TCL1 + $STR + $TCL2 + $CCL2;
+	Curve.BeginTransition();
+
+$basedist + $TCL1 + $CCL1 + $TCL1 + $STR + $TCL2 + $CCL2 + $TCL2;
+	Curve.End();
+
+$basedist + $TCL1 + $CCL1 + $TCL1 + $STR + $TCL2 + $CCL2 + $TCL2 + 500;
+	Curve.End();

@@ -25,35 +25,37 @@ BrakePriority = true
 SlipVelocityCoefficient = 0
 
 [PowerReAdhesion]
-HoldingTime = 1
+HoldingTime = 0.1
+SlipAcceleration = 5
+BalanceAcceleration = -1023
 ReferenceAcceleration = 2.5
+ReferenceAcceleration = 4.8
+CurrentDecrease = 1000
+CurrentIncrease = 1000
 
 [Ecb]
 MaximumPressure = 440000
+PressureRates = 0, 0.06, 0.14, 0.25, 0.37, 0.49, 0.62, 0.79, 1, 1.2
 LeverDelay = 0.2
 
 [AirSupplement]
 MaximumPressure = 440000
-InitialPressure = 40000
-RegenerationLimit = 0
+InitialPressure = 15000
+RegenerationLimit = 5
 ShoeFriction = 0.25
 
 [BCServo]
 ApplySpeed = 700
 ReleaseSpeed = 700
-ApplyStart = 30000
+ApplyStart = 15000
 ApplyStop = 10000
-ReleaseStart = 30000
+ReleaseStart = 15000
 ReleaseStop = 10000
 VolumeRatio = 20
 
 [Brake]
 PistonArea = 0.48 #小さくすると甘くなる
 ShoeFriction = 0.28, 0.008, 0.02 #JRS4種/高速車/耐雪合成制輪子
-
-[BrakeReAdhesion]
-SlipVelocity = 4
-SlipDeceleration = 10 #よくわからない
 
 [Compressor]
 UpperPressure = 784000

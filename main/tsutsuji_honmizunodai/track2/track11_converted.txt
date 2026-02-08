@@ -1,0 +1,53 @@
+BveTs Map 2.02:utf-8
+
+# added by kilopost handling
+$basedist = 0.000000;
+
+# Track['track11'].X
+$basedist + 1310.100000;
+Track['track11'].X.Interpolate(0.000,-229.003);
+$basedist + 1331.385000;
+Track['track11'].X.Interpolate(-1.064,0.000);
+$basedist + 1376.648000;
+Track['track11'].X.Interpolate(-5.601,431.553);
+$basedist + 1418.538000;
+Track['track11'].X.Interpolate(-7.696,0.000);
+$basedist + 1659.768000;
+Track['track11'].X.Interpolate(-7.696,0.000);
+
+# Track['track11'].Y
+$basedist + 1310.100000;
+Track['track11'].Y.Interpolate(0.000,0.000);
+$basedist + 1331.385000;
+Track['track11'].Y.Interpolate(0.000,0.000);
+$basedist + 1376.648000;
+Track['track11'].Y.Interpolate(0.000,0.000);
+$basedist + 1418.538000;
+Track['track11'].Y.Interpolate(0.000,0.000);
+$basedist + 1659.768000;
+Track['track11'].Y.Interpolate(0.000,0.000);
+
+# Track['track11'].Cant.Interpolate
+$basedist + 1310.100000;
+Track['track11'].Cant.Interpolate(0.000);
+$basedist + 1331.385000;
+Track['track11'].Cant.Interpolate(0.000);
+$basedist + 1376.648000;
+Track['track11'].Cant.Interpolate(0.000);
+$basedist + 1418.538000;
+Track['track11'].Cant.Interpolate(0.000);
+$basedist + 1659.768000;
+Track['track11'].Cant.Interpolate(0.000);
+
+# Track['track11'].Cant.SetFunction
+$basedist + 1310.100000;
+Track['track11'].Cant.SetFunction(0);
+
+# Track['track11'].Cant.SetCenter
+$basedist + 1310.100000;
+Track['track11'].Cant.SetCenter(0.000);
+
+# Track['track11'].Cant.SetGauge
+$basedist + 1310.100000;
+Track['track11'].Cant.SetGauge(0.000);
+
